@@ -1,11 +1,10 @@
-# Obsidian Notes
+# Notes
 
-Publish your public notes with MkDocs
+Here are a collection of thoughts and notes on a variety of topics. I've used the [Obsidian](https://obsidian.md/) system for note taking in markdown, and collected these into topics as I read/write more. 
 
-## Hello World!
+Current topic areas are:
 
-The `index.md` in the `/docs` folder is the homepage you see here.
-
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+- Electrocardiography
+- Neurocardiology
+- Programming
+- Epidemiology
