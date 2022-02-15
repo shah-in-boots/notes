@@ -1,7 +1,7 @@
 site_name: Notes
 
 theme:
-    name: 'material'
+    name: 'flatly'
     palette:
 
     # Light mode
