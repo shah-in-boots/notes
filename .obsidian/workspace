@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "668d3be85bc4c840",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b61ebd4c62d3765",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ecg-rvot.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e3ae8c62eb552c5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e39d9fcd5fa5f8f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da3834e87c8823b1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0f36863a4fcac19c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "935695058c43b111",
+    "type": "split",
+    "children": [
+      {
+        "id": "d54a5a81b65eea98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2458ab1ea51717f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ecg-rvot.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "25160a3107e5e685",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ecg-rvot.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "25f8a7ef35e7e552",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bf985c04cbfbf601",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ecg-rvot.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "5b61ebd4c62d3765",
+  "lastOpenFiles": [
+    "ecg-rvot.md",
+    "paper-arrhythmias-and-infective-endocarditis.md",
+    "paper-sympathetic-innervation.md",
+    "forks-package.md",
+    "dag-modeling-thoughts.md",
+    "autonomic-reflexes.md",
+    "atrial-fibrillation.md",
+    "dagger-package.md",
+    "programming-dag-based-formulas.md",
+    "programming-dag-classes.md"
+  ]
+}
