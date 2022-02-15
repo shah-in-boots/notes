@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ecg-rvot.md",
+            "file": "docs/ecg-rvot.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ecg-rvot.md",
+                "file": "docs/ecg-rvot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ecg-rvot.md",
+                "file": "docs/ecg-rvot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ecg-rvot.md"
+                "file": "docs/ecg-rvot.md"
               }
             }
           }
@@ -121,6 +121,7 @@
   },
   "active": "5b61ebd4c62d3765",
   "lastOpenFiles": [
+    "docs/ecg-rvot.md",
     "ecg-rvot.md",
     "paper-arrhythmias-and-infective-endocarditis.md",
     "paper-sympathetic-innervation.md",
@@ -129,7 +130,6 @@
     "autonomic-reflexes.md",
     "atrial-fibrillation.md",
     "dagger-package.md",
-    "programming-dag-based-formulas.md",
-    "programming-dag-classes.md"
+    "programming-dag-based-formulas.md"
   ]
 }
