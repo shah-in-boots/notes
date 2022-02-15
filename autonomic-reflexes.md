@@ -1,4 +1,0 @@
----
-tags: [autonomic, syncope, learning]
----
-

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/ecg-rvot.md",
+            "file": "docs/Electrocardiography/ecg-rvot.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ecg-rvot.md",
+                "file": "docs/Electrocardiography/ecg-rvot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ecg-rvot.md",
+                "file": "docs/Electrocardiography/ecg-rvot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ecg-rvot.md"
+                "file": "docs/Electrocardiography/ecg-rvot.md"
               }
             }
           }
@@ -121,15 +121,15 @@
   },
   "active": "5b61ebd4c62d3765",
   "lastOpenFiles": [
+    "docs/Electrocardiography/ecg-rvot.md",
+    "docs/index.md",
+    "docs/Topic 2/Note 4.md",
+    "docs/Topic 2/Note 3.md",
     "docs/ecg-rvot.md",
     "ecg-rvot.md",
     "paper-arrhythmias-and-infective-endocarditis.md",
     "paper-sympathetic-innervation.md",
     "forks-package.md",
-    "dag-modeling-thoughts.md",
-    "autonomic-reflexes.md",
-    "atrial-fibrillation.md",
-    "dagger-package.md",
-    "programming-dag-based-formulas.md"
+    "dag-modeling-thoughts.md"
   ]
 }
