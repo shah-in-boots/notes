@@ -1,0 +1,28 @@
+# Echocardiography {#echo}
+
+Echocardiography is a tool used to analyze the function of the heart dynamically. It uses ultrasonography to evaluate the heart, and with the advent of doppler, can assess movement.  A majority of these assessments of function are driven by mathematics/physics.
+
+## Chamber size
+
+The left ventricle can be dilated, and would thus have a change in shape/size. Because the density of myocardium is known, we can assess overall mass, e.g. how much the heart weighs.
+
+$$LV\ mass = 0.8 \times 1.04 \times [(IVS + LVID + PWT)^3 - LVID^3] + 0.6 $$
+
+The tissue density of the myocardium is 1.04 mL/gm. The other measurements are available on echocardiography, but because it is cubed, small changes can dramatically change mass.
+
+The ejection fraction can also be calculated using similar approaches.
+
+Fractional shortening:
+
+$$FS = (LVEDD - LVESD) / LVEDD$$
+
+Quinones equation:
+
+$$EF = (LVEDD^2 - LVESD^2) / LVEDD^2 + (apical\ factor)$$
+
+## Pressure gradients
+
+In echocardiography, relative velocity and known chamber sizes can help assess pressure of blood as it moves through the heart, which help to assess two important cardiac capacities:
+
+- inotropy: the ability of the heart to contract
+- lusitropy: the ability of the heart to relax

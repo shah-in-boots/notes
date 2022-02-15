@@ -1,0 +1,61 @@
+# Causality {#causal}
+
+Causality, causal diagrams, and mechanisms are a key part of the approach to modeling and understanding epidemiological phenomenon. Programmatically, challenges I've encountered occur with:
+
+- formula expansion to include multiple outcomes and exposures
+- term roles, families, labels, and transformations
+- formula groups or lists of related formulas (like systems of equations)
+- modeling relationships and using that information to feedback into causal models
+
+Here I explore the relationship between formulas, models, and relationships.
+
+## Reprogramming Formulas and Models
+
+This section is dedicated to understanding via diagram how to implement a newer hierarchy and structure for programming formulas. 
+
+```{r}
+library(ggraph)
+library(tidygraph)
+
+# Nodes
+fns <- c(
+	"term_rcrd()",
+	"formula_vctr()",
+	"list_of_formulas()"
+)
+
+args <- c(
+	"term",
+	"role",
+	"label",
+	"family",
+	"t_rcrd",
+	"f_vctr"
+)
+
+node_tbl <-
+	tibble(name = c(fns, args),
+				 type = c(rep("function", length(fns)), rep("argument", length(args))))
+
+edge_tbl <-
+	tibble(
+		from = c("term", "role", "label", "family"),
+		to = rep("term_rcrd()", length(from))
+	) |>
+	add_row(from = "term_rcrd()",
+					to = "t_rcrd") |>
+	add_row(from = "formula_vctr()",
+					to = "f_vctr") |>
+	add_row(from = "t_rcrd",
+					to = "formula_vctr()") |>
+	add_row(from = "f_vctr",
+					to = "list_of_formulas()") 
+
+tbl <- tbl_graph(nodes = node_tbl, edges = edge_tbl)
+
+ggraph(tbl, layout = 'kk') +
+	geom_edge_link(arrow = arrow()) +
+	geom_node_label(aes(label = name, fill = type)) + 
+	theme_graph() 
+```
+

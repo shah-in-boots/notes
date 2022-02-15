@@ -1,0 +1,40 @@
+# Functions {#functions}
+
+The current approach philosophically in R is that everything is either a function or an object. A function, essentially a "predicate", is used on any object, essentially a "noun". 
+
+This workflow of `output <- function(input)` builds on the concepts of functional programming, and is a good intellectual/philosophical approach to most problems. 
+
+In `R`, a good function: 
+
+- allows for some level of flexibility in input with stability of output
+- allows for back-ends to improve performance/functionality without impacting the function user
+- is extensible
+
+## Speed of _for loops_
+
+Here is an issue with a function using _for loops_. Generally, if there is an iterative process internal to the function, it will have an $~O(N^2)$ performance. The `card::recur()` is built with intuitive _for loops_, at a significant cost with increased _N_ sizes.
+
+Here is the performance of the function:
+
+      test replications elapsed relative user.self sys.self user.child sys.child
+4		 15000						1 901.169  618.086   882.081   18.467          0         0
+3 		5000            1 115.573   79.268   112.617    2.942          0         0
+1 		 100	          1   1.458    1.000     1.448    0.009          0         0
+2 		1000		        1  15.268   10.472    15.234    0.036          0         0
+
+```{r, echo = FALSE}
+print("
+      test replications elapsed relative user.self sys.self user.child sys.child
+4		 15000						1 901.169  618.086   882.081   18.467          0         0
+3 		5000            1 115.573   79.268   112.617    2.942          0         0
+1 		 100	          1   1.458    1.000     1.448    0.009          0         0
+2 		1000		        1  15.268   10.472    15.234    0.036          0         0
+")
+```
+
+The function currently relies on _for loops_ througout, as seen below:
+
+```{r}
+print(card::recur)
+```
+

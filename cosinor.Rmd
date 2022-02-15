@@ -1,0 +1,638 @@
+# Cosinor Analysis {#cosinor}
+
+The issue with time series analysis is that the data is by its nature _circular_ and thus cannot be easily be analyzed through traditional, linear methods. The following is the development/expansion of the cosinor model to help study circadian rhythms (\@ref(circadian)) using `R`. 
+
+The `card` package was developed to help tackle this problem. 
+
+```{r}
+# Library
+library(card)
+library(tidyverse)
+
+# Dataset
+data("twins")
+
+# Example of data
+ggplot(twins, aes(x = hour, y = rDYX)) +
+	geom_smooth(method = "gam", se = TRUE) 
+```
+
+## Overview
+
+Using the `cosinor()` function, the characteristics of the circadian pattern can be retrieved.
+
+```{r}
+# Cosinor model
+m <- cosinor(rDYX ~ hour, twins, tau = 24)
+summary(m)
+```
+
+The statistical principles behind this method allow for different methods to model, diagnose, and interpret findings. [@Refinetti2007; @Cornelissen2014]
+
+- single component cosinor
+- multiple component cosinor
+- population cosinor
+- confidence intervals (ellipse method)
+- zero amplitude test
+- lack-of-fit testing
+
+The example here use the dataset `twins` which contains a continuous ECG signal, called `DYX`, collected at hourly time points.
+
+## Single component cosinor
+
+The single component cosinor method is modeled as:
+
+$$Y(t) = M + A cos(\frac{2 \pi t}{\tau} + \phi) + \epsilon$$
+
+Where:
+
+$$
+\begin{aligned}
+M &= MESOR\ (midline\ estimating\ statistic\ of\ rhythm) \\
+t &= time in hours \\
+\epsilon &= error \\
+\phi &= acrophase \\
+\tau &= tau\ (period) \\
+\end{aligned}
+$$
+
+To model this function, it must be transformed linearly to assess the coefficients.
+
+$$Y(t) = M + \beta x_{t} + \gamma z_{t} + \epsilon_{t}$$
+
+The new coefficients and parameters are defined as: 
+
+$$
+\begin{aligned}
+\beta &= A cos(\phi) \\
+\gamma &= -A sin(\phi) \\
+x_{t} &= cos(\frac{2 \pi t}{\tau}) \\
+z_{t} &= sin(\frac{2 \pi t}{\tau}) \\
+\end{aligned}
+$$
+
+In the `twins` data, the time value $t$ is measured in hours. As this is 24-hour data, the assumption is that $\tau = 24$. 
+
+```{r}
+df <- subset(twins, patid == 60) # Single individual cosinor
+y <- df$rDYX
+t <- df$hour
+n <- length(t) # Number of observations
+period <- 24
+
+# Transformed variables
+x <- cos(( 2 * pi * t) / period)
+z <- sin(( 2 * pi * t) / period)
+```
+
+To generate the coefficients in `R` requires sovling a matrix of normal/linear equations. 
+
+```{r}
+# Matrices
+ymat <- as.matrix(cbind(y = c(sum(y), sum(y * x), sum(y * z))))
+mcol <- c(n, sum(x), sum(z)) # Mesor column
+bcol <- c(sum(x), sum(x^2), sum(x * z)) # Beta column
+gcol <- c(sum(z), sum(x * z), sum(z^2)) # Gamma column
+xmat <- as.matrix(cbind(m = mcol, b = bcol, g = gcol))
+
+# Solution
+coefs <- solve(t(xmat) %*% xmat, tol = 1e-21) %*% (t(xmat) %*% ymat)
+mesor <- coefs[1] # mesor
+beta <- coefs[2] # beta
+gamma <- coefs[3] # gamma
+```
+
+For a single cosinor, as in, the analysis of the values from a single individual over 1 period, the values for the _Amplitude_ ($A$) and _Acrophase_ ($\phi$) can be calculated.
+
+$$
+\begin{aligned}
+A &= \sqrt{(\beta^2 + \gamma^2)}
+\phi &= k \pi + g \times arctan(\frac{\gamma}{\beta})
+\end{aligned}
+$$
+
+Because the values of $\gamma$ and $\beta$ represent trigonemtric values, the position or quadrant of the circle changes the value of $\phi$.
+
+| $\beta$ | $\gamma$ | k | g |
+| --- | --- | --- | --- |
+| + | + | 0 | -1 |
+| + | - | $-2 \pi$ | +1 |
+| - | + | $- \pi$ | +1 |
+| - | - | $- \pi$$ | -1 |
+
+These calculations were made with the cosinor model seen above. 
+
+```{r}
+# Amplitude
+amp <- sqrt(beta^2 + gamma^2)
+
+# Acrophase (phi) must be in correct quadrant
+sb <- sign(beta)
+sg <- sign(gamma)
+theta <- atan(abs(gamma / beta))
+
+if ((sb == 1 | sb == 0) & sg == 1) {
+  phi <- -theta
+} else if (sb == -1 & (sg == 1 | sg == 0)) {
+  phi <- theta - pi
+} else if ((sb == -1 | sb == 0) & sg == -1) {
+  phi <- -theta - pi
+} else if (sb == 1 & (sg == -1 | sg == 0)) {
+  phi <- theta - (2 * pi)
+}
+
+cat(paste0("Amplitude = ", round(amp, 3)))
+cat(paste0("Acrophase = ", round(phi, 3)))
+```
+
+## Population-mean cosinor
+
+Based on the work by Cornelissen et al 2014 [@Cornelissen2014], the population mean cosinor can be estimated by applying the single or multiple component cosinor to each individual. 
+
+$$\{\hat{u} = \hat{M}_{i} + \hat\beta_{i} + \hat\gamma_{i} + ... \}$$
+
+Where $i = 1, 2, ..., k$ for each individual contribution to the population cosinor metrics.
+
+Each parameter can then be "averaged" to estimate the population parameters. This allows extension from a single individual to populations, particularly research studies with cohorts of patients. 
+
+The $A$ and $\phi$ however are calculated using the previous equations but through the $\mu_{\beta}$ and $\mu_{\gamma}$ values. The _MESOR_ can be calculated simply by measure the mean value from each sample ($MESOR_{population} = MESOR_{1} + ... + MESOR_{k}$).
+
+```{r}
+# Parameters for population mean cosinor, using best datasets
+df <- twins %>%
+	filter(med_beta_blockers != 1) %>%
+	select(c("rDYX", "hour", "patid"))
+names(df) <- c("y", "t", "pop")
+highCounts <- df %>%
+	group_by(pop) %>%
+	tally() %>%
+	filter(n > 20)
+
+# Subset for full data
+df <- subset(df, pop %in% highCounts$pop)
+
+# Number of individuals
+k <- length(unique(df$pop))
+
+# Individual cosinor models are implemented for each individual
+kCosinors <- 
+	with(
+		df,
+		by(df, pop, function(x) {
+			cosinor(y ~ t, data = x, tau = 24)
+		})
+	)
+
+# The coefficients have to be extracted and summarized
+tbl <- sapply(kCosinors, stats::coef)
+coef_names <- c("mesor", "amp", "phi", "beta", "gamma")
+rownames(tbl) <- coef_names
+xmat <- t(tbl)
+
+# Get mean for each parameter (mesor, beta, gamma), ignoring averaged amp/phi
+coefs <- apply(xmat, MARGIN = 2, function(x) {
+  sum(x) / k
+})
+
+mesor <- unname(coefs["mesor"])
+beta <- unname(coefs["beta"])
+gamma <- unname(coefs["gamma"])
+
+# Get amplitude
+amp <- sqrt(beta^2 + gamma^2)
+
+# Acrophase (phi) must be in correct quadrant
+sb <- sign(beta)
+sg <- sign(gamma)
+theta <- atan(abs(gamma / beta))
+
+if ((sb == 1 | sb == 0) & sg == 1) {
+  phi <- -theta
+} else if (sb == -1 & (sg == 1 | sg == 0)) {
+  phi <- theta - pi
+} else if ((sb == -1 | sb == 0) & sg == -1) {
+  phi <- -theta - pi
+} else if (sb == 1 & (sg == -1 | sg == 0)) {
+  phi <- theta - (2 * pi)
+}
+
+# Update coefficients
+coefs["amp"] <- amp
+coefs["phi"] <- phi
+
+# Updated coefficients
+names(coefs) <- coef_names
+print(coefs)
+```
+
+### Confidence Intervals for Population Cosinor
+
+The confidence intervals for a population are more complicated to generate, and several approaches are documented in the literature.
+
+#### Ellipsoid Approach
+
+The values, including standard deviation and standard error for the _MESOR_ are calculated using standard statistics along a t-distribution, with degree of freedom based on number of observations. In this case, $\alpha = 0.05$.
+
+```{r}
+# Standard error for mesor
+kcoefs <- data.frame(xmat)
+se <- sd(kcoefs$mesor) / sqrt(k - 1)
+cat(round(se, 3))
+```
+
+The statistical parameters around the $A$ and $\phi$ are more complex, as they are joined together, and represent a joint confidence region of the substitute parameters $\beta$ and $\gamma$. 
+
+The first step is the calculation of the variance and covariance of $\beta$ and $\gamma$. This can be used to generated teh standard deviation of these variables.
+
+$$
+\begin{aligned}
+\sigma_{\beta \gamma} &= \sqrt{COV_{\beta \gamma}} \\
+\sigma_{\beta} &= \sqrt{VAR_{\beta}} \\
+\sigma_{\gamma} &= \sqrt{VAR_{\gamma}} \\
+\end{aligned}
+$$
+
+```{r}
+sbg <- sqrt(cov(kcoefs$beta, kcoefs$gamma))
+sb <- sqrt(var(kcoefs$beta))
+sg <- sqrt(var(kcoefs$gamma))
+```
+
+The next step is the creation of a confidence ellipse for a given confidence interval. This ellipse is defined by all points $(\beta*, \gamma*)$ that satisfy the elliptical equation.
+
+$$
+\frac{(\beta - \beta*)^2}{\sigma^2_{\beta}} -
+\frac{2r(\beta - \beta*)(\gamma - \gamma*)}{\sigma_{\beta} \sigma_{\gamma}} +
+\frac{(\gamma - \gamma*)}{\sigma^2_{\gamma}} = 
+\frac{2(1 - r^2)(k - 1)F_{1 - \alpha}}{k(k - 2)}
+$$
+
+This can be reorganized/reorderd by solving for a single parameter first, such as $\beta*$, which will lead to two potential values.
+
+$$
+\beta* = 
+\frac{
+	\beta \sigma_{\gamma} - r \sigma_{beta} \gamma + r \sigma_{beta} \gamma* \pm
+	\sqrt{(r^2 - 1)[(\gamma* - \gamma)^2 - \frac{2(k-1)}{k(k-2)}F_{1-\alpha}\sigma^2_{\gamma}]}
+}
+{\sigma_{\gamma}}
+$$
+
+... where $r = \frac{\sigma_{\beta \gamma}}{\sigma_{\beta} \sigma_{\gamma}}$
+
+This is calculated using the above equation for a potential sequence of values of $\beta*$ and $\gamma*$. THe constant values are already known to us, including the $\beta$ and $\gamma$ variables.
+
+```{r}
+# Variance/covariance and initial values were found above
+# Define new constants
+alpha <- 0.05
+r <- sbg / (sb * sg)
+fstat <- qf(1 - alpha, 2, k - 2)
+
+# Sequence values
+gseq <- seq(from = -abs(gamma*3), to = abs(gamma*3), length.out = 100)
+bpos <- ((beta * sg) - (r * sb * gamma) + (r * sb * gseq) + (sb * sqrt(as.complex((r^2 - 1) * ((gseq - gamma)^2 - ((2 * (k - 1)) / (k * (k - 2)) * fstat * sg^2)))))) / sg
+bneg <- ((beta * sg) - (r * sb * gamma) + (r * sb * gseq) - (sb * sqrt(as.complex((r^2 - 1) * ((gseq - gamma)^2 - ((2 * (k - 1)) / (k * (k - 2)) * fstat * sg^2)))))) / sg
+
+# Restrict to only real numbers (not complex/imaginary)
+index <- Im(bpos) == 0 | Im(bpos) == Im(bneg) # values are zero in both are REAL numbers
+gseq <- Re(gseq[index])
+bpos <- Re(bpos[index])
+bneg <- Re(bneg[index])
+
+
+# Plot out ellipse 
+ggplot() + 
+	# Original values
+	geom_point(aes(x = gamma, y = beta), data = kcoefs, alpha = 0.2) + 
+	# Potential ellipse versus hyperbola
+	geom_point(aes(x = gseq, y = bpos), col = "red", size = 0.5) + 
+	geom_point(aes(x = gseq, y = bneg), col = "blue", size = 0.5) + 
+	# Predicted segment
+	geom_segment(aes(x = 0, y = 0, xend = -amp*sin(phi), yend = amp*cos(phi)), size = 1.5) + 
+	# Axes
+	geom_vline(xintercept = 0) + 
+	geom_hline(yintercept = 0) +
+	xlim(-abs(gamma)*5, abs(gamma)*5) + 
+	ylim(-abs(beta)*5, abs(beta)*5)
+
+
+# Using {car}
+border <- car::dataEllipse(cbind(kcoefs$gamma, kcoefs$beta), levels = 0.95) %>%
+	as_tibble()
+
+ggplot() +
+	geom_point(aes(x = x, y = y), data = border, col = "red") + 
+	geom_point(aes(x = gamma, y = beta), data = kcoefs, alpha = 0.5) + 
+	geom_vline(xintercept = 0) + 
+	geom_hline(yintercept = 0) 
+```
+
+#### Sampling Matrix Approach
+
+An approach, according to _Bingham et al 1982_, is to use the sampling matrix, generated from the following formulas and calculated below. The key formulas for the population cosinor confidence intervals are:
+
+$$
+\begin{aligned}
+
+MESOR &\pm \frac{t_{1 - \alpha/2} \sigma_{MESOR}}{\sqrt{k}} \\
+
+A &\pm t_{1 - \alpha/2} \sqrt{s_{22}} \\
+
+\phi &+ arctan(\frac{s_{23} t^2_{1 - alpha/2} \pm t_{1 - \alpha/2} \sqrt{s_{33}} \sqrt{A^2 - \frac{(s_{22} s_{33} - s^2_{23})t^2_1{1 - \alpha/2}}{s_{33}}}}{A^2 - s_{22} t^2_{1 - \alpha/2}})
+
+\end{aligned}
+$$
+
+Where the matrix variables are shown below:
+
+$$
+\begin{aligned}
+s_{22} &= \frac{\sigma^2_\beta \beta^2 + 2 \sigma_{\beta \gamma} \beta \gamma + \sigma^2_{\gamma} \gamma^2}{k A^2} \\
+
+s_{23} &= \frac{-(\sigma^2_{\beta} - \sigma^2_{\gamma})(\beta \gamma) + \sigma_{\beta \gamma} (\beta^2 - \gamma^2)}{k A^2} \\
+
+s_{33} &= \frac{\sigma^2_{\beta} - 2 \sigma_{\beta \gamma} \beta \gamma + \sigma^2_{\gamma} \beta^2}{k A^2}
+	
+\end{aligned}
+$$
+
+Thus, we can use these equations to calculate the confidence intervals.
+
+```{r}
+# Stats
+alpha <- 0.05
+tdist <- qt(1 - alpha/2, k - 1)
+
+# Matrix variables
+s22 <- ((sb^2 * beta^2) + (2 * sbg * beta * gamma) + (sg^2 * gamma^2)) / (k * amp^2)
+s23 <- (-1 * (sb^2 - sg^2) * (beta * gamma) + sbg * (beta^2 - gamma^2)) / (k * amp^2)
+s33 <- ((sb^2 * gamma^2) - (2 * sbg * beta * gamma) + (sg^2 * beta^2)) / (k * amp^2)
+```
+
+#### Approach by Fernandez [@Fernandez2004]
+
+The population aproach can also be predicted through an alternative, perhaps more intuitive way. If normality is assumed, the estimated parameters can be generated from the individual parameters, similar to the _MESOR_, in a single population, and allows for simple statistical testing between populations. [@Fernandez2004]
+
+```{r}
+# Stats
+kcoefs <- data.frame(xmat)
+alpha <- 0.05
+tdist <- qt(1 - alpha/2, k - 1)
+
+# Plot
+g <- ggplot() +
+	geom_segment(
+		aes(
+			x = gamma - (tdist * sd(kcoefs$gamma) / sqrt(k)),
+			xend = gamma + (tdist * sd(kcoefs$gamma) / sqrt(k)),
+			y = 0,
+			yend = 0
+		),
+		col = "cornflowerblue",
+		size = 2
+	) + 
+	geom_segment(
+		aes(
+			y = beta - (tdist * sd(kcoefs$beta) / sqrt(k)),
+			yend = beta + (tdist * sd(kcoefs$beta) / sqrt(k)),
+			x = 0,
+			xend = 0
+		),
+		col = "indianred",
+		size = 2
+	) +
+	geom_rect(
+		aes(
+			ymin = beta - (tdist * sd(kcoefs$beta) / sqrt(k)),
+			ymax = beta + (tdist * sd(kcoefs$beta) / sqrt(k)),
+			xmin = 0,
+			xmax = gamma + (tdist * sd(kcoefs$gamma) / sqrt(k))
+		),
+		fill = "indianred",
+		alpha = 0.5
+	) + 
+	geom_rect( 
+		aes(
+			ymin = 0,
+			ymax = beta - (tdist * sd(kcoefs$beta) / sqrt(k)),
+			xmin = gamma - (tdist * sd(kcoefs$gamma) / sqrt(k)),
+			xmax = gamma + (tdist * sd(kcoefs$gamma) / sqrt(k))
+		),
+		fill = "cornflowerblue",
+		alpha = 0.5
+	) + 
+	geom_point(aes(x = gamma, y = beta), size = 2) + 
+	geom_segment(
+		aes(
+			x = 0, 
+			y = 0, 
+			xend = -amp*sin(phi), 
+			yend = amp*cos(phi)
+		), 
+		size = 1.2
+	) + 
+	geom_vline(xintercept = 0) + 
+	geom_hline(yintercept = 0) 
+	
+# Values possible for amplitude
+is.logical(round(kcoefs$amp * cos(kcoefs$phi), 3) == round(kcoefs$beta, 3))
+
+# Values for phi
+is.logical(round(kcoefs$amp * -1 * sin(kcoefs$phi), 3) == round(kcoefs$gamma, 3))
+
+sd(kcoefs$beta)
+sd(kcoefs$gamma)
+```
+
+However, this method is more complicated when multiple components are included.
+
+## Multiple-Component Cosinor
+
+Fitting physiological/circadian data may involve other patterns than a single, 24-hour frequency. There may be additional components or cosine waves that better explain the datasets, such as at 8 hours (e.g. meal times). Thus, it can be beneficial to add a secondary component.
+
+Implementing this in `R` is made complex as it now uses a variable number of inputs and variable number of outputs. This is performed through the paradigm suggested in the `hardhat` package, with a user-facing and computational side. The input data is given in the function call, then bridged to the model implementation. 
+
+$$
+\begin{aligned}
+y(t) &= M + \sum_{j}(A_{j} cos(2 \pi t / \tau_{j} + \phi_{j}) \\
+y(t) &= M + \beta_{j} x_{j} + \gamma_{j} z_{j} 
+\end{aligned}
+$$
+
+Where $j = 1,\ 2,\ ... p$, which is the number of parameters. In a single component cosinor, there are at 3 parameters: $2(p=1) + 1$, and in a multiple component: $2(p=j) + 1$. The components are based on the periods.
+
+In a _formula_ based approach...
+
+```{r}
+# This is the final dataset for a single component, however we have multiple
+object <- cosinor(rDYX ~ hour, data = twins, tau = c(24, 8))
+cat(object$call)
+
+# Periods
+tau <- c(24, 8) # Two components
+l <- length(tau)
+j <- 2*l + 1
+period <- tau
+
+# No variable parameters
+y <- outcomes <- twins$rDYX
+t <- predictors <- twins$hour
+n  <- length(t)
+
+# Need to create number of x values to match number of periods
+	# x1, x2, z1, z2 in this case
+for(i in 1:l) {
+  assign(paste0("x", i), cos((2 * pi * t) / period[i]))
+  assign(paste0("z", i), sin((2 * pi * t) / period[i]))
+}
+
+# Creating a new dataframe with all variables
+model <- data.frame(y, t, mget(paste0("x", 1:l)), mget(paste0("z", 1:l)))
+
+# The formula, where the intercept will be the MESOR (not included)
+f <- as.formula(
+  paste0("y ~ ", paste0("x", 1:l, " + ", "z", 1:l, collapse = " + "))
+)
+print(f)
+
+# Can create a model frame here using two approaches
+# Base R and with hardhat
+m <- model.frame(f, model)
+xmat <- model.matrix(f, m)
+ymat <- as.matrix(y)
+
+# Hardhat
+framed <- hardhat::model_frame(f, model)
+mat <- hardhat::model_matrix(framed$terms, framed$data)
+
+# Solve for coefficients, including amplitude and acrophase
+coefs <- solve(t(xmat) %*% xmat) %*% t(xmat) %*% ymat
+mesor <- coefs[1]
+
+for(i in 1:l) {
+	
+	# Beta and gamma terms
+	assign(paste0("beta", i), unname(coefs[paste0("x", i),]))
+	assign(paste0("gamma", i), unname(coefs[paste0("z", i),]))
+	
+	# Amplitude
+	assign(paste0("amp", i), sqrt(get(paste0("beta", i))^2 + get(paste0("gamma", i))^2))
+	
+	# Phi / acrophase
+	sb <- sign(get(paste0("beta", i)))
+	sg <- sign(get(paste0("gamma", i)))
+	theta <- atan(abs(get(paste0("gamma", i)) / get(paste0("beta", i))))
+	
+  if ((sb == 1 | sb == 0) & sg == 1) {
+    phi <- -theta
+  } else if (sb == -1 & (sg == 1 | sg == 0)) {
+    phi <- theta - pi
+  } else if ((sb == -1 | sb == 0) & sg == -1) {
+    phi <- -theta - pi
+  } else if (sb == 1 & (sg == -1 | sg == 0)) {
+    phi <- theta - (2 * pi)
+  }
+	
+	assign(paste0("phi", i), phi)
+}
+
+coefs <- unlist(c(mesor = mesor, mget(paste0("amp", 1:l)), mget(paste0("phi", 1:l)), mget(paste0("beta", 1:l)), mget(paste0("gamma", 1:l))))
+
+```
+
+In a multiple-component cosinor analysis, if the periods are harmonic, as in if the longest value of $\tau$ is an integer multiple of the shortest $\tau$ (fundamental frequency), additional features can be extracted from the fit. 
+
+- $A_{g}$ - global amplitude, defined as half of the difference between peak and trough values
+- $\phi_{O}$ - orthophase, defined as lag time to peak value
+- $\phi_{B}$ - bathyphase, defined as lag time to trough value
+
+This can be assessed through the fitted values in an augmented `cosinor` object.
+
+```{r}
+# Multiple component object
+object <- cosinor(rDYX ~ hour, data = twins, tau = c(24, 12))
+
+# Retrieve parameter values and fit
+aug <- augment(object)
+fit <- unique(aug[c("t", ".fitted")])
+mesor <- object$coefficients[1]
+
+# Orthophase
+peak <- max(fit$.fitted)
+orthophase <- fit$t[which.max(fit$.fitted)]
+
+# Bathyphase
+trough <- min(fit$.fitted)
+bathyphase <- fit$t[which.min(fit$.fitted)]
+
+# Global amplitude
+globalAmp <- (peak - trough) / 2
+
+# Reference phase
+zero <- min(aug$t)
+
+# Plot
+ggplot(fit, aes(x = t, y = .fitted)) +
+	stat_smooth(method = "gam", color = "black", se = FALSE, size = 1.2) + 
+	# Mesor
+	geom_hline(yintercept = mesor, color = "grey") + 
+	geom_text(x = zero + 1, y = mesor + 0.01*mesor, label = "MESOR") + 
+	# Orthophase
+	geom_vline(xintercept = orthophase, color = "grey") + 
+	geom_point(aes(x = orthophase, y = peak), size = 2) + 	
+	geom_segment(
+		aes(x = zero, xend = orthophase, y = peak, yend = peak),
+		linetype = "dotted", size = 0.8
+	) +
+	geom_text(
+		aes(x = (orthophase - zero) / 2, y = peak + 0.01*mesor), 
+		label = "Orthophase"
+	) + 
+	# Bathyphase
+	geom_vline(xintercept = bathyphase, color = "grey") + 
+	geom_point(aes(x = bathyphase, y = trough), size = 2) + 	
+	geom_segment(
+		aes(x = zero, xend = bathyphase, y = trough, yend = trough),
+		linetype = "dotted", size = 0.5
+	) + 
+	geom_text(
+		aes(x = (bathyphase + zero) / 2, y = trough - 0.01*mesor), 
+		label = "Bathyphase"
+	) + 
+	# Global Amplitude
+	geom_segment(
+		aes(x = orthophase, xend = (orthophase + bathyphase)/2, y = peak, yend = peak),
+		linetype = "twodash", size = 0.5
+	) + 
+	geom_segment(
+		aes(x = bathyphase, xend = (orthophase + bathyphase)/2, y = trough, yend = trough),
+		linetype = "twodash", size = 0.5
+	) + 
+	geom_segment(
+		aes(
+			x = (orthophase + bathyphase)/2, 
+			xend = (orthophase + bathyphase)/2,
+			y = mesor,
+			yend = trough
+		),
+		linetype = "twodash", size = 0.5, 
+		arrow = arrow(type = "closed", length = unit(0.03, "npc"))
+	) + 
+	geom_segment(
+		aes(
+			x = (orthophase + bathyphase)/2, 
+			xend = (orthophase + bathyphase)/2,
+			y = mesor,
+			yend = peak
+		),
+		linetype = "twodash", size = 0.5, 
+		arrow = arrow(type = "closed", length = unit(0.03, "npc"))
+	) + 
+	geom_text(
+		aes(x = (bathyphase + orthophase)/2 + 4, y = 1.01*mesor),
+		label = "2 x Global Amplitude"
+	) + 
+	theme_minimal() 
+```
+

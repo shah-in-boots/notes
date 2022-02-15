@@ -1,0 +1,439 @@
+# Modeling {#models}
+
+Here is a collection of explorations on modeling approaches as they related to electrocardiography and epidemiology. This is a _sandbox_ for developing meta-modeling functions as well.
+
+- Multiple models
+- Visualizing multiple models
+- New functions to build models in certain sequences
+- Integration for `parsnip` models
+
+## Modeling Multiple Outcomes and Predictors
+
+A recurrent issue with causality-focused modeling with ECG data is that there are multiple outcomes (different ECG features). For example, in the `card` package, the `geh` dataset contains several ECG features based on [vectorcardiography](#vcg).
+
+```{r}
+library(card)
+library(tidyverse)
+data(geh)
+names(geh)
+```
+
+The first issue is the causal model, which can be visualized using a directed acyclic graph. The variables of interest are a subset of the dataset. In this case, we're looking at the relationship of diabetes with cardiotoxicity in a very small subset of participants.
+
+```{r}
+library(ggdag)
+
+bd <- dagify(
+		GEH ~ DM + Age + BMI + HTN + CAD + IR + Sex,
+		DM ~ Age + IR + BMI,
+		CAD ~ DM + BMI + HTN + Age + Sex,
+		HTN ~ Age,
+		IR ~ BMI + Age,
+		Age ~ Sex,
+		exposure = "DM",
+		outcome = "GEH"
+)
+
+d1 <- ggdag_parents(bd, "DM", layout = "star") + 
+	theme_dag() + 
+	theme(legend.position = "none") +
+	labs(title = "Factors Affecting Diabetes")
+
+d2 <- ggdag_parents(bd, "GEH", layout = "star") + 
+	theme_dag() + 
+	theme(legend.position = "none") +
+	labs(title = "Factors Affecting GEH")
+
+# Combine and plot
+gridExtra::grid.arrange(d1, d2, nrow = 1)
+```
+
+As we can see, many things effect ECG findings, and a subgroup of those impact diabetes, suggesting a number of potential effect modifiers and potential confounders/mediators. Using a sequential model building method in the `card` package allows for a simple way to perform this analysis. This will build a linear model for each outcome, and repeat the model with an additional covariate in the sequence of listed in the formula.
+
+```{r}
+# Select variables
+vars <- 
+	c("svg_mag", "az_svg", "el_svg", "qrs_tang", "log_auc_qt", "log_wvg", "lab_hba1c", "lab_fasting_bg", "homa", "dm", "age", "bmi", "bmi_cat", "age_cat", "sex", "htn", "cad", "lab_ser_creatinine", "lab_tchol") 
+	
+test_data <-
+	geh |>
+	select(all_of(vars)) |>
+	#na.omit() |>
+	#filter(homa <= 5 * sd(homa, na.rm = TRUE)) |> # Remove outliers
+	mutate(
+		bmi_cat = 
+			factor(bmi_cat, levels = c(0:3), 
+						 labels = c("Underweight", "Normal", "Overweight", "Obese")),
+		age_cat = 
+			factor(age_cat, levels = c(0:2), 
+						 labels = c("<45", "45-65", ">65")),
+		sex = factor(sex, levels = c(0,1), labels = c("Female", "Male"))
+	) |>
+	mutate(across(
+		c(svg_mag, az_svg, el_svg, qrs_tang, log_auc_qt, log_wvg), 
+		function(x) {
+			as.vector(scale(x, center = TRUE, scale = TRUE))
+		}
+	))
+
+# Sequential model building
+models <- 
+	card::build_models(
+		svg_mag + az_svg + el_svg + qrs_tang + log_auc_qt + log_wvg ~ 
+			lab_hba1c + age + sex + bmi + cad + htn, 
+		data = test_data,
+		exposure = "lab_hba1c",
+		engine = "linear",
+		type = "sequential"
+	)
+
+head(models)
+```
+
+To assess or get a sense of how the variables are playing out, we can visualize the estimates across the builds of the models. This will also use the `gganimate` package to show the effect of data layering
+
+```{r, message=FALSE}
+# Libraries
+library(gganimate)
+library(ggthemes)
+
+# Data
+df <- 
+	models |>
+	# Remove intercepts
+	filter(term != "(Intercept)") |>
+	# Sequence the terms
+	mutate(
+		term = 
+			factor(
+				term, 
+				levels = c("lab_hba1c", "age", "sexMale", "bmi", "cad1", "htn1"),
+				labels = c("HbA1c", "Age", "Sex", "BMI", "CAD", "HTN")
+			)
+	) 
+
+# ggplot
+g <- ggplot(df, aes(x = factor(covar), y = estimate, color = term)) + 
+	facet_wrap(~outcomes, scales = "fixed") + 
+	geom_point(
+		aes(color = term), 
+		data = filter(df, p.value >= 0.20), 
+		shape = 1, 
+		position = "jitter"
+	) + 
+	geom_point(
+		aes(color = term), 
+		data = filter(df, p.value < 0.20), 
+		shape = 19, 
+		position = "jitter"
+	) + 
+	scale_color_ptol(name = "Predictors") + 
+	theme_minimal() + 
+	theme(
+		legend.position = "bottom", legend.box = "horizontal",
+		panel.border = element_rect(colour = "black", fill = NA)
+	) + 
+	labs(
+		title = "Estimates in Sequential Models",
+		x = "Number of Covariates in Model",
+		y = "GEH Parameters (z-normalized)"
+	)
+
+# Animated
+a <- g + transition_reveal(covar)
+
+animate(a, end_pause = 30)
+```
+
+## Building a Modeling Matrix Function
+
+One issue that has occurred is that using the function `build_models()` is the idea that a prespecified formula can be used to generate a large number of models, so we can assess the impact of each variable on the model. However, in R, the limitation is that each regression package is unique in how it is specified. One option is to rely on the prespecified `parsnip` models that unify regression modeling formulas.
+
+### A `tidy` Approach to Multiple Outcomes and Predictors
+
+Here is a base example that I hope to build off of (generated by Julia Silge for an issue filed on the `workflows` package). This goes back to the approach listed in [R4DS](https://r4ds.had.co.nz/many-models.html) that shows the `purrr` method of regressions with the `map()` function.
+
+Here is a base example that I hope to build off of (generated by Julia Silge for an issue filed on the `workflows` package).
+
+```{r, echo = TRUE, eval = FALSE}
+library(tidymodels)
+library(vctrs)
+#> Attaching package: 'vctrs'
+#> The following object is masked from 'package:tibble':
+#> 
+#>     data_frame
+#> The following object is masked from 'package:dplyr':
+#> 
+#>     data_frame
+
+outcome <- "mpg"
+predictors <- setdiff(names(mtcars), outcome)
+
+# Specify parsnip model to be used
+lm_spec <- linear_reg() |> set_engine("lm")
+
+## make a little function to create a workflow with `mpg` as outcome and our set of predictors
+wf_seq <- function(preds) {
+  workflow() |>
+    add_model(lm_spec) |>
+    add_variables(outcomes = mpg, predictors = !!preds)
+}
+
+## set up the "sequential" set of predictors and create each workflow, then fit
+tibble(num_preds = 1:length(predictors)) |>
+  mutate(preds     = map(num_preds, ~vec_slice(predictors, 1:.))) |>
+  mutate(wf        = map(preds, wf_seq),
+         fitted_wf = map(wf, fit, mtcars))
+#> # A tibble: 10 x 4
+#>    num_preds preds      wf         fitted_wf    
+#>        <int> <list>     <list>     <list>    
+#>  1         1 <chr [1]>  <workflow> <workflow>
+#>  2         2 <chr [2]>  <workflow> <workflow>
+#>  3         3 <chr [3]>  <workflow> <workflow>
+#>  4         4 <chr [4]>  <workflow> <workflow>
+#>  5         5 <chr [5]>  <workflow> <workflow>
+#>  6         6 <chr [6]>  <workflow> <workflow>
+#>  7         7 <chr [7]>  <workflow> <workflow>
+#>  8         8 <chr [8]>  <workflow> <workflow>
+#>  9         9 <chr [9]>  <workflow> <workflow>
+#> 10        10 <chr [10]> <workflow> <workflow>
+```
+
+This goes back to the approach listed in [R4DS](https://r4ds.had.co.nz/many-models.html) that shows the `purrr` method of regressions with the `map()` function.
+
+A data frame that described this would be likely the most succinct way to handle this issue, using several specified elements:
+
+- a single dataframe that was made, to be used throughout
+- column to describe the number of predictors or to help identify each row
+- column that contains the predictors
+- column that contains the outcomes (allowing for combinations)
+- column that specifies the exposures (or fixed effects)
+- column that contains model specifications using `parsnip`
+- column that contains workflows
+
+To set this up, likely there will need to be several functions/steps:
+
+1. Creating a modeling "matrix" as above
+2. Updating or allowing modifications to the table to occur, such as combining additional matrices, etc
+3. Fitting the models using the specified workflows
+
+The primary structure here will be a `tibble` that contains the basic parameters that can be extracted at the end. 
+
+### Creating a modeling matrix
+
+Here we can see a slighly modified set of sequences to create a data frame that would hold the workflow needed for a regression analysis, but without the actual results or fit.
+
+```{r}
+# Would like to use a formula approach to create this matrix
+f <- svg_mag + qrs_tang ~ lab_hba1c + age + sex + bmi + cad + htn 
+
+# Left and right side, and length of each
+outcomes <- all.vars(f[[2]])
+predictors <- all.vars(f[[3]])
+n_outcomes <- length(outcomes)
+n_predictors <- length(predictors)
+
+# Assuming this will be a linear regression
+lm_mod <- parsnip::linear_reg() |> parsnip::set_engine("lm")
+
+wf_seq <- function(outs, preds, mods) {
+  workflows::workflow() |>
+    workflows::add_model(mods) |>
+    workflows::add_variables(outcomes = !!outs, predictors = !!preds)
+}
+
+all_models <-
+	tibble::tibble(n_covar = 1:length(predictors)) |>
+	dplyr::mutate(pred = purrr::map(n_covar, ~vctrs::vec_slice(predictors, 1:.))) |>
+	tidyr::expand_grid(out = outcomes) |>
+	dplyr::mutate(spec = list(lm_mod)) |>
+	dplyr::mutate(wf = purrr::pmap(list(out, pred, spec), wf_seq))
+```
+
+Thus, the modeling matrix is a *plan* that will be used and should likely exist as a moldable object. That object can then be shaped into a table of columns going over the types of models to be run. Finally, the table can be analyzed. This fits the epidemiological or research workflow in that general aims for the research are decided, hypotheses are generated, and finally statistical analysis is performed.
+
+1. `plan()` should take in a formula, specific characteristics, and create a template
+1. `update()` should allow the plan to be modified or updated
+1. `model()` will allow for fitting the models defined
+
+This is just a first draft at a thoughtful approach, and further iterations should allow for a more fluid, conversational function set.
+
+```{r}
+# Data set to be used was generated above
+df <- test_data
+
+# The above made modeling table can then be fit
+final <-
+	all_models |>
+	dplyr::mutate(fit = purrr::map(wf, ~ parsnip::fit(.x, data = df)))
+```
+
+## Building a `parsnip` Model
+
+This is an example of going through and creating a modeling interface using _circular_ regressions, which are found in the `{circular}` package. Here is an example of using the packages to do the traditional modeling approach.
+
+```{r}
+# Set up of formulas, and the matrices
+library(card)
+data(geh)
+f <- az_svg ~ lab_hba1c + age + sex + bmi + cad + htn
+mat <- model.frame(f, geh)
+mat$az_svg <- circular::circular(mat$az_svg, units = "degrees")
+x <- model.matrix(f, mat)
+y <- mat$az_svg
+
+# Using hte circular package
+library(circular)
+lm.circular(y = y, x = x, type = "c-l", init = rep(0, ncol(x)), tol = 1e-3, verbose = TRUE)
+```
+
+### Setting up the model specifications
+
+This process sets up the `parsnip` model.
+
+```{r, eval = FALSE}
+# Start making new model
+parsnip::set_new_model("circular_reg")
+
+# Add parsnip models to another package
+parsnip::set_model_mode(model = "circular_reg", mode = "regression")
+parsnip::set_model_engine("circular_reg", mode = "regression", eng = "circular")
+parsnip::set_dependency("circular_reg", eng = "circular", pkg = "circular")
+
+# Arguments = type
+parsnip::set_model_arg(
+    model = "circular_reg",
+    eng = "circular",
+    parsnip = "pattern",
+    original = "type",
+    func = list(pkg = "circular", fun = "lm.circular"),
+    has_submodel = FALSE
+)
+
+# Arguments = init
+parsnip::set_model_arg(
+    model = "circular_reg",
+    eng = "circular",
+    parsnip = "initial",
+    original = "init",
+    func = list(pkg = "circular", fun = "lm.circular"),
+    has_submodel = FALSE
+)
+
+# Arguments = tol
+parsnip::set_model_arg(
+    model = "circular_reg",
+    eng = "circular",
+    parsnip = "tolerance",
+    original = "tol",
+    func = list(pkg = "circular", fun = "lm.circular"),
+    has_submodel = FALSE
+)
+
+# Encoding
+parsnip::set_encoding(
+    model = "circular_reg",
+    eng = "circular",
+    mode = "regression",
+    options = list(
+        predictor_indicators = "traditional",
+        compute_intercept = TRUE,
+        remove_intercept = FALSE,
+        allow_sparse_x = TRUE
+    )
+)
+
+# Fit
+parsnip::set_fit(
+    model = "circular_reg",
+    eng = "circular",
+    mode = "regression",
+    value = list(
+        interface = "matrix",
+        protect = c("x", "y"),
+        func = c(pkg = "circular", fun = "lm.circular"),
+        defaults = list(verbose = TRUE)
+    )
+)
+
+# Prediction
+parsnip::set_pred(
+    model = "circular_reg",
+    eng = "circular",
+    mode = "regression",
+    type = "numeric",
+    value = list(
+        pre = NULL,
+        post = NULL,
+        func = c(fun = "predict"),
+        args = list(
+            object = quote(object$fit),
+            new_data = quote(new_data),
+            type = "numeric"
+        )
+    )
+)
+
+# Official parsnip model spec
+circular_reg <- function(mode = "regression", pattern = NULL, initial = NULL, tolerance = NULL) {
+
+    # Check correct mode
+    if(mode != "regression") {
+        stop("`mode` should be 'regression'", call. = FALSE)
+    }
+
+    # Capture arguments
+    args <- list(
+        pattern = rlang::enquo(pattern),
+        initial = rlang::enquo(initial),
+        tolerance = rlang::enquo(tolerance)
+    )
+
+    # Model specs / slots
+    parsnip::new_model_spec(
+        "circular_reg",
+        args = args,
+        mode = mode,
+        eng_args = NULL,
+        method = NULL,
+        engine = NULL
+    )
+}
+```
+
+Now we can check to see if the model specifications make sense are are literate. 
+
+```{r, eval = FALSE}
+library(tidymodels)
+show_model_info("circular_reg")
+x <- get_fit("circular_reg")
+
+circular_reg(pattern = "c-l", tolerance = 1e-3) |> 
+	set_engine("circular") |>
+	translate()
+```
+
+To see if the model specification approah works, we can compare it to the traditional regression model. To make sure that things remain the same, the _circular_ object must be in radians.
+
+```{r, eval = FALSE}
+# Set up the basics for both
+f <- az_svg ~ lab_hba1c + age + sex + bmi + cad + htn
+mat <- model.frame(f, geh)
+
+# Make sure everything is in radians prior to analysis
+mat$az_svg <- 
+	circular(mat$az_svg, units = "degrees") |>
+	conversion.circular(units = "radians")
+x <- model.matrix(f, mat)
+y <- mat$az_svg
+
+# Now comparing models
+m1 <- 
+	lm.circular(y = y, x = x, type = "c-l", init = rep(0, ncol(x)), tol = 1e-3, verbose = TRUE)
+
+m2 <- 
+	circular_reg(pattern = "c-l", tolerance = 1e-3, initial = rep(0, length(all.vars(f)))) |>
+	set_engine("circular") |>
+	fit(f, data = mat)
+```
+

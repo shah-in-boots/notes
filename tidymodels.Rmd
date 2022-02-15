@@ -1,0 +1,443 @@
+# Tidymodels {#tidymodels}
+
+Expanding my understanding of the `tidymodels` approach.
+
+## R/Medicine 2020 (and RStudio Intro Course)
+
+As I begin to use `tidymodels` as a work-flow, I'm completing the #RMedicine2020 course. Initial setup below.
+
+### Introduction
+
+Mentions that statistics is focused on inference while machine learning is focused on prediction. 
+
+```{r}
+library(tidyverse)
+library(tidymodels)
+```
+
+### Build a Model
+
+Alzheimer's disease data.
+
+```{r}
+library(modeldata)
+data("ad_data")
+alz <- ad_data
+glimpse(alz)
+```
+
+This data has `r nrow(alz)`, with 1 categorical outcome, and `r ncol(alz)-1` predictors (126 protein measurements) and age, sex, and genetics.
+
+Models can be built using `parsnip` package, which is different than base R (seen below)
+
+```{r}
+glm(Class ~ tau, family = binomial, data = alz)
+```
+
+For `parsnip`, there are three general steps:
+
+1. Pick a model
+1. Set the engine
+1. Set the mode (if needed)
+
+```{r}
+# Using logistic reggresion as the model.
+logistic_reg(
+	mode = "classification", # default if exists
+	penalty = NULL, # hyperparameter
+	mixture = NULL # hyperparameter
+)
+
+# Setting the engine to power/implement hte model
+logistic_reg() %>%
+	set_engine(engine = "glm")
+
+# Can add a mod eif not set prior
+lr_mod <- 
+	logistic_reg() %>%
+	set_engine(engine = "glm") %>%
+	set_mode(mode = "classification")
+```
+
+As an example, make a decision tree model for classification, using C5.0 engine, and saved as `tree_mod` to evaluate.
+
+```{r}
+# Decision tree
+tree_mod <- 
+	decision_tree() %>%
+	set_engine("C5.0") %>%
+	set_mode("classification")
+
+tree_mod
+summary(tree_mod)
+```
+
+Fitting a model...
+
+```{r}
+lr_mod %>%
+	fit(Class ~ tau + VEGF, data = alz) %>%
+	broom::tidy()
+```
+
+Predicting data...
+
+```{r}
+# Generating new data
+alz_new <-
+	tibble(
+		tau = c(5:7),
+		VEGF = rep(15, 3),
+		Class = c("Control", "Control", "Impaired")
+	) %>%
+	mutate(Class = factor(Class, levels = c("Impaired", "Control")))
+alz_new
+
+# Predicting old data
+tree_mod %>%
+	fit(Class ~ tau + VEGF, data = alz) %>%
+	predict(new_data = alz) %>%
+	mutate(true_class = alz$Class) %>%
+	accuracy(truth = true_class, estimate = .pred_class)
+
+# Creating new data with old predictions
+tree_mod %>%
+	fit(Class ~ tau + VEGF, data = alz) %>%
+	predict(new_data = alz_new) %>%
+	mutate(true_class = alz_new$Class) %>%
+	accuracy(truth = true_class, estimate = .pred_class)
+
+	
+```
+
+Fitting a model can be done in pipeline fashion, which can then be used to predict outcomes. __Axiom__: best way to measure model performance at predicting new data is to _predict new data_
+
+```{r}
+# Fitting a model
+fit(tree_mod, Class ~ tau + VEGF, data = alz)
+
+# Step by step
+tree_fit <-
+	tree_mod %>% # parsnip model
+	fit(
+		Class ~ tau + VEGF,  # Formula
+		data = alz # dataframe
+	)
+
+# Predictions.
+tree_fit %>%
+	predict(new_data = alz_new)
+```
+
+To test out data, splitting and sampling the data is needed. `rsample` package allows for this.
+
+```{r}
+# Split data into single testing and training set
+alz_split <- initial_split(alz, strata = Class, prop = 0.9)
+
+# Training and testing the data splits can be extracted ussing rsample
+alz_train <- training(alz_split)
+alz_test <- testing(alz_split)
+```
+
+As an example, using the __alz__ data, can use test and train datasets to fit a classification tree model. Predict the test data and save the true classification ability by measuring accuracy.
+
+```{r}
+# Train the data
+tree_fit <-
+	tree_mod %>%
+	fit(
+		Class ~ tau + VEGF,
+		data = alz_train
+	)
+
+# Test by predicting
+tree_fit %>%
+	predict(new_data = alz_test)
+
+tree_mod %>%
+	fit(Class ~ tau + VEGF, data = alz) %>%
+	predict(new_data = alz_new) %>%
+	mutate(true_class = alz_new$Class) %>%
+	accuracy(truth = true_class, estimate = .pred_class)
+
+# Using decision tree model
+tree_mod %>%
+	fit(Class ~ tau + VEGF, data = alz_train) %>%
+	predict(new_data = alz_test) %>%
+	mutate(true_class = alz_test$Class) %>%
+	accuracy(truth = true_class, estimate = .pred_class)
+```
+
+Measuring the model is through the `accuracy()` function, which is based on teh two columns of a dataframe...
+
+- the truth: $y_{i}$
+- the predicted estimate: $\hat{y}_{i}$
+
+This accuracy is dependent on the training/test sets, which is dependent on the overall split (which is random). Resampling is important to fix this problem.
+
+```{r}
+# Non-tidy method. Very slow... 
+acc <- vector(length = 10, mode = "double")
+for(i in 1:10) {
+	new_split <- initial_split(alz)
+	new_train <- training(new_split)
+	new_test <- testing(new_split)
+	acc[i] <-
+		lr_mod %>%
+		fit(Class ~ tau + VEGF, data = new_train) %>%
+		predict(new_test) %>%
+		mutate(truth = new_test$Class) %>%
+		accuracy(truth, .pred_class) %>%
+		pull(.estimate)
+}
+
+# Cross validation works better and is faster
+# save the testing data for the end, don't waste it on training
+alz_folds <- vfold_cv(alz_train, v = 10, strata = Class)
+alz_folds %>% pluck("splits", 1)
+
+# Using multiple fits is easier
+tree_mod %>%
+	fit_resamples(
+		Class ~ tau + VEGF,
+		resamples = alz_folds
+	) %>%
+	collect_metrics(summarize = TRUE)
+```
+
+### Build a Workflow
+
+`Recipes` in R allow for a alternative way to create and preprocess the design matrix needed for modeling.
+
+- encode categorical predictors
+- center/scale variables
+- handle class imbalance
+- impute missingness
+- perform dimensionality reduction
+- etc...
+
+General workflow is data is processed with a recipe to create a model. Those are prepared and trained to allow new data to be made on a trained model, which can then allow predictions. These predictions can be compared with the original model, and improved.
+
+Building a recipe is several steps...
+
+1. Start the `recipe()`
+1. Define the __variables__ involved
+1. Describe the pre-processing __step-by-step__
+
+```{r}
+# Recipe with steps
+rec <-
+	recipe(Class ~ ., data = alz) %>% # recipe 
+	step_other(Genotype, threshold = 0.03) # Steps
+```
+
+In this data set, will use the KNN approach to predict new data points. KNN needs predictors to be numeric and centered/scaled.
+
+```{r}
+# Specify parsnip model to make KNN
+knn_mod <-
+	nearest_neighbor() %>%
+	set_engine("kknn") %>%
+	set_mode("classification")
+
+# Recipe
+knn_rec <-
+	recipe(Class ~ ., data = alz) %>%
+	step_other(Genotype, threshold = 0.03) %>%
+	step_novel(all_nominal(), -all_outcomes()) %>% # In case new data has levels that have missing data from original dataset
+	step_dummy(all_nominal(), -all_outcomes()) %>% # Make dummies for nominals
+	step_zv(all_predictors()) %>%
+	step_normalize(all_numeric())
+```
+
+To use this recipe, we need to use `workflow`.
+
+```{r}
+# Without pre-processing
+workflow() %>%
+	add_formula(Class ~ tau)
+
+# If recipe is already made...
+workflow() %>%
+	add_recipe(knn_rec) %>%
+	add_model(knn_mod) %>%
+	fit(data = alz_train) %>%
+	predict(alz_test)
+
+# Or can use k-folds if needed
+alz_folds <- vfold_cv(alz_train, v = 10, strata = Class)
+workflow() %>%
+	add_recipe(knn_rec) %>%
+	add_model(knn_mod) %>%
+	fit_resamples(resamples = alz_folds) %>%
+	collect_metrics()
+
+# Because workflows allow modifications, can change model quite easily using old recipe
+plr_mod <- 
+	logistic_reg(penalty = 0.1, mixture = 1) %>%
+	set_engine("glmnet") %>%
+	set_mode("classification")
+
+plr_mod %>%
+	translate()
+
+# Workflow reuse for glmnet
+knn_wf <- 
+	workflow() %>%
+	add_recipe(knn_rec) %>%
+	add_model(knn_mod) 
+	
+glmnet_wf <-
+	knn_wf %>%
+	update_model(plr_mod)
+
+glmnet_wf %>%
+	fit_resamples(resamples = alz_folds) %>%
+	collect_metrics()
+```
+
+### Tune Better Models
+
+In decision tree models, predicting outcome of a new data point uses rules learned from split, and each split maximizes information gain. 
+
+```{r}
+# Specify decision tree in parsnip
+tree_mod <-
+	decision_tree() %>%
+	set_engine(engine = "rpart") %>%
+	set_mode("classification")
+
+# Add workflow
+tree_wf <-
+	workflow() %>%
+	add_formula(Class ~ .) %>%
+	add_model(tree_mod)
+
+# Get AUC
+tree_wf %>%
+	fit_resamples(resamples = alz_folds) %>%
+	collect_metrics()
+
+# However, decision trees can be more complex
+
+# See arguments for a decision tree
+args(decision_tree)
+
+decision_tree(
+	tree_depth = 30, # Max depth can be used to stop overfitting
+	min_n = 20, # Smallest node allowed (too few leads to overfitting)
+	cost_complexity = .01 # 0 > cp > 0.1, 0 = large tree, 1 = smaller tree
+)
+
+# Can update the arguments for decision tree
+decision_tree() %>%
+	set_engine("rpart") %>%
+	set_mode("classification") %>%
+	set_args(tree_depth = 3)
+```
+
+As an example, create a model __rf_mod__ which uses classification trees from the `ranger` package. Use a 10-fold cross-validation and compare the AUC.
+
+```{r}
+# Instead of decision trees, can use a random forest
+rand_forest(
+	mtry = 4, # predictors seen at each node
+	trees = 500, # trees per forest
+	min_n = 1 # smallest node allowed
+)
+
+rf_mod <-
+	rand_forest() %>%
+	set_engine("ranger") %>%
+	set_mode("classification")
+
+# Random forest workflow
+rf_wf <-
+	tree_wf %>%
+	update_model(rf_mod)
+
+# Fit using 10-fold CV
+rf_wf %>%
+	fit_resamples(resamples = alz_folds) %>%
+	collect_metrics()
+
+# Change number of trys to 3, 8, and 30
+rf3 <- rf_mod %>% set_args(mtry = 3)
+rf8 <- rf_mod %>% set_args(mtry = 8)
+rf30 <- rf_mod %>% set_args(mtry = 30)
+
+rf_wf %>%
+	update_model(rf3) %>%
+	fit_resamples(resamples = alz_folds) %>%
+	collect_metrics()
+
+rf_wf %>%
+	update_model(rf8) %>%
+	fit_resamples(resamples = alz_folds) %>%
+	collect_metrics()
+
+rf_wf %>%
+	update_model(rf30) %>%
+	fit_resamples(resamples = alz_folds) %>%
+	collect_metrics()
+```
+
+Adjusting these parameters is consider tuning. We can perform a grid search to find the best combination of tuned hyperparameters using `tune_grid()`.
+
+```{r}
+# Create tuning parameters
+rf_tuner <-
+	rand_forest(
+		mtry = tune(),
+		min_n = tune()
+	) %>%
+	set_engine("ranger") %>%
+	set_mode("classification")
+
+rf_wf <-
+	rf_wf %>%
+	update_model(rf_tuner)
+
+rf_results <-
+	rf_wf %>%
+	tune_grid(
+		resamples = alz_folds,
+		metrics = metric_set(roc_auc)
+	)
+
+# Results of tune grid
+rf_results %>%
+	collect_metrics()
+
+rf_results %>%
+	show_best(metric = "roc_auc", n = 5)
+
+rf_results %>%
+	autoplot()
+
+alz_best <- 
+	rf_results %>%
+	select_best(metric = "roc_auc")
+
+# Finalize with best workflow
+last_rf_workflow <-
+	rf_wf %>%
+	finalize_workflow(alz_best)
+
+# Last fit
+last_rf_fit <-
+	last_rf_workflow %>%
+	last_fit(split = alz_split)
+
+last_rf_fit %>%
+	collect_metrics()
+
+roc_values <- 
+	last_rf_fit %>%
+	collect_predictions() %>%
+	roc_curve(truth = Class, estimate = .pred_Impaired)
+
+autoplot(roc_values)
+```
+

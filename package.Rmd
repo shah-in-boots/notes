@@ -1,0 +1,38 @@
+# Package Development {#package}
+
+[CRAN](https://cran.r-project.org/) supports the publishing of open-source packages in `R`. The workflow on package development is improved by the following supporting packages:
+
+- `devtools`
+- `pkgdown`
+- `usethis`
+- `testthat`
+- `roxygen`
+- `hardhat` (creating modeling functions)
+
+In addition, __git__ and [Github](https://github.com/) are fundamental for version control in the development process. These resources were used in the development of my first package, [`card`](https://asshah4.github.io/card).
+
+## Documenting a Package
+
+The use of `roxygen` is fundamental in the process of package development, forcing explanatory variables and parameters to be documented as functions are developed.
+
+### Website
+
+The package `pkgdown` helps turn documentation into a visually attractive and navigable website. 
+
+In addition, in the fashion of `R`, package logos are developed with a [hexagon-framed sticker](http://hexb.in/), representing a package. The development of a hex sticker is aided by the use of:
+
+- https://github.com/GuangchuangYu/hexSticker
+- http://connect.thinkr.fr/hexmake/
+
+## Building a Modeling Package
+
+With the development of the `card::cosinor()` function, the _tidy_ approach was inspired by the work of Max Kuhn's [`hardhat` package](https://tidymodels.github.io/hardhat/index.html). THe basic concepts are:
+
+- models require a user-facing interface 
+- models require an internal, computational interface
+- these two interfaces must be bridged
+
+### Blueprints
+
+The idea of bridging the user-interface and the computational interface seems to be the birth of the `hardhat::new_blueprint()` concept, with its derivatives for standard user-facing methods (formulas, recipes, matrices, etc). 
+

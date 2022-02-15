@@ -1,0 +1,181 @@
+# Cardiac Catheterization
+
+A large part of cardiovascular studies of interest are hemodynamic parameters. These parameters are specific to the structure of the heart (e.g. valves closing and opening, the heart contracting, etc), and cycle over a single wave. These patterns are seen as different waveforms in different chambers of the heart:
+
+- RA = 1-5 mm Hg
+- RV = 25/5 mm Hg
+- PA = 20/10 mm Hg
+- LA = 3-12 mm Hg
+- LV = 120/12 mm Hg
+
+The waveforms could theoretically be recreated using an understanding of intracardiac hemodynamics (the "structure follows function" appraoch). As these are cyclic, sinusoidal curves would be appropriate for describing these curves.
+
+## Right heart catheterization
+
+There are several chambers that are measured in a right-heart study. Usually, the order is:
+
+1. Right atrium pressure
+2. Right ventricle pressure
+3. Pulmonary artery pressure
+4. Pulmonary capillary wedge pressure
+
+The right atrial waveform is mapped onto several events:
+
+| Waveform | Cardiac Cycle | Mechanical Process |
+| - | - | - |
+| a | end diastole | atrial contraction |
+| c | early systole | tricuspid bulge |
+| v | late systole | systolic atrial filling | 
+| x | mid systole | atrial relaxation |
+| y | early diastole | early ventricular filling | 
+
+Each of these can be mapped onto a time or phase-shift of a single cycle. For now, $2 pi$ will be a cycle length.
+
+```{r}
+# Setup
+library(ggplot2)
+
+# Time positions of each peak and descent
+tau <- 2*pi
+xa <- 2/16 * tau 
+xc <- 8/16 * tau
+xx <- 10/16 * tau
+xv <- 12/16 * tau
+xy <- 14/16 * tau
+
+# Height of peaks and troughs
+ya <- 8
+yc <- 6
+yx <- 2
+yv <- 10
+yy <- 1
+
+# Data
+library(mgcv)
+df <- data.frame(x = c(xa, xc, xx, xv, xy), y = c(ya, yc, yx, yv, yy))
+m <- gamm(y ~ s(x, bs = "cc", k = 3), data = df)
+plot(m$gam)
+```
+
+This simulates a portion of a single descent, but is problematic interms of cyclic nature and repeated measures. An alternative approach may be to consider segments of the data that are delayed based on findings from ECG (e.g. p-wave for atrial contraction). 
+
+## Invasive Hemodynamics
+
+During a cardiac catheterization, particularly of the right side, there are specific hemodynamics that can be assessed. The most important on right heart catheterization is cardiac output. 
+
+### Fick's cardiac output
+
+The Fick's method for cardiac output relies on the concept that peripheral uptake of oxygen is equal to the blood flow to the periphery and the arterial-venous oxygen saturation gradient.
+
+There are several important concepts or parameters:
+
+- oxygen consumption (V02)
+- arterial oxygenation
+- venous oxygenation
+
+How do we measure oxygenation? The blood oxygenation will be dependent on the amount of hemoglobin, how well it binds oxygen, the oxygen saturation, and the dissolved oxygen in the serum.
+
+Hemoglobin has an oxygen-binding capaciity of 1.34 mL/g. On average, an adult may have a hemoglobin level of 15 g/dL. The partial pressure of oxygen can also be measured, which is 21% of the atmospheric pressure at sea level (760 mmHg), thus approximately 160 mmHg.
+
+Thus, arterial (and similiarly venous) oxygenation can be calculated as:
+
+$$CaO_{2} = (1.34 \times Hb \times SaO_{2}) + 0.0032 \times PaO_{2}$$
+
+At sea level, we can essentially exclude the contribution to partial pressure of oxygen.
+
+Thus, an average adult male would have a saturation of approximately 200 mL/dL. 
+
+### Thermodilution
+
+Stewart-Hamilton equation. 
+
+
+## Coronary Anatomy
+
+The coronary anatomy tree is visualized during cardiac catheterization. Clinical reports label the epicardial vessels and their percent stenosis. 
+
+
+### Text-processing
+
+An approach to analysis of LHC/RHC data is through text-processing, since cardiologists write very similar descriptions of procedures using a limited/specialized vocabulary.
+
+For example, we can set up the analysis of a single sentence from the findings section using a _tidy_ approach.
+
+```{r}
+# Setup
+library(tidyverse)
+
+# From findings
+txt <- "Small caliber RCA with 50% proximal and 70% mid stenoses."
+
+# Convert to tidy format
+sentence <- tibble(line = 1, sentence = txt) %>%
+	tidytext::unnest_tokens(input = sentence, output = word, to_lower = FALSE) %>%
+	pull(word)
+
+# Identify a big artery in sentence
+epicardial <- c("LM", "LAD", "LCX", "RCA")
+artery <- sentence[which(sentence %in% epicardial)]
+
+# Identify number/locations of disease
+locs <- grep("\\d+", sentence) 
+
+# Modifier for disease location
+mods <- c("proximal", "mid", "distal", "ostial")
+mlocs <- which(sentence %in% mods)
+
+# Find the nearest neighbors to identify which modifier goes with which location
+space <- combn(mlocs, length(locs))
+dist <- apply(space, 2, function(x) {sum(abs(locs - x))})
+matched <- space[, which.min(dist)]
+
+# Now connect the artery with percent stenosis
+tibble(
+	anatomy = paste(sentence[matched], artery),
+	stenosis = as.numeric(sentence[locs])
+) %>%
+	mutate(description = glue::glue("The {anatomy} has {stenosis}% stenosis."))
+```
+
+This method allows a computational approach at analyzing cath reports. This can be pushed into a function likely.
+
+```{r}
+# Function to turn sentence into tibble?
+coronary_anatomy <- function(x) {
+	
+	# Check if sentence
+	if(!is.character(x)) {stop("Requires character string", call. = FALSE)}
+	
+	# Establish variables
+	epicardial <- c("LM", "LAD", "LCX", "RCA")
+	mods <- c("proximal", "mid", "distal", "ostial")
+	
+	sentence <-
+		tibble(line = 1, sentence = x) %>%
+		tidytext::unnest_tokens(input = sentence, output = word, to_lower = FALSE) %>%
+		pull(word)
+		
+	# Identify number/locations of disease
+	artery <- sentence[which(sentence %in% epicardial)]
+	locs <- grep("\\d+", sentence) 
+	mlocs <- which(sentence %in% mods)
+	
+	# Find the nearest neighbors to identify which modifier goes with which location
+	space <- combn(mlocs, length(locs))
+	dist <- apply(space, 2, function(x) {sum(abs(locs - x))})
+	matched <- space[, which.min(dist)]
+	
+	tbl <- 
+		tibble(
+			anatomy = paste(sentence[matched], artery),
+			stenosis = as.numeric(sentence[locs])
+		)
+	
+	# Return
+	return(tbl)
+}
+
+# Test it out
+coronary_anatomy(txt)
+```
+

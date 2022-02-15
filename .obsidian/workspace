@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5b61ebd4c62d3765",
+        "id": "fd00e59f1613364e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "docs/Electrocardiography/ecg-rvot.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Electrocardiography/ecg-rvot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Electrocardiography/ecg-rvot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/Electrocardiography/ecg-rvot.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -119,17 +112,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "5b61ebd4c62d3765",
+  "active": "fd00e59f1613364e",
   "lastOpenFiles": [
-    "docs/Electrocardiography/ecg-rvot.md",
+    "figures/svg.png",
+    "docs/Electrocardiography/vcg-intro.md",
+    "drafts/ecg-rvot.md",
+    "sudden-cardiac-death.md",
+    "readme.md",
     "docs/index.md",
     "docs/Topic 2/Note 4.md",
     "docs/Topic 2/Note 3.md",
     "docs/ecg-rvot.md",
-    "ecg-rvot.md",
-    "paper-arrhythmias-and-infective-endocarditis.md",
-    "paper-sympathetic-innervation.md",
-    "forks-package.md",
-    "dag-modeling-thoughts.md"
+    "ecg-rvot.md"
   ]
 }

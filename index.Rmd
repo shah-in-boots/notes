@@ -1,0 +1,33 @@
+--- 
+title: "Thoughts"
+author: "Anish Shah"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib, Neurocardiology.bib]
+biblio-style: apalike
+link-citations: yes
+colorlinks: yes
+graphics: yes
+lot: yes
+lof: yes
+fontsize: 11pt
+mainfont: Palatino
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.8"
+github-repo: "asshah4/thoughts"
+description: "A workspace for thoughts."
+---
+
+# Preface {-}
+
+This initially was designed to help document exploratory concepts that were developed using the [card](https://asshah4.github.io/card) package, but also expanded to clinical concepts leveraging the power of R and Rmarkdown.
+
+As this develops, it will likely create its own order. Currently it revolves around the principal components:
+
+- circadian rhythm
+- electrocardiography
+- autonomic physiology
+- clinical medicine
+- programming

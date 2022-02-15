@@ -1,0 +1,42 @@
+# Technical Setup {#setup}
+
+A workflow outside of research and medicine should be a natural corollary to it, taking similar approaches to problems to help making things simpler (instead of more complicated). Certain programs, approaches, and [philosophies](https://suckless.org/philosophy/) have made this possible, detailed below.
+
+- vim - text editor
+- mutt - email client
+- git
+
+## Vim
+
+[Vim](https://www.vim.org/) is much more than a text editor. 
+
+## Mutt
+
+Email clients are typically bloated with additional "features" that are supposed to improve the email experience. However, it seems that these additions in a GUI interface actually slow things down. 
+
+[Mutt](http://www.mutt.org/), and its heavily-featured fork [Neomutt](https://neomutt.org/about.html), are ways around those problems with a command line interface. 
+
+Email is not just a single service, but a bundling of several components. 
+
+- `mutt` is a MUA (mail user agent) that is a front-end for users to manage stored messages in a mailbox
+- `msmtp` is a MTA (mail transport agent) that sends mails through SMTP (simple mail transfer protocol)
+- `mbsync` is a MRA (mail retrieval agent) that can hop onto a mail server and actually retrieve items from inboxes
+
+Originally, for my personal gmail and professional/institution, the following resources were helpful.
+
+- https://wincent.com/blog/email
+- http://stevelosh.com/blog/2012/10/the-homely-mutt/
+- https://gitlab.com/muttmua/mutt/wikis/MuttGuide
+- https://www.youtube.com/watch?v=2jMInHnpNfQ&t=111s
+- https://webgefrickel.de/blog/a-modern-mutt-setup
+- https://webgefrickel.de/blog/a-modern-mutt-setup-part-two
+
+## Building a CV
+
+Instead of storing the elements of a CV in a WYSIWYG format, an alternative approach is to use separate files that can be compiled together to produce a CV in a data-driven pipeline. This process was inspired by the [`datadrivencv`](http://nickstrayer.me/datadrivencv/index.html) and [`vitae`](https://pkg.mitchelloharawild.com/vitae/index.html) packages.
+
+Reference links:
+
+- https://slides.mitchelloharawild.com/vitae/#1
+- https://github.com/ropensci/rorcid
+- https://github.com/robjhyndman/CV

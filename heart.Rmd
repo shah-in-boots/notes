@@ -1,0 +1,43 @@
+# Heart {#heart}
+
+As a physician, the mental model of disease is a human _substrate_ that has been altered or damaged, such as a weakened heart after a myocardial infarction. Its an intuitive concept that is built on experience that stems from the underlying clinical research. That idea of mapping a disease onto a substrate allows for a certain simplicity in explaining a disease - physician's teach via metaphor.
+
+The heart is metaphorically a house. It has rooms that are separated by doors, it has pipes in the walls, and electricity running through it. 
+
+- plumbing: epicardial and resistance vessels
+- electric: sinoatrial and atrioventricular nodes and their corresponding fibers
+- structure: the size and shape of the chambers, the valves, etc 
+
+If an intuitive model such as this could be studied, would we make advances in cardiovascular medicine and research? Using the object-oriented programming approach with the __S4__ class in `R`, it will be explored.
+
+## Using S4
+
+```{r}
+# First S4 method
+library(methods)
+heart <- setClass(
+	"heart",
+	slots = c(
+		plumbing = "list",
+		electric = "list",
+		structural = "list"
+	)
+)
+
+# Make a new object
+first <- new(
+	"heart", 
+	plumbing = list("LHC", "RHC"), 
+	electric = list("SA", "AV"), 
+	structural = list("LA", "RA", "LV", "RV")
+)
+
+# Or, through the generator function
+second <- heart(
+	plumbing = list("LHC", "RHC"), 
+	electric = list("SA", "AV"), 
+	structural = list("LA", "RA", "LV", "RV")
+)
+				 
+```
+
