@@ -1,8 +1,8 @@
-# Notes
+---
+tags: [toc, index]
+---
 
-Here are a collection of thoughts and notes on a variety of topics. I've used the [Obsidian](https://obsidian.md/) system for note taking in markdown, and collected these into topics as I read/write more. 
-
-Current topic areas are:
+Here is a collection of notes in a variety of areas of interest, organized to some degree by folders. The table of contents is below.
 
 - Electrocardiography
 - Neurocardiology
