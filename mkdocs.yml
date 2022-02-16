@@ -1,7 +1,7 @@
 site_name: Notes
 
 theme:
-    name: flatly
+  name: flatly
 
 # Extensions
 markdown_extensions:
