@@ -1,7 +1,12 @@
 site_name: Notes
+site_url: https://asshah4.github.io/notes
 
+# Theme
 theme:
   name: flatly
+  features:
+    - navigation.instant
+    - navigation.tracking
 
 # Extensions
 markdown_extensions:
@@ -19,6 +24,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
+# Plugins
 plugins:
   - search
   - roamlinks 
