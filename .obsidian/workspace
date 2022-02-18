@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/Electrocardiography/programming-ecg-visualization.md",
+            "file": "drafts/ecg-research-ideas.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Electrocardiography/programming-ecg-visualization.md",
+                "file": "drafts/ecg-research-ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Electrocardiography/programming-ecg-visualization.md",
+                "file": "drafts/ecg-research-ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Electrocardiography/programming-ecg-visualization.md"
+                "file": "drafts/ecg-research-ideas.md"
               }
             }
           }
@@ -121,15 +121,15 @@
   },
   "active": "fd00e59f1613364e",
   "lastOpenFiles": [
-    "docs/Electrocardiography/programming-ecg-visualization.md",
-    "docs/index.md",
-    "docs/Epidemiology/dag-modeling-thoughts.md",
-    "figures/svg.png",
-    "docs/Electrocardiography/vcg-intro.md",
+    "drafts/ecg-research-ideas.md",
+    "drafts/autonomic-reflexes.md",
     "drafts/ecg-rvot.md",
     "sudden-cardiac-death.md",
-    "readme.md",
-    "docs/Topic 2/Note 4.md",
-    "docs/Topic 2/Note 3.md"
+    "drafts/atrial-fibrillation.md",
+    "docs/Neurocardiology/paper-sympathetic-innervation.md",
+    "docs/index.md",
+    "docs/Electrocardiography/programming-ecg-visualization.md",
+    "docs/Epidemiology/dag-modeling-thoughts.md",
+    "figures/svg.png"
   ]
 }
