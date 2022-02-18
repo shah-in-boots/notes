@@ -2,7 +2,7 @@
 tags: [programming, r]
 ---
 
-__Note__: The development of the `formula` classes that are related to DAGs ended up splitting up into an additional package. See [[forks-package]] for details.
+__Note__: The development of the `formula` classes that are related to DAGs ended up splitting up into an additional package. See [[../Epidemiology/forks-package]] for details.
 
 # Requirements
 

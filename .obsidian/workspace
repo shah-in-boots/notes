@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/index.md",
+            "file": "docs/Electrocardiography/programming-ecg-visualization.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Electrocardiography/programming-ecg-visualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Electrocardiography/programming-ecg-visualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/Electrocardiography/programming-ecg-visualization.md"
               }
             }
           }
@@ -121,15 +121,15 @@
   },
   "active": "fd00e59f1613364e",
   "lastOpenFiles": [
+    "docs/Electrocardiography/programming-ecg-visualization.md",
     "docs/index.md",
+    "docs/Epidemiology/dag-modeling-thoughts.md",
     "figures/svg.png",
     "docs/Electrocardiography/vcg-intro.md",
     "drafts/ecg-rvot.md",
     "sudden-cardiac-death.md",
     "readme.md",
     "docs/Topic 2/Note 4.md",
-    "docs/Topic 2/Note 3.md",
-    "docs/ecg-rvot.md",
-    "ecg-rvot.md"
+    "docs/Topic 2/Note 3.md"
   ]
 }

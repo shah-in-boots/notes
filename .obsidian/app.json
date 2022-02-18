@@ -1,4 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "vimMode": true,
+  "promptDelete": false
 }
