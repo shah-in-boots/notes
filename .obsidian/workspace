@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "drafts/research-ecg-and-vagal-tone.md",
+            "file": "drafts/research-pvc-and-mortality.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "drafts/research-ecg-and-vagal-tone.md",
+                "file": "drafts/research-pvc-and-mortality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "drafts/research-ecg-and-vagal-tone.md",
+                "file": "drafts/research-pvc-and-mortality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "drafts/research-ecg-and-vagal-tone.md"
+                "file": "drafts/research-pvc-and-mortality.md"
               }
             }
           }
@@ -121,6 +121,8 @@
   },
   "active": "fd00e59f1613364e",
   "lastOpenFiles": [
+    "drafts/research-pvc-and-mortality.md",
+    "drafts/ecg-research-ideas.md",
     "drafts/research-ecg-and-vagal-tone.md",
     "docs/Epidemiology/forks-package.md",
     "docs/Epidemiology/dagger-package.md",
@@ -128,8 +130,6 @@
     "docs/Epidemiology/programming-formula-lists.md",
     "docs/Epidemiology/programming-dag-classes.md",
     "drafts/research-atrial-fibrillation.md",
-    "drafts/ecg-research-ideas.md",
-    "drafts/programming-ecg-visualization.md",
-    "drafts/autonomic-reflexes.md"
+    "drafts/programming-ecg-visualization.md"
   ]
 }
