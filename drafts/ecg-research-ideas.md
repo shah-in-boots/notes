@@ -2,6 +2,5 @@
 tags: [research, ecg]
 ---
 
-# ECG ideas
-
-Inferior ischemia could cause bradycardia through two mechanisms - improved blood flow to the RV and conduction system, or through improved vagal tone.
+1. Programmatic approach to visualize ECG rhythm patterns, particularly that of PVC and localization. [[programming-ecg-visualization]]
+1. RCA disease and bradycardia due to both conduction system ischemia and RV vagal predominant innervation. [[research-ecg-and-vagal-tone]]

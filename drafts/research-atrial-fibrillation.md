@@ -1,5 +1,5 @@
 ---
-tags: [toc, cards, research]
+tags: [toc, cards, research, ecg]
 ---
 
 Phenotyping and expanding understanding of atrial fibrillation. 

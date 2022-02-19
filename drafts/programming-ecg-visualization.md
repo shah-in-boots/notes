@@ -12,3 +12,7 @@ The major challenges would be ....
 
 1. Individual sinus beat identification and abnormal beat identification, e.g. atrial and ventricular ectopy
 1. Anatomic mapping structure (e.g. scaffold for electricity to be mappted to)
+
+# Anatomy
+
+The hardest part I think will be in rendering a map object of the heart. Should it be 3 dimensions? Should it be just precordial leads?

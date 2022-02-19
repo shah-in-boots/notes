@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "drafts/ecg-research-ideas.md",
+            "file": "drafts/research-ecg-and-vagal-tone.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "drafts/ecg-research-ideas.md",
+                "file": "drafts/research-ecg-and-vagal-tone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "drafts/ecg-research-ideas.md",
+                "file": "drafts/research-ecg-and-vagal-tone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,12 +108,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "drafts/ecg-research-ideas.md"
+                "file": "drafts/research-ecg-and-vagal-tone.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -121,15 +121,15 @@
   },
   "active": "fd00e59f1613364e",
   "lastOpenFiles": [
-    "drafts/ecg-research-ideas.md",
-    "drafts/autonomic-reflexes.md",
-    "drafts/ecg-rvot.md",
-    "sudden-cardiac-death.md",
-    "drafts/atrial-fibrillation.md",
-    "docs/Neurocardiology/paper-sympathetic-innervation.md",
-    "docs/index.md",
-    "docs/Electrocardiography/programming-ecg-visualization.md",
+    "drafts/research-ecg-and-vagal-tone.md",
+    "docs/Epidemiology/forks-package.md",
+    "docs/Epidemiology/dagger-package.md",
     "docs/Epidemiology/dag-modeling-thoughts.md",
-    "figures/svg.png"
+    "docs/Epidemiology/programming-formula-lists.md",
+    "docs/Epidemiology/programming-dag-classes.md",
+    "drafts/research-atrial-fibrillation.md",
+    "drafts/ecg-research-ideas.md",
+    "drafts/programming-ecg-visualization.md",
+    "drafts/autonomic-reflexes.md"
   ]
 }
