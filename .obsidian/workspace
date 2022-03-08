@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "drafts/research-pvc-and-mortality.md",
+            "file": "docs/Epidemiology/programming-formula-lists.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "drafts/research-pvc-and-mortality.md",
+                "file": "docs/Epidemiology/programming-formula-lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "drafts/research-pvc-and-mortality.md",
+                "file": "docs/Epidemiology/programming-formula-lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "drafts/research-pvc-and-mortality.md"
+                "file": "docs/Epidemiology/programming-formula-lists.md"
               }
             }
           }
@@ -121,13 +121,13 @@
   },
   "active": "fd00e59f1613364e",
   "lastOpenFiles": [
+    "docs/Epidemiology/programming-formula-lists.md",
+    "docs/Epidemiology/forks-package.md",
     "drafts/research-pvc-and-mortality.md",
     "drafts/ecg-research-ideas.md",
     "drafts/research-ecg-and-vagal-tone.md",
-    "docs/Epidemiology/forks-package.md",
     "docs/Epidemiology/dagger-package.md",
     "docs/Epidemiology/dag-modeling-thoughts.md",
-    "docs/Epidemiology/programming-formula-lists.md",
     "docs/Epidemiology/programming-dag-classes.md",
     "drafts/research-atrial-fibrillation.md",
     "drafts/programming-ecg-visualization.md"

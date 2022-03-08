@@ -28,11 +28,10 @@ classDiagram
 direction TB
 
 class FormulaList {
+	list~formula_vctr~ formulas
 	list~character~ labels
 	list~character~ roles
 	list~character~ groups
-	list_of_formulas(~formula_vctr~) ~list_of_formulas~
-	list_of_formulas(list~formula~) ~list_of_formulas~
 }
 
 class FormulaVector {
@@ -40,22 +39,34 @@ class FormulaVector {
 	list~character~ roles
 	list~character~ groups
 	list~character~ operations
-	list~term_rcrd~ terms
-	formula_vctr(~term_rcrd~) ~formula_vctr~
-	formula_vctr(~formula~) ~formula_vctr~
+	list~term_vctr~ terms
 }
 
-class TermRecord {
+class TermVector {
 	character term
 	character roles
 	character groups
 	character operations
 	character labels
-	term_rcrd(~character~) ~term_rcrd~
-	term_rcrd(~formula~) ~term_rcrd~
+	character description
 }
 
 FormulaList <|-- FormulaVector
-FormulaVector "1" <|-- "1..*" TermRecord
+FormulaVector "1" <|-- "1..*" TermVector
 ```
 
+## Terms
+
+`term` objects have specific attributes that modify the `character` class in `R`...
+
+- role: epidemiological positions, such as exposure, outcome, predictor, covariate, confounder, mediator, or more complex modeling terms such as strata or random/effect effect
+- group: if terms are related to one another, they may be grouped together
+- operation(s): such as `log()` transformation
+- label: an abbreviated character string for variable display
+- description: explanation of a variable if needed, particularly as part of or from a data dictionary 
+
+## Formulas
+
+## Formula Lists
+
+## Model Lists
