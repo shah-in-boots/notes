@@ -39,10 +39,10 @@ class FormulaVector {
 	list~character~ roles
 	list~character~ groups
 	list~character~ operations
-	list~term_vctr~ terms
+	list~term_rcrd~ terms
 }
 
-class TermVector {
+class TermRecord {
 	character term
 	character roles
 	character groups
@@ -52,7 +52,7 @@ class TermVector {
 }
 
 FormulaList <|-- FormulaVector
-FormulaVector "1" <|-- "1..*" TermVector
+FormulaVector "1" <|-- "1..*" TermRecord
 ```
 
 ## Terms
@@ -64,6 +64,9 @@ FormulaVector "1" <|-- "1..*" TermVector
 - operation(s): such as `log()` transformation
 - label: an abbreviated character string for variable display
 - description: explanation of a variable if needed, particularly as part of or from a data dictionary 
+- distribution: the pattern of how the data is expected to be (or how the data happens to be), could also be a verification step
+- class: expected character time
+- data: if a vector of a data is added to this from a data set, can be stored with the term, or could also come from turning a data-set into terms
 
 ## Formulas
 
