@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/Epidemiology/package-forks.md",
+            "file": "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Epidemiology/package-forks.md",
+                "file": "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Epidemiology/package-forks.md",
+                "file": "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Epidemiology/package-forks.md"
+                "file": "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md"
               }
             }
           }
@@ -117,10 +117,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "fd00e59f1613364e",
   "lastOpenFiles": [
+    "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
     "docs/Epidemiology/package-forks.md",
     "docs/Epidemiology/package-dagger.md",
     "docs/Epidemiology/programming-formula-lists.md",
@@ -129,7 +131,6 @@
     "drafts/ecg-research-ideas.md",
     "drafts/research-ecg-and-vagal-tone.md",
     "docs/Epidemiology/dagger-package.md",
-    "docs/Epidemiology/dag-modeling-thoughts.md",
-    "docs/Epidemiology/programming-dag-classes.md"
+    "docs/Epidemiology/dag-modeling-thoughts.md"
   ]
 }
