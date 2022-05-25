@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
+            "file": "drafts/research-stress-recovery.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
+                "file": "drafts/research-stress-recovery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
+                "file": "drafts/research-stress-recovery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md"
+                "file": "drafts/research-stress-recovery.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "fd00e59f1613364e",
   "lastOpenFiles": [
-    "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
-    "docs/Epidemiology/package-forks.md",
-    "docs/Epidemiology/package-dagger.md",
-    "docs/Epidemiology/programming-formula-lists.md",
-    "docs/Epidemiology/forks-package.md",
+    "drafts/research-stress-recovery.md",
+    "drafts/programming-ecg-visualization.md",
     "drafts/research-pvc-and-mortality.md",
-    "drafts/ecg-research-ideas.md",
-    "drafts/research-ecg-and-vagal-tone.md",
-    "docs/Epidemiology/dagger-package.md",
-    "docs/Epidemiology/dag-modeling-thoughts.md"
+    "figures/svg.png",
+    "readme.md",
+    "sudden-cardiac-death.md",
+    "docs/Electrocardiography/vcg-intro.md",
+    "docs/Epidemiology/package-volundr.md",
+    "drafts/package-volundr.md",
+    "docs/Epidemiology/package-durandal.md"
   ]
 }

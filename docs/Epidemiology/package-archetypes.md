@@ -100,4 +100,4 @@ The expanded formulas are true formulas that can be utilized in regression model
 
 Multiple models can be linked together in some pattern to help understand a concept or physiology. This family of models could/should have informative attributes, such as model terms, labels, groups, and patterns.
 
-This has been expanded upon in the [[../../drafts/package-armour]]
+This has been expanded upon in the [[package-volundr]]
