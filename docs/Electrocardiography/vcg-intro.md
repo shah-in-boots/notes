@@ -30,7 +30,7 @@ The SVG can be broken down in 5 VCG parameters to describe the overall global el
 - Spatial QRS-T angle = the three-dimensional angle between mean spatial QRS-vector and mean spatial T-vector, measured in degrees
 - Sum absolute QRST integral = scalar analog of the SVG, calculated as absolute value under QRS cmplex and T-wave, measured in millivolts (integral of voltage over time)
 
-![vector gradient](figures/svg.png)
+![vector gradient](../../resources/svg.png)
 
 [^1]: Tereshchenko LG. Global Electrical Heterogeneity: Mechanisms and Clinical Significance. In: _Computing in Cardiology_. Vol 2018-Septe. IEEE Computer Society; 2018. doi:10.22489/CinC.2018.165
 

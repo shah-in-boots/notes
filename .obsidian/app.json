@@ -4,5 +4,7 @@
   "vimMode": true,
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "drafts"
+  "newFileFolderPath": "drafts",
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "resources"
 }

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fd00e59f1613364e",
+        "id": "32be424d8e2ffbdf",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -120,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fd00e59f1613364e",
+  "active": "32be424d8e2ffbdf",
   "lastOpenFiles": [
     "drafts/research-stress-recovery.md",
+    "resources/Pripon2019_Chapter_HowToInduceArrhythmiasWithIsop.pdf",
+    "sudden-cardiac-death.md",
+    "readme.md",
     "drafts/programming-ecg-visualization.md",
     "drafts/research-pvc-and-mortality.md",
-    "figures/svg.png",
-    "readme.md",
-    "sudden-cardiac-death.md",
+    "resources/svg.png",
     "docs/Electrocardiography/vcg-intro.md",
     "docs/Epidemiology/package-volundr.md",
-    "drafts/package-volundr.md",
-    "docs/Epidemiology/package-durandal.md"
+    "drafts/package-volundr.md"
   ]
 }
