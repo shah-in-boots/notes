@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "drafts/research-stress-recovery.md",
+            "file": "drafts/research-stress-washout.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "drafts/research-stress-recovery.md",
+                "file": "drafts/research-stress-washout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "drafts/research-stress-recovery.md",
+                "file": "drafts/research-stress-washout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "drafts/research-stress-recovery.md"
+                "file": "drafts/research-stress-washout.md"
               }
             }
           }
@@ -123,15 +123,15 @@
   },
   "active": "32be424d8e2ffbdf",
   "lastOpenFiles": [
-    "drafts/research-stress-recovery.md",
+    "drafts/research-pvc-and-mortality.md",
+    "drafts/programming-ecg-visualization.md",
+    "drafts/ecg-rvot.md",
+    "drafts/research-atrial-fibrillation.md",
+    "drafts/research-ecg-and-vagal-tone.md",
+    "drafts/research-stress-washout.md",
     "resources/Pripon2019_Chapter_HowToInduceArrhythmiasWithIsop.pdf",
     "sudden-cardiac-death.md",
     "readme.md",
-    "drafts/programming-ecg-visualization.md",
-    "drafts/research-pvc-and-mortality.md",
-    "resources/svg.png",
-    "docs/Electrocardiography/vcg-intro.md",
-    "docs/Epidemiology/package-volundr.md",
-    "drafts/package-volundr.md"
+    "resources/svg.png"
   ]
 }
