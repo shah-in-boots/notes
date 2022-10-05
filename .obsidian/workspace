@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "32be424d8e2ffbdf",
+        "id": "de25b6d3af3ee4cd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "drafts/research-stress-washout.md",
+            "file": "drafts/cardiac-common-coordinate-framework.md",
             "mode": "source",
             "source": false
           }
@@ -43,7 +43,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "drafts/research-stress-washout.md",
+                "file": "drafts/cardiac-common-coordinate-framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "drafts/research-stress-washout.md",
+                "file": "drafts/cardiac-common-coordinate-framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "drafts/research-stress-washout.md"
+                "file": "drafts/cardiac-common-coordinate-framework.md"
               }
             }
           }
@@ -118,20 +118,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "32be424d8e2ffbdf",
+  "active": "de25b6d3af3ee4cd",
   "lastOpenFiles": [
-    "drafts/research-pvc-and-mortality.md",
-    "drafts/programming-ecg-visualization.md",
+    "drafts/egm-topography.md",
+    "drafts/murine-models.md",
+    "drafts/autonomic-reflexes.md",
+    "drafts/egm-research-ideas.md",
+    "docs/Epidemiology/package-volundr.md",
+    "docs/Epidemiology/package-durandal.md",
+    "docs/Epidemiology/package-archetypes.md",
     "drafts/ecg-rvot.md",
-    "drafts/research-atrial-fibrillation.md",
-    "drafts/research-ecg-and-vagal-tone.md",
-    "drafts/research-stress-washout.md",
-    "resources/Pripon2019_Chapter_HowToInduceArrhythmiasWithIsop.pdf",
-    "sudden-cardiac-death.md",
-    "readme.md",
-    "resources/svg.png"
+    "drafts/ecg-research-ideas.md",
+    "drafts/asdfas.md"
   ]
 }

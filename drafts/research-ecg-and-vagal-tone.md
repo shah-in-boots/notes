@@ -11,7 +11,8 @@ RCA[inferior infarct] --> ECG[conduction system]
 RCA --> ANS[vagal tone]
 ECG --> SB[sinus bradycardia]
 ANS --> SB
-
-
 ```
 
+# Topography
+
+Vagal tone may impact the topography of the heart by changing conduction speeds and dromotropic properties. [[egm-research-ideas]]

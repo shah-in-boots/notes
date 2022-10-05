@@ -1,5 +1,5 @@
 ---
-tags: [r, programming, stats, epi]
+tags: [r, code, stats, epi]
 ---
 
 This is a brainstorming area for the [[forks-package]] that is under development.

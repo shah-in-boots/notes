@@ -1,5 +1,5 @@
 ---
-tags: [programming, stats, r]
+tags: [code, stats, r]
 ---
 
 # Overview
