@@ -122,6 +122,7 @@
   },
   "active": "de25b6d3af3ee4cd",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "drafts/egm-topography.md",
     "drafts/murine-models.md",
     "drafts/autonomic-reflexes.md",
@@ -132,5 +133,17 @@
     "drafts/ecg-rvot.md",
     "drafts/ecg-research-ideas.md",
     "drafts/asdfas.md"
+=======
+    "docs/Neurocardiology/paper-sympathetic-innervation.md",
+    "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
+    "docs/index.md",
+    "drafts/programming-ecg-visualization.md",
+    "drafts/ecg-research-ideas.md",
+    "drafts/autonomic-reflexes.md",
+    "drafts/ecg-rvot.md",
+    "drafts/research-atrial-fibrillation.md",
+    "drafts/research-ecg-and-vagal-tone.md",
+    "drafts/research-pvc-and-mortality.md"
+>>>>>>> Stashed changes
   ]
 }
