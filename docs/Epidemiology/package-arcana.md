@@ -2,7 +2,7 @@
 tags: [r, code, stats, epi]
 ---
 
-This is a brainstorming area for the [[forks-package]] that is under development.
+This is a brainstorming area for the [[package-arcana]] that is under development.
 
 # Formulas 
 
@@ -80,6 +80,20 @@ FormulaVector --|> FormulaList
 
 Each `term` is essentially a *promise* or *contract* with the data set that contains additional information to help understand the data better, and use it in hypothesis generation.
 
+### Exposures and Outcomes
+
+Exposures sometimes need to travel together. Would be helpful to use a numbering system to help know when terms should travel together. Normally the terms would be split apart like so...
+
+y ~ Xa + Xb = y ~ a | y ~ b
+
+However, if we want dual exposures like:
+
+y ~ Xa + Xb + Xc = y ~ a + b | y ~ c
+
+Exposures would somehow need to travel together.
+
+y ~ X₁a + X₁b + X₂c = y ~ a + b | y ~ c
+
 ## Formulas
 
 Formulas are combinations of underlying terms in some order, broken roughly into three parts...
@@ -91,6 +105,7 @@ Formulas are combinations of underlying terms in some order, broken roughly into
 As these formulas have terms that have specific roles, such as multiple outcomes or multiple predictors, they cannot be used directly unless expanded into an appropriate formula (that can be fit). 
 
 This is the core feature, a `formula` class that has built-in specifications of how to manipulate and show the *relationship* of the terms together.
+
 
 ## Formula Lists
 

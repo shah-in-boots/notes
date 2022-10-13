@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "668d3be85bc4c840",
+    "id": "550a50d764e8eafa",
     "type": "split",
     "children": [
       {
-        "id": "de25b6d3af3ee4cd",
+        "id": "8c382d1b57eed771",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "drafts/cardiac-common-coordinate-framework.md",
+            "file": "docs/Epidemiology/package-arcana.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e3ae8c62eb552c5e",
+    "id": "e1b7749f3c8eaacb",
     "type": "split",
     "children": [
       {
-        "id": "e39d9fcd5fa5f8f3",
+        "id": "1630b738ececf3b5",
         "type": "tabs",
         "children": [
           {
-            "id": "da3834e87c8823b1",
+            "id": "561c33eb4a11e43b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "0f36863a4fcac19c",
+            "id": "52d5a1b99c04d8ee",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -43,7 +43,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "935695058c43b111",
+    "id": "38c7fc2ae39d6213",
     "type": "split",
     "children": [
       {
-        "id": "d54a5a81b65eea98",
+        "id": "b1fcf3cbad7e3ac5",
         "type": "tabs",
         "children": [
           {
-            "id": "2458ab1ea51717f6",
+            "id": "52cd0bd4d75d92fa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "drafts/cardiac-common-coordinate-framework.md",
+                "file": "docs/Epidemiology/package-arcana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,19 +81,19 @@
             }
           },
           {
-            "id": "25160a3107e5e685",
+            "id": "f62efcf1765a4310",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "drafts/cardiac-common-coordinate-framework.md",
+                "file": "docs/Epidemiology/package-arcana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "25f8a7ef35e7e552",
+            "id": "bb7d3fcdfcb7d21b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -104,46 +104,22 @@
             }
           },
           {
-            "id": "bf985c04cbfbf601",
+            "id": "0ce6e9cbe093ac3a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "drafts/cardiac-common-coordinate-framework.md"
+                "file": "docs/Epidemiology/package-arcana.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "de25b6d3af3ee4cd",
-  "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "drafts/egm-topography.md",
-    "drafts/murine-models.md",
-    "drafts/autonomic-reflexes.md",
-    "drafts/egm-research-ideas.md",
-    "docs/Epidemiology/package-volundr.md",
-    "docs/Epidemiology/package-durandal.md",
-    "docs/Epidemiology/package-archetypes.md",
-    "drafts/ecg-rvot.md",
-    "drafts/ecg-research-ideas.md",
-    "drafts/asdfas.md"
-=======
-    "docs/Neurocardiology/paper-sympathetic-innervation.md",
-    "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
-    "docs/index.md",
-    "drafts/programming-ecg-visualization.md",
-    "drafts/ecg-research-ideas.md",
-    "drafts/autonomic-reflexes.md",
-    "drafts/ecg-rvot.md",
-    "drafts/research-atrial-fibrillation.md",
-    "drafts/research-ecg-and-vagal-tone.md",
-    "drafts/research-pvc-and-mortality.md"
->>>>>>> Stashed changes
-  ]
+  "active": "8c382d1b57eed771",
+  "lastOpenFiles": []
 }
