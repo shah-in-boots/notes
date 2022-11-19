@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/Epidemiology/package-arcana.md",
+            "file": "drafts/murine-models.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md",
+                "file": "drafts/murine-models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md",
+                "file": "drafts/murine-models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md"
+                "file": "drafts/murine-models.md"
               }
             }
           }
@@ -121,5 +121,13 @@
     "collapsed": true
   },
   "active": "8c382d1b57eed771",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "drafts/research-stress-recovery.md",
+    "drafts/research-pvc-and-mortality.md",
+    "drafts/research-ecg-and-vagal-tone.md",
+    "docs/Neurocardiology/paper-sympathetic-innervation.md",
+    "docs/Neurocardiology/paper-arrhythmias-and-infective-endocarditis.md",
+    "docs/Epidemiology/package-volundr.md",
+    "docs/Epidemiology/package-arcana.md"
+  ]
 }

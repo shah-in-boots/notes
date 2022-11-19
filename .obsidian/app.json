@@ -6,5 +6,9 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "drafts",
   "showUnsupportedFiles": false,
-  "attachmentFolderPath": "resources"
+  "attachmentFolderPath": "resources",
+  "livePreview": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "strictLineBreaks": true
 }

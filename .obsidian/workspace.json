@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "401b8d0d175f98c6",
+        "id": "1db1adcc5ea302a6",
         "type": "tabs",
         "children": [
           {
-            "id": "8c382d1b57eed771",
+            "id": "53ec798d964bac3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md",
+                "file": "drafts/neurocardiac-pathways.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "144f51d763bb3817",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +51,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -72,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "38c7fc2ae39d6213",
@@ -88,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md",
+                "file": "drafts/neurocardiac-pathways.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md",
+                "file": "drafts/neurocardiac-pathways.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md"
+                "file": "drafts/neurocardiac-pathways.md"
               }
             }
           }
@@ -139,9 +129,16 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "144f51d763bb3817",
-  "lastOpenFiles": []
+  "active": "53ec798d964bac3e",
+  "lastOpenFiles": [
+    "drafts/atrial-fibrillation-subtypes.md",
+    "drafts/research-atrial-fibrillation.md",
+    "drafts/neurocardiac-pathways.md",
+    "drafts/egm-research-ideas.md",
+    "drafts/cardiac-common-coordinate-framework.md",
+    "drafts/ecg-research-ideas.md",
+    "drafts/research-ecg-and-vagal-tone.md",
+    "drafts/murine-models.md",
+    "docs/Epidemiology/package-arcana.md"
+  ]
 }
