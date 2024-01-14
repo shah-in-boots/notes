@@ -96,5 +96,13 @@
       ],
       "key": "L"
     }
+  ],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
   ]
 }
