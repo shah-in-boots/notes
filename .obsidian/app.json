@@ -4,7 +4,10 @@
   "vimMode": true,
   "promptDelete": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "drafts",
+  "newFileFolderPath": "temporary",
   "showUnsupportedFiles": false,
-  "attachmentFolderPath": "resources"
+  "attachmentFolderPath": "resources",
+  "tabSize": 2,
+  "spellcheck": true,
+  "showLineNumber": true
 }

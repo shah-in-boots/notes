@@ -71,8 +71,7 @@
   "editor:insert-tag": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Ctrl"
       ],
       "key": ","
     }
@@ -85,6 +84,31 @@
         "Shift"
       ],
       "key": "Enter"
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "W"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:toggle-comments": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
     }
   ]
 }

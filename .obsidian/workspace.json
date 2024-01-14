@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "401b8d0d175f98c6",
+        "id": "62dfaeb6caf4762d",
         "type": "tabs",
         "children": [
           {
-            "id": "8c382d1b57eed771",
+            "id": "28ba089256246a5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md",
+                "file": "temporary/20240113220160-friedrich-ataxia.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "144f51d763bb3817",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md",
+                "file": "temporary/20240113220160-friedrich-ataxia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md",
+                "file": "temporary/20240113220160-friedrich-ataxia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,20 +117,35 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Epidemiology/package-arcana.md"
+                "file": "temporary/20240113220160-friedrich-ataxia.md"
               }
+            }
+          },
+          {
+            "id": "1cd66afff574e0ea",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "144f51d763bb3817",
-  "lastOpenFiles": []
+  "active": "28ba089256246a5c",
+  "lastOpenFiles": [
+    "templates/temporary-note.md",
+    "temporary/20240113220160-friedrich-ataxia.md",
+    "temporary/Temporary.md",
+    "drafts/ecg-research-ideas.md",
+    "drafts/ecg-rvot.md",
+    "temporary/Untitled 1.md",
+    "drafts/egm-topography.md",
+    "drafts/Untitled.md",
+    "drafts/research-stress-washout.md",
+    "drafts/egm-research-ideas.md"
+  ]
 }
