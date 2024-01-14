@@ -1,8 +1,19 @@
 {
   "pathToPandoc": "/usr/local/bin/pandoc",
   "tooltipDelay": 400,
-  "zoteroGroups": [],
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "My Library",
+      "lastUpdate": 1705209854459
+    }
+  ],
   "renderCitations": true,
   "renderCitationsReadingMode": true,
-  "renderLinkCitations": true
+  "renderLinkCitations": true,
+  "pullFromZotero": true,
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/the-new-england-journal-of-medicine.csl",
+  "hideLinks": true,
+  "enableCiteKeyCompletion": true,
+  "showCitekeyTooltips": true
 }

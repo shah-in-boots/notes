@@ -2,5 +2,8 @@
   "tabSize": 2,
   "showLineNumber": true,
   "livePreview": false,
-  "vimMode": true
+  "vimMode": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "temporary",
+  "attachmentFolderPath": "resources"
 }

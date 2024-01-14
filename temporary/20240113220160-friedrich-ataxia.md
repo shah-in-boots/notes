@@ -1,5 +1,5 @@
 ---
-date: {date}{time}
+date: {{date}}{{time}}
 parent: [[Temporary]]
 ---
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e0b1db5b03463140",
+        "id": "e363e5afc7402a83",
         "type": "tabs",
         "children": [
           {
-            "id": "bfa571dbc4d8a079",
+            "id": "927748b82c67161e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -120,6 +120,18 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "56bf043ff2277989",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           }
         ]
       }
@@ -129,14 +141,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "zk-prefixer:Create new unique note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "bfa571dbc4d8a079",
-  "lastOpenFiles": []
+  "active": "927748b82c67161e",
+  "lastOpenFiles": [
+    "temporary/20240113220160-friedrich-ataxia.md",
+    "Untitled.md",
+    "temporary/Temporary.md"
+  ]
 }

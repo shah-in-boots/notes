@@ -1,3 +1,7 @@
 {
-  "accentColor": "#fbc041"
+  "accentColor": "#ffa53d",
+  "monospaceFontFamily": "Source Code Pro",
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "translucency": false
 }
