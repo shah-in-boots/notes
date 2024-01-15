@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e363e5afc7402a83",
+        "id": "db6fbcbbbc747373",
         "type": "tabs",
         "children": [
           {
-            "id": "927748b82c67161e",
+            "id": "12c864d450fac075",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "temporary/20240115120188 AFEQT and SDOH.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "readm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "temporary/20240115120188 AFEQT and SDOH.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "temporary/20240115120188 AFEQT and SDOH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,13 +131,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "temporary/20240115120188 AFEQT and SDOH.md"
-              }
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -161,12 +153,13 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "927748b82c67161e",
+  "active": "12c864d450fac075",
   "lastOpenFiles": [
+    "README.md",
+    "permanent/20240115120188 AFEQT and SDOH.md",
     "permanent/Neighborhood Deprivation Index.md",
     "permanent/Comparative Cardiology.md",
     "permanent/Social Determinants of Health.md",
-    "temporary/20240115120188 AFEQT and SDOH.md",
     "temporary/20240113230125-sdoh.md",
     "temporary/20240113230105-tga.md",
     "temporary/research-stress-washout.md",

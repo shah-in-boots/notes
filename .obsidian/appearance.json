@@ -3,5 +3,7 @@
   "monospaceFontFamily": "Source Code Pro",
   "textFontFamily": "",
   "interfaceFontFamily": "",
-  "translucency": false
+  "translucency": false,
+  "cssTheme": "Minimal",
+  "theme": "obsidian"
 }
