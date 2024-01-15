@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temporary/20240113230125-sdoh.md",
+                "file": "temporary/20240115120188 AFEQT and SDOH.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "temporary/20240113230125-sdoh.md",
+                "file": "temporary/20240115120188 AFEQT and SDOH.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "temporary/20240113230125-sdoh.md",
+                "file": "temporary/20240115120188 AFEQT and SDOH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,6 +131,16 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "5cccafaae3012639",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "temporary/20240115120188 AFEQT and SDOH.md"
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -151,11 +161,12 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "8d4fb384bb7cfbd5",
+  "active": "927748b82c67161e",
   "lastOpenFiles": [
     "permanent/Neighborhood Deprivation Index.md",
-    "permanent/Social Determinants of Health.md",
     "permanent/Comparative Cardiology.md",
+    "permanent/Social Determinants of Health.md",
+    "temporary/20240115120188 AFEQT and SDOH.md",
     "temporary/20240113230125-sdoh.md",
     "temporary/20240113230105-tga.md",
     "temporary/research-stress-washout.md",
