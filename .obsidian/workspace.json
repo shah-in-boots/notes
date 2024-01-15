@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d98fcbe06b5c8193",
+        "id": "e363e5afc7402a83",
         "type": "tabs",
         "children": [
           {
-            "id": "1b0ffaee03c4c24c",
+            "id": "927748b82c67161e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temporary/atrial-fibrillation-subtypes.md",
+                "file": "temporary/20240113230125-sdoh.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": true
               }
             }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kalra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,13 +86,25 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "temporary/atrial-fibrillation-subtypes.md",
-                "collapseAll": true,
+                "file": "temporary/20240113230125-sdoh.md",
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "18765e71af1c72dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "temporary/20240113230125-sdoh.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -109,16 +121,6 @@
             }
           },
           {
-            "id": "676fbc7580f82cee",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "temporary/atrial-fibrillation-subtypes.md"
-              }
-            }
-          },
-          {
             "id": "56bf043ff2277989",
             "type": "leaf",
             "state": {
@@ -129,39 +131,9 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "429d4a93535331f1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "temporary/atrial-fibrillation-subtypes.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "002ca92564552bd2",
-            "type": "leaf",
-            "state": {
-              "type": "ReferenceListView",
-              "state": {}
-            }
-          },
-          {
-            "id": "f0ad4635c3279764",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "temporary/atrial-fibrillation-subtypes.md"
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -179,9 +151,31 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "1b0ffaee03c4c24c",
+  "active": "8d4fb384bb7cfbd5",
   "lastOpenFiles": [
-    "figures",
+    "permanent/Neighborhood Deprivation Index.md",
+    "permanent/Social Determinants of Health.md",
+    "permanent/Comparative Cardiology.md",
+    "temporary/20240113230125-sdoh.md",
+    "temporary/20240113230105-tga.md",
+    "temporary/research-stress-washout.md",
+    "temporary/research-ecg-and-vagal-tone.md",
+    "temporary/research-atrial-fibrillation.md",
+    "temporary/programming-ecg-visualization.md",
+    "temporary/neurocardiac-pathways.md",
+    "temporary/murine-models.md",
+    "temporary/egm-topography.md",
+    "temporary/ecg-rvot.md",
+    "temporary/ecg-research-ideas.md",
+    "temporary/atrial-fibrillation-subtypes.md",
+    "temporary/20240115100127 noonan syndrome.md",
+    "temporary/20240114220142 iron therapy in heart failure.md",
+    "temporary/20240114200141 peripheral vascular atherosclerosis.md",
+    "templates/literature-note.md",
+    "resources/20240115100127-rasopathy-diagram-1.png",
+    "literature/Kalra2022.md",
+    "literature/Goldbogen2019.md",
+    "literature",
     "drafts/tidymodels.Rmd",
     "drafts/thoughts.Rmd",
     "drafts/technical.Rmd",
@@ -191,28 +185,7 @@
     "drafts/index.Rmd",
     "drafts/heart.Rmd",
     "drafts/functions.Rmd",
-    "drafts/echo.Rmd",
-    "literature/Kalra2022.md",
-    "temporary/20240115100127 noonan syndrome.md",
-    "resources/20240115100127-rasopathy-diagram-1.png",
-    "resources/Pasted image 20240115102030.png",
-    "resources/20240115100127-rasopathy-diagram.png",
-    "resources/Pasted image 20240115100957.png",
-    "temporary/20240114220142 iron therapy in heart failure.md",
-    "templates/temporary-note.md",
-    "templates/literature-note.md",
-    "permanent/Comparative Cardiology.md",
-    "literature/Goldbogen2019.md",
-    "temporary/20240114200141 peripheral vascular atherosclerosis.md",
-    "temporary/20240113230125-sdoh.md",
-    "temporary/20240114190173.md",
-    "temporary/20240113230105-tga.md",
-    "temporary/2024-01-14.md",
-    "permanent/Social Determinants of Health.md",
-    "permanent/Neighborhood Deprivation Index.md",
     "temporary/20240113220160-friedrich-ataxia.md",
-    "temporary/research-stress-washout.md",
-    "temporary/ecg-rvot.md",
     "Untitled.md",
     "temporary/Temporary.md"
   ]

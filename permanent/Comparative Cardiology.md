@@ -1,6 +1,7 @@
 ---
-category: tree
-status: progress
+date: {date}
+category: structure
+status: pending
 ---
 
 This document serves as a resource for literature involving comparative cardiology in different species.
