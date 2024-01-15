@@ -1,5 +1,5 @@
 ---
-category: literature
+category: reference
 citekey: @{{citekey}}
 status: planning
 year: {{date | format('YYYY')}}

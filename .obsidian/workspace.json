@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db6fbcbbbc747373",
+        "id": "48a9e4e0ab0f12fa",
         "type": "tabs",
         "children": [
           {
-            "id": "12c864d450fac075",
+            "id": "937fdde813bb15f7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -61,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,9 +152,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "12c864d450fac075",
+  "active": "937fdde813bb15f7",
   "lastOpenFiles": [
     "README.md",
+    "templates/literature-note.md",
     "permanent/20240115120188 AFEQT and SDOH.md",
     "permanent/Neighborhood Deprivation Index.md",
     "permanent/Comparative Cardiology.md",
@@ -175,7 +175,6 @@
     "temporary/20240115100127 noonan syndrome.md",
     "temporary/20240114220142 iron therapy in heart failure.md",
     "temporary/20240114200141 peripheral vascular atherosclerosis.md",
-    "templates/literature-note.md",
     "resources/20240115100127-rasopathy-diagram-1.png",
     "literature/Kalra2022.md",
     "literature/Goldbogen2019.md",
