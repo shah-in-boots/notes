@@ -1,5 +1,7 @@
 [
   "dataview",
   "obsidian-zotero-desktop-connector",
-  "obsidian-pandoc-reference-list"
+  "obsidian-pandoc-reference-list",
+  "obsidian-paste-image-rename",
+  "oz-clear-unused-images"
 ]

@@ -2,7 +2,7 @@
   "command-palette:open": [
     {
       "modifiers": [
-        "Mod"
+        "Ctrl"
       ],
       "key": "/"
     }
@@ -42,14 +42,6 @@
   "workspace:goto-tab-6": [],
   "workspace:goto-tab-7": [],
   "workspace:goto-tab-8": [],
-  "editor:insert-tag": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": ","
-    }
-  ],
   "workspace:close": [
     {
       "modifiers": [
@@ -106,15 +98,6 @@
       "key": "5"
     }
   ],
-  "backlink:toggle-backlinks-in-document": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": " "
-    }
-  ],
   "markdown:toggle-preview": [
     {
       "modifiers": [
@@ -138,6 +121,31 @@
         "Ctrl"
       ],
       "key": "M"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": " "
+    }
+  ],
+  "backlink:toggle-backlinks-in-document": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": ","
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "."
     }
   ]
 }

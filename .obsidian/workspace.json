@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1e80d83d2c538419",
+        "id": "d98fcbe06b5c8193",
         "type": "tabs",
         "children": [
           {
-            "id": "3052b0d5cad346e5",
+            "id": "1b0ffaee03c4c24c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cards",
+                "query": "kalra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,9 +141,17 @@
               "type": "ReferenceListView",
               "state": {}
             }
+          },
+          {
+            "id": "f0ad4635c3279764",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,16 +169,30 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "3052b0d5cad346e5",
+  "active": "1b0ffaee03c4c24c",
   "lastOpenFiles": [
+    "tidymodels.Rmd",
+    "thoughts.Rmd",
+    "technical.Rmd",
+    "package.Rmd",
+    "notes.Rproj",
+    "modeling.Rmd",
+    "mkdocs.yml",
+    "LICENSE",
+    "intro.Rmd",
+    "index.Rmd",
+    "heart.Rmd",
+    "literature/Kalra2022.md",
+    "temporary/20240115100127 noonan syndrome.md",
+    "resources/20240115100127-rasopathy-diagram-1.png",
+    "resources/Pasted image 20240115102030.png",
+    "resources/20240115100127-rasopathy-diagram.png",
+    "resources/Pasted image 20240115100957.png",
     "temporary/20240114220142 iron therapy in heart failure.md",
     "templates/temporary-note.md",
     "templates/literature-note.md",
-    "literature/Kalra2022.md",
     "permanent/Comparative Cardiology.md",
     "literature/Goldbogen2019.md",
-    "images",
-    "literature",
     "temporary/20240114200141 peripheral vascular atherosclerosis.md",
     "temporary/20240113230125-sdoh.md",
     "temporary/20240114190173.md",
@@ -181,7 +203,6 @@
     "temporary/20240113220160-friedrich-ataxia.md",
     "drafts/research-stress-washout.md",
     "drafts/ecg-rvot.md",
-    "permanent",
     "Untitled.md",
     "temporary/Temporary.md"
   ]
