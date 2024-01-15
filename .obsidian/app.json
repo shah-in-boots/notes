@@ -5,5 +5,8 @@
   "vimMode": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "temporary",
-  "attachmentFolderPath": "resources"
+  "attachmentFolderPath": "resources",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": false
 }
