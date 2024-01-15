@@ -9,8 +9,8 @@
     {
       "name": "Article",
       "outputPathTemplate": "literature/{{citekey}}.md",
-      "imageOutputPathTemplate": "images/{{citekey}}/",
-      "imageBaseNameTemplate": "image",
+      "imageOutputPathTemplate": "figures/{{citekey}}/",
+      "imageBaseNameTemplate": "fig",
       "templatePath": "templates/literature-note.md",
       "cslStyle": "apa"
     }

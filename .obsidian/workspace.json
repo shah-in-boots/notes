@@ -179,8 +179,9 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "b399e33243b6a1d0",
+  "active": "1b0ffaee03c4c24c",
   "lastOpenFiles": [
+    "figures",
     "drafts/tidymodels.Rmd",
     "drafts/thoughts.Rmd",
     "drafts/technical.Rmd",
@@ -191,7 +192,6 @@
     "drafts/heart.Rmd",
     "drafts/functions.Rmd",
     "drafts/echo.Rmd",
-    "drafts/cosinor.Rmd",
     "literature/Kalra2022.md",
     "temporary/20240115100127 noonan syndrome.md",
     "resources/20240115100127-rasopathy-diagram-1.png",
