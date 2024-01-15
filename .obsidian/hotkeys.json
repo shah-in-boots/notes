@@ -8,20 +8,12 @@
     }
   ],
   "editor:toggle-comments": [],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "T"
-    }
-  ],
   "switcher:open": [
     {
       "modifiers": [
         "Ctrl"
       ],
-      "key": "Tab"
+      "key": "T"
     }
   ],
   "workspace:goto-last-tab": [],
@@ -30,15 +22,16 @@
       "modifiers": [
         "Ctrl"
       ],
-      "key": "J"
+      "key": "Tab"
     }
   ],
   "workspace:previous-tab": [
     {
       "modifiers": [
-        "Ctrl"
+        "Ctrl",
+        "Shift"
       ],
-      "key": "K"
+      "key": "Tab"
     }
   ],
   "workspace:goto-tab-1": [],
@@ -103,6 +96,48 @@
         "Ctrl"
       ],
       "key": "N"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "5"
+    }
+  ],
+  "backlink:toggle-backlinks-in-document": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": " "
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": " "
+    }
+  ],
+  "obsidian-zotero-desktop-connector:zdc-exp-Article": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "M"
     }
   ]
 }

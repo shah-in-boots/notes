@@ -1,4 +1,5 @@
 ---
-date: {date}{time}
-parent: [[../temporary/Temporary]]
+date: {date}
+category: temporary
+status: todo
 ---

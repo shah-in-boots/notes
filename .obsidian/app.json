@@ -8,5 +8,6 @@
   "attachmentFolderPath": "resources",
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "promptDelete": false
 }

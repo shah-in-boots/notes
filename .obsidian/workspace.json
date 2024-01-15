@@ -4,48 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e363e5afc7402a83",
+        "id": "1e80d83d2c538419",
         "type": "tabs",
         "children": [
           {
-            "id": "927748b82c67161e",
+            "id": "3052b0d5cad346e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "temporary/20240113230125-sdoh.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6123260a79f14a1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "permanent/Social Determinants of Health.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c0889ef0d42ece5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "temporary/20240113230105-tga.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#cards",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,25 +82,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "temporary/20240113230105-tga.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "18765e71af1c72dc",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "temporary/20240113230105-tga.md",
-                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -150,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "temporary/20240113230105-tga.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,9 +122,28 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "429d4a93535331f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "002ca92564552bd2",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -186,14 +161,27 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "c0889ef0d42ece5e",
+  "active": "3052b0d5cad346e5",
   "lastOpenFiles": [
-    "permanent/Social Determinants of Health.md",
-    "temporary/20240113230105-tga.md",
-    "permanent/Neighborhood Deprivation Index.md",
+    "temporary/20240114220142 iron therapy in heart failure.md",
+    "templates/temporary-note.md",
+    "templates/literature-note.md",
+    "literature/Kalra2022.md",
+    "permanent/Comparative Cardiology.md",
+    "literature/Goldbogen2019.md",
+    "images",
+    "literature",
+    "temporary/20240114200141 peripheral vascular atherosclerosis.md",
     "temporary/20240113230125-sdoh.md",
-    "permanent",
+    "temporary/20240114190173.md",
+    "temporary/20240113230105-tga.md",
+    "temporary/2024-01-14.md",
+    "permanent/Social Determinants of Health.md",
+    "permanent/Neighborhood Deprivation Index.md",
     "temporary/20240113220160-friedrich-ataxia.md",
+    "drafts/research-stress-washout.md",
+    "drafts/ecg-rvot.md",
+    "permanent",
     "Untitled.md",
     "temporary/Temporary.md"
   ]

@@ -5,14 +5,14 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1705211272122
+      "lastUpdate": 1705284293960
     }
   ],
   "renderCitations": true,
   "renderCitationsReadingMode": true,
   "renderLinkCitations": true,
   "pullFromZotero": true,
-  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/the-new-england-journal-of-medicine.csl",
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl",
   "hideLinks": true,
   "enableCiteKeyCompletion": true,
   "showCitekeyTooltips": true
