@@ -1,5 +1,5 @@
 ---
-tags: [ecg, ans, research]
+tags: [electrocardiography, autonomic, research]
 ---
 
 Bradycardia may be from both vagal tone and ischemia of the conduction system. 

@@ -1,5 +1,5 @@
 ---
-tags: [review, manuscript, cards, brainstorm]
+tags: [review, manuscript, cardiology, brainstorm]
 ---
 
 # Ideas

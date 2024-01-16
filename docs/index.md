@@ -1,6 +1,3 @@
----
-tags: [toc, index]
----
 
 # Notes
 

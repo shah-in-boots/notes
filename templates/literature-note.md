@@ -1,7 +1,7 @@
 ---
 category: reference
 citekey: @{{citekey}}
-status: planning
+stage: planning
 year: {{date | format('YYYY')}}
 ---
 

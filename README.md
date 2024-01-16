@@ -23,9 +23,10 @@ There are several folders for organization that serve difference purposes
 - project
 - reference
 
-## Status
+## Stage
 
+- considering
+- growing
 - planning
-- working
-- active
-- todo
+- questioning
+- pruning

@@ -1,6 +1,3 @@
----
-tags: [r, code, stats, epi]
----
 
 This is a brainstorming area for the [[package-arcana]] that is under development.
 

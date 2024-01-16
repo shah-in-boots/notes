@@ -1,5 +1,5 @@
 ---
-tags: [matlab, R, egm, ep, code, brainstorm]
+tags: [matlab, R, electrogram, electrophysiology, code, brainstorm]
 ---
 
 We can generate a topographical map of the heart, with the tissue properties representing how cardiac structures will transmit electricity/current. 

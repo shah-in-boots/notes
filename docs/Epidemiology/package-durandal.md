@@ -1,6 +1,3 @@
----
-tags: [code, stats, r]
----
 
 # Overview
 

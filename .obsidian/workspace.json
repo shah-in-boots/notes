@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "48a9e4e0ab0f12fa",
+        "id": "398a37c56749fe16",
         "type": "tabs",
         "children": [
           {
-            "id": "937fdde813bb15f7",
+            "id": "19de71979b1582a4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "readm",
+                "query": "readme",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -152,11 +152,22 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "937fdde813bb15f7",
+  "active": "19de71979b1582a4",
   "lastOpenFiles": [
+    "permanent/Global Electrical Heterogeneity and Diabetes Mellitus in CARRS.md",
     "README.md",
     "templates/literature-note.md",
-    "permanent/20240115120188 AFEQT and SDOH.md",
+    "templates/temporary-note.md",
+    "docs/index.md",
+    "literature/Greenland2016.md",
+    "temporary/20240115210180 outcome and exposure relationships.md",
+    "docs/Epidemiology/package-durandal.md",
+    "docs/Epidemiology/package-volundr.md",
+    "docs/Epidemiology/package-arcana.md",
+    "permanent/AFEQT and Social Determinants of Health.md",
+    "permanent/Outcome and Exposure Relationships.md",
+    "temporary/Statistical anaalysis.md",
+    "literature/Goldbogen2019.md",
     "permanent/Neighborhood Deprivation Index.md",
     "permanent/Comparative Cardiology.md",
     "permanent/Social Determinants of Health.md",
@@ -169,15 +180,7 @@
     "temporary/neurocardiac-pathways.md",
     "temporary/murine-models.md",
     "temporary/egm-topography.md",
-    "temporary/ecg-rvot.md",
-    "temporary/ecg-research-ideas.md",
-    "temporary/atrial-fibrillation-subtypes.md",
-    "temporary/20240115100127 noonan syndrome.md",
-    "temporary/20240114220142 iron therapy in heart failure.md",
-    "temporary/20240114200141 peripheral vascular atherosclerosis.md",
     "resources/20240115100127-rasopathy-diagram-1.png",
-    "literature/Kalra2022.md",
-    "literature/Goldbogen2019.md",
     "literature",
     "drafts/tidymodels.Rmd",
     "drafts/thoughts.Rmd",
@@ -187,9 +190,6 @@
     "drafts/intro.Rmd",
     "drafts/index.Rmd",
     "drafts/heart.Rmd",
-    "drafts/functions.Rmd",
-    "temporary/20240113220160-friedrich-ataxia.md",
-    "Untitled.md",
-    "temporary/Temporary.md"
+    "drafts/functions.Rmd"
   ]
 }

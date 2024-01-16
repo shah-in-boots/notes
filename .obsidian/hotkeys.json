@@ -4,7 +4,7 @@
       "modifiers": [
         "Ctrl"
       ],
-      "key": "/"
+      "key": "A"
     }
   ],
   "editor:toggle-comments": [],
@@ -90,29 +90,12 @@
       "key": "N"
     }
   ],
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "5"
-    }
-  ],
   "markdown:toggle-preview": [
     {
       "modifiers": [
         "Ctrl"
       ],
       "key": " "
-    }
-  ],
-  "obsidian-zotero-desktop-connector:zdc-exp-Article": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "A"
     }
   ],
   "file-explorer:move-file": [
@@ -140,12 +123,28 @@
       "key": ","
     }
   ],
-  "global-search:open": [
+  "file-explorer:open": [
     {
       "modifiers": [
         "Ctrl"
       ],
       "key": "."
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "/"
+    }
+  ],
+  "obsidian-zotero-desktop-connector:zdc-exp-Article": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "I"
     }
   ]
 }

@@ -1,5 +1,5 @@
 ---
-date: {date}
+date: {{date | format('YYYY-MM-DD')}}
 category: temporary
-status: todo
+stage: considering
 ---

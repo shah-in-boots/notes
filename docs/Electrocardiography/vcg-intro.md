@@ -1,5 +1,5 @@
 ---
-tags: [ep, cards, thoughts]
+tags: [electrophysiology, cardiology, thoughts]
 ---
 
 # Vectorcardiography

@@ -1,5 +1,5 @@
 ---
-tags: [research, ecg]
+tags: [research, electrocardiography]
 ---
 
 1. Programmatic approach to visualize ECG rhythm patterns, particularly that of PVC and localization. [[programming-ecg-visualization]]

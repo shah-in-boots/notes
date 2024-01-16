@@ -1,5 +1,5 @@
 ---
-tags: [r, ecg]
+tags: [r, electrocardiography]
 ---
 
 Can a 12-lead ECG be mapped onto a virtual geometrical space that helps to allow for localization of certain cardiac features?  This concept is based on the idea of [ECG imaging](https://www.ecg-imaging.org/home) which attempts to reconstitute body surface ECGs onto the heart.

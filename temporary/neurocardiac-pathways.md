@@ -1,5 +1,5 @@
 ---
-tags: [ans, ideas, research]
+tags: [autonomic, ideas, research]
 ---
 
 Comparison of sympathetic and vagal effects on cardiac function:

@@ -1,5 +1,5 @@
 ---
-tags: [ep, cards, thoughts]
+tags: [electrophysiology, cardiology, thoughts]
 ---
 
 Why does the RVOT seem to have an increase in overall arrhythmogenic potential?
