@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "398a37c56749fe16",
+        "id": "655ee21b8dd4ad77",
         "type": "tabs",
         "children": [
           {
-            "id": "19de71979b1582a4",
+            "id": "305233f0877ca39f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "permanent/Social Determinants of Health.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "67085976d54e2d9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "permanent/Interaction Effect Estimation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "readme",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "permanent/Interaction Effect Estimation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "permanent/Interaction Effect Estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,11 +151,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "permanent/Interaction Effect Estimation.md"
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -152,34 +175,34 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "19de71979b1582a4",
+  "active": "67085976d54e2d9f",
   "lastOpenFiles": [
+    "docs/Arrhythmia/paper-arrhythmias-and-infective-endocarditis.md",
+    "permanent/Interaction Effect Estimation.md",
+    "temporary/20240116130146 forest plots based on interaction.md",
+    "docs/Computational/{vlndr}.md",
+    "permanent/Social Determinants of Health.md",
+    "docs/index.md",
+    "docs/Arrhythmia/paper-sympathetic-innervation.md",
+    "docs/Epidemiology/package-arcana.md",
+    "docs/Epidemiology/package-durandal.md",
+    "temporary/20240116120101 creation of forest plots.md",
+    "temporary/20240116120175.md",
+    "permanent/Neighborhood Deprivation Index.md",
     "permanent/Global Electrical Heterogeneity and Diabetes Mellitus in CARRS.md",
+    "permanent/Diabetes Mellitus and Atrial Fibrillation.md",
+    "permanent/Comparative Cardiology.md",
     "README.md",
+    "permanent/AFEQT and Social Determinants of Health.md",
     "templates/literature-note.md",
     "templates/temporary-note.md",
-    "docs/index.md",
-    "literature/Greenland2016.md",
-    "temporary/20240115210180 outcome and exposure relationships.md",
-    "docs/Epidemiology/package-durandal.md",
-    "docs/Epidemiology/package-volundr.md",
-    "docs/Epidemiology/package-arcana.md",
-    "permanent/AFEQT and Social Determinants of Health.md",
-    "permanent/Outcome and Exposure Relationships.md",
-    "temporary/Statistical anaalysis.md",
-    "literature/Goldbogen2019.md",
-    "permanent/Neighborhood Deprivation Index.md",
-    "permanent/Comparative Cardiology.md",
-    "permanent/Social Determinants of Health.md",
-    "temporary/20240113230125-sdoh.md",
+    "temporary/20240113220160-friedrich-ataxia.md",
     "temporary/20240113230105-tga.md",
-    "temporary/research-stress-washout.md",
-    "temporary/research-ecg-and-vagal-tone.md",
-    "temporary/research-atrial-fibrillation.md",
-    "temporary/programming-ecg-visualization.md",
-    "temporary/neurocardiac-pathways.md",
-    "temporary/murine-models.md",
-    "temporary/egm-topography.md",
+    "temporary/20240114220142 iron therapy in heart failure.md",
+    "temporary/20240115100127 noonan syndrome.md",
+    "temporary/20240116110132 DM and AF.md",
+    "temporary/20240116110198.md",
+    "temporary/20240116120108.md",
     "resources/20240115100127-rasopathy-diagram-1.png",
     "literature",
     "drafts/tidymodels.Rmd",

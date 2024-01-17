@@ -18,15 +18,22 @@ There are several folders for organization that serve difference purposes
 
 ## Categories
 
-- index
-- concept
-- project
-- reference
+| Category | Description |
+| - | --- |
+| structure | scaffolds other notes |
+| concept | focuses on single atomic idea |
+| project | focuses on temporal project |
+| reference | describes reference material |
 
 ## Stage
 
-- considering
-- growing
-- planning
-- questioning
-- pruning
+The following stages are ways to help identify where a document exists in its life-span.  They are listed in what I believe is their sequential order.
+
+| Stage | Indication |
+| - | --- |
+| considering | initialization of note |
+| growing | development of outline elements |
+| working | active and stable note |
+| pruning | simplification of note
+| questioning | consideration for refactoring |
+| pending | held or reserved, lower priority |

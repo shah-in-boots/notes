@@ -1,7 +1,7 @@
 ---
-date: {date}
+date: 2024-01-14
 category: structure
-status: pending
+stage: considering
 ---
 
 This document serves as a resource for literature involving comparative cardiology in different species.
