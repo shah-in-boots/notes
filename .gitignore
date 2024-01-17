@@ -44,3 +44,6 @@ vignettes/*.pdf
 # DS store
 .DS_Store
 docs/.DS_Store
+
+# Obsidian workspace (changes too frequently)
+.obsidian/workspace.json
