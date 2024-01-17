@@ -1,10 +1,12 @@
 ---
 date: 2024-01-16
 category: structure
-stage: questioning
+stage: working
 ---
 
-This is a brainstorming area for the `{vlndr}` package. The goal is to organize multiple models for understanding relationships.
+The `R` package `{vlndr}` is a software package built to handle and organize multiple models when performing causal-oriented analyses.  The package documentation is located on the [website](https://asshah4.github.io/vlndr) and development is on [Github](https://github.com/asshah4/vlndr).
+
+This is a brainstorming area for the `{vlndr}` package. The goal is to organize multiple models for understanding relationship.
 
 Forest plots based on interaction terms
 Interaction terms need:
