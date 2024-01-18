@@ -1,7 +1,7 @@
 ---
 category: reference
 citekey: @{{citekey}}
-stage: planning
+stage: working
 year: {{date | format('YYYY')}}
 ---
 
@@ -27,16 +27,19 @@ year: {{date | format('YYYY')}}
 # Annotations
 {% persist "annotations" %}  
 {% set newAnnotations = annotations | filterby("date", "dateafter", lastImportDate) %}  
+
 {% if newAnnotations.length > 0 %}  
-  
 ###### Imported: {{importDate | format("YYYY-MM-DD h:mm a")}}  
-  
 {% for annotation in newAnnotations %}  
 > {{annotation.annotatedText}}  
+{% if annotation.imageRelativePath %} 
+![[{{annotation.imageRelativePath}}]]
+{% endif %}
 {% if annotation.comment %}
 *{{annotation.comment}}*
 {% endif %}
 {% endfor %}  
+
 {% endif %}  
 {% endpersist %}
 
