@@ -27,13 +27,30 @@ There are several folders for organization that serve difference purposes
 
 ## Stage
 
-The following stages are ways to help identify where a document exists in its life-span.  They are listed in what I believe is their sequential order.
+The following stages are ways to help identify where a document exists in its life-span. They are listed alphabetically below and not in the order of how they should be used.
 
 | Stage | Indication |
 | - | --- |
 | considering | initialization of note |
-| growing | development of outline elements |
-| working | active and stable note |
-| pruning | simplification of note
-| questioning | consideration for refactoring |
+| building | development of outline elements |
+| working | active and overall note |
+| factoring | simplification of note |
 | pending | held or reserved, lower priority |
+| complete | no longer expecting updates |
+| questioning | consideration for refactoring |
+
+
+Instead, here I have a working diagram of how I expect the stages to be cycled through.
+
+```mermaid
+flowchart LR
+	considering --> building
+	building --> active
+	subgraph active[ ]
+		working --> factoring
+		factoring --> questioning
+		questioning --> working
+	end
+	active --> complete
+	active --> pending
+```
