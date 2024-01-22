@@ -21,9 +21,10 @@ There are several folders for organization that serve difference purposes
 | Category | Description |
 | - | --- |
 | structure | scaffolds other notes |
-| concept | focuses on single atomic idea |
-| project | focuses on temporal project |
-| reference | describes reference material |
+| concept | single/focused atomic idea |
+| project | topic-specific, temporal, building work |
+| reference | reference material |
+| meta | notes on **how** notes/objects/etc are written |
 
 ## Stage
 
