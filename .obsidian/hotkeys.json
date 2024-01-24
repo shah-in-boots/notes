@@ -164,5 +164,13 @@
       ],
       "key": "Backspace"
     }
+  ],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
   ]
 }
