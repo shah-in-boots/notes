@@ -1,7 +1,7 @@
 ---
 date: 2024-01-17
 category: project
-stage: considering
+stage: building
 ---
 
 Using deep learning, I hope to identify features from a single ECG beat over the standard 12-leads that contribute to a certain diagnosis. This is similar to the work by @vandeLeur2021. 
