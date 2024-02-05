@@ -1,7 +1,7 @@
 {
   "deleteOption": "system-trash",
   "logsModal": true,
-  "excludedFolders": "., drafts, figures",
+  "excludedFolders": "., drafts, figures, literature, evernote",
   "ribbonIcon": false,
   "excludeSubfolders": false
 }
