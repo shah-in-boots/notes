@@ -47,7 +47,7 @@ BACKGROUND: ECG interpretation requires expertise and is mostly based on physici
 
 # Notes
 %% begin notes %%
-
+This approach using  neural networks seems to be readily applicable across multiple diseases. The limitation I think is in getting the case-control ratio correct.
 %% end notes %%
 
 %% Import Date: 2024-01-17T20:55:36.846-06:00 %%

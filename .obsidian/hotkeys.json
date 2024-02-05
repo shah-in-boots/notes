@@ -165,12 +165,12 @@
       "key": "Backspace"
     }
   ],
-  "workspace:new-tab": [
+  "obsidian-pandoc-reference-list:focus-reference-list-view": [
     {
       "modifiers": [
-        "Ctrl"
+        "Alt"
       ],
-      "key": "T"
+      "key": "I"
     }
   ]
 }

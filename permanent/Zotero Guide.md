@@ -1,7 +1,7 @@
 ---
 date: 2024-01-19
 category: meta
-stage: considering
+stage: working
 ---
 
 # Approach
