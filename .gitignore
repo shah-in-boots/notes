@@ -47,3 +47,5 @@ docs/.DS_Store
 
 # Obsidian workspace (changes too frequently)
 .obsidian/workspace.json
+.obsidian/plugins/obsidian-pandoc-reference-list/data.json
+
