@@ -10,7 +10,7 @@ year: 2019
 
 %% begin tags %%
 #mammals
-#electrocardiography
+#electrocardiogram
 #diving
 #animals
 %% end tags %%

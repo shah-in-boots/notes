@@ -10,7 +10,7 @@ year: 2021
 
 %% begin tags %%
 #machine_learning 
-#electrocardiography 
+#electrocardiogram 
 #genetics 
 %% end tags %%
 

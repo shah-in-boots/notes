@@ -1,16 +1,12 @@
 
 # Notes
 
-Here is a collection of my shared notes, which use the zettelkasten method for linking between ideas and thoughts. Generally, I've organized my notes below as areas/ways to explore and brainstorm.
+Here is a collection of my shared notes, which use the *zettelkasten* method for linking between ideas and thoughts. Generally, I've organized my notes below based on areas that I find recurring in my academic life.
 
-## Electrocardiography
+## Arrhythmia: molecular and genetic mechanisms 
 
-This section is dedication to the majority of interesting ECG-based concepts as I uncover and learn about them.
+## Computational: machine learning and signal processing methods 
 
-## Epidemiology
+## Epidemiology: biostatistics and stress physiology
 
-With a background in biostatistic and epidemiology, this section is focused primarily on biostatistical thoughts and programming in R.
-
-## Neurocardiology
-
-This is my core area of interest and research, focused on how autonomic control regulates cardiac physiology.
+## Cardiology: echocardiography and cardiac electrophysiology

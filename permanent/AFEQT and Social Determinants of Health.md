@@ -4,6 +4,8 @@ category: project
 stage: working
 ---
 
+This project was initialized during [[T32 and F32 Research Years]].
+
 # Overview
 
 The AFEQT scores are measured at baseline and at follow-up.
@@ -41,7 +43,6 @@ Confounders:
 The statistical methods to analyze these relationships are complex.
 One of the outcomes, change in AFEQT score, is not truly independent of the exposure variable (AFEQT at baseline). 
 The dependence on the change in AFEQT requires specific adjustment for baseline values in almost all analysis, however from a statistical perspective, there is more to it. 
-
 
 # Tables & Figures
 

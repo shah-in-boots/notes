@@ -18,5 +18,5 @@ Similar to [[../permanent/Global Electrical Heterogeneity and Diabetes Mellitus 
 
 #afib 
 #diabetes 
-#electrocardiography 
+#electrocardiogram 
 #echocardiography

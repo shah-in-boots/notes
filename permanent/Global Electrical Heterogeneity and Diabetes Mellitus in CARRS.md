@@ -77,6 +77,6 @@ This is a summary of the most important findings.
 
 
 #diabetes
-#electrocardiography 
+#electrocardiogram 
 #epidemiology 
 #manuscript 
