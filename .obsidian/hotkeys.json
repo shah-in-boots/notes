@@ -82,14 +82,6 @@
       "key": "L"
     }
   ],
-  "zk-prefixer": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "N"
-    }
-  ],
   "markdown:toggle-preview": [
     {
       "modifiers": [
@@ -171,6 +163,15 @@
         "Alt"
       ],
       "key": "I"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
     }
   ]
 }
