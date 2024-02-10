@@ -20,16 +20,27 @@ What I want to focus on is how, mechanistically, stress changes electrophysiolog
 
 My focus is more so on AF as a model disease, as it has multiple "flavors" (vagally-mediated, adrenergically-mediated, etc), multiple phenotypes, and fits well with the *Coumel's triangle* of arrhythmology.
 
-# Research skills
+# Specific aims
 
-- Signal processing
-- Biostatistics
-- Harmonic regression
-- Computational genetics
-- Coding/programming
-- Electrophysiology procedures
-- Molecular mechanisms of arrhythmia
-- Autonomic nervous system
+I need to break apart my __BHAG__ into a overarching hypothesis that leads me towards it, as it needs to be a small enough project that can be tested and finished within 5 years (at 50% protected time).
+
+The hypothesis then needs to be approached using 3-4 specific aims, building on my skills and prior research.
+
+- Signal processing: ECG and EGM data
+- Biostatistics: statistical analyses, recurrent events
+- Harmonic regression: cosinor metrics
+- Computational genetics: Ensembl-VEP software, rare variant analysis
+- Coding/programming: R, MATLAB, Python
+- Electrophysiology procedures: animal and human studies, access to specific EP data
+
+## Aim 1
+
+## Aim 2
+
+## Aim 3
+
+
+I have to combine these skills together into three general aims
 
 
 # Mentorship, Coaching, and Sponsorship
