@@ -13,7 +13,7 @@ Particularly, I will need to reference the [[University of Utah Research]] oppor
 
 # Big hairy audacious goal
 
-The **BHAG**, as described by [[../temporary/Emelia Benjamin, MD|Emelia Benjamin, MD]] from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
+The **BHAG**, as described by [[Emelia Benjamin, MD|Emelia Benjamin, MD]] from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
 My area of interest is in how stress can precipitate arrhythmia.
 Stress physiology is complex, and involves the entirety of the neurocardiac axis. 
 What I want to focus on is how, mechanistically, stress changes electrophysiological properties locally and how that leads to a propensity for arrhythmia.
@@ -23,7 +23,6 @@ My focus is more so on AF as a model disease, as it has multiple "flavors" (vaga
 # Specific aims
 
 I need to break apart my __BHAG__ into a overarching hypothesis that leads me towards it, as it needs to be a small enough project that can be tested and finished within 5 years (at 50% protected time).
-
 The hypothesis then needs to be approached using 3-4 specific aims, building on my skills and prior research.
 
 - Signal processing: ECG and EGM data
@@ -32,6 +31,11 @@ The hypothesis then needs to be approached using 3-4 specific aims, building on 
 - Computational genetics: Ensembl-VEP software, rare variant analysis
 - Coding/programming: R, MATLAB, Python
 - Electrophysiology procedures: animal and human studies, access to specific EP data
+
+My overall interest is in using the K23 to explore how research can be performed in the EP lab, while also advancing my skills in epidemiology, signal processing, and genetics. 
+As such, an aim needs to be in the EP lab collecting and enrolling patients. 
+Another aim needs to be in the genetics field, either in a large cohort like the UK Biobank or from other AF-based genetic cohorts.
+An aim also needs to be considering how to look at signal processing or computational techniques.
 
 ## Aim 1
 
@@ -49,8 +53,8 @@ I have started developing a research and mentorship network that will be critica
 
 - [[Amit J. Shah, MD, MS|Amit J. Shah, MD, MS]] 
 - [[Alvaro Alonso, MD, PhD|Alvaro Alonso, MD, PhD]]
-- [[../temporary/Emelia Benjamin, MD|Emelia Benjamin, MD]]
-- Dawood
+- [[Emelia Benjamin, MD|Emelia Benjamin, MD]]
+- [[Dawood Darbar, MD, MBChB|Dawood Darbar, MD, MBChB]]
 - Ravi Ranjan
 
 
