@@ -26,7 +26,6 @@ The literature file uses Zotero-integrated articles, which are annotated as I re
 | concept | single/focused atomic idea |
 | project | topic-specific, temporal, building work |
 | reference | reference material |
-| meta | notes on **how** notes/objects/etc are written |
 
 ## Stage
 

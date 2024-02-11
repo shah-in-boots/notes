@@ -1,6 +1,6 @@
 ---
 date: 2024-01-19
-category: meta
+category: structure
 stage: working
 ---
 
