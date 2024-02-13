@@ -13,7 +13,7 @@ Particularly, I will need to reference the [[University of Utah Research]] oppor
 
 # Big hairy audacious goal
 
-zhe **BHAG**, as described by [[Emelia Benjamin, MD|Emelia Benjamin, MD]] from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
+zhe **BHAG**, as described by [[Emelia Benjamin, MD, ScM|Emelia Benjamin, MD, ScM]] from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
 My area of interest is in how stress can precipitate arrhythmia.
 Stress physiology is complex, and involves the entirety of the neurocardiac axis. 
 What I want to focus on is how, mechanistically, stress changes electrophysiological properties locally and how that leads to a propensity for arrhythmia.
@@ -27,7 +27,7 @@ The hypothesis then needs to be approached using 3-4 specific aims, building on 
 
 - Signal processing: ECG and EGM data
 - Biostatistics: statistical analyses, recurrent events
-- Harmonic regression: cosinor metrics
+- Harmonic regression: cosinor analysis
 - Computational genetics: Ensembl-VEP software, rare variant analysis
 - Coding/programming: R, MATLAB, Python
 - Electrophysiology procedures: animal and human studies, access to specific EP data
@@ -36,16 +36,22 @@ My overall interest is in using the K23 to explore how research can be performed
 As such, an aim needs to be in the EP lab collecting and enrolling patients. 
 Another aim needs to be in the genetics field, either in a large cohort like the UK Biobank or from other AF-based genetic cohorts.
 An aim also needs to be considering how to look at signal processing or computational techniques.
+The aims need to focus on a specific disease type, as the model, such as atrial fibrillation.
 
-## Aim 1
+## Genetics aim
 
-## Aim 2
+- genetic variant analysis and the relationship to ECG data (e.g. ECG classification of TTN variants)
+- Mendelian randomization approach in the UK Biobank to genetic data.
 
-## Aim 3
+## Epidemiology aim 
 
+- phenotyping of AF to help identify "autonomic" or "vagolytic" subtypes
+- evaluating rate of change or progression of AF
+- signal processing of ECG-based and Holter-based data on identify
 
-I have to combine these skills together into three general aims
+## Electrophysiology aim
 
+- During my EP fellowship, I will need to collect data for my in-lab based aim, and must be done with the support of the Utah faculty. 
 
 # Mentorship, Coaching, and Sponsorship
 
@@ -53,9 +59,10 @@ I have started developing a research and mentorship network that will be critica
 
 - [[Amit J. Shah, MD, MS|Amit J. Shah, MD, MS]] 
 - [[Alvaro Alonso, MD, PhD|Alvaro Alonso, MD, PhD]]
-- [[Emelia Benjamin, MD|Emelia Benjamin, MD]]
+- [[Emelia Benjamin, MD, ScM|Emelia Benjamin, MD, ScM]]
 - [[Dawood Darbar, MD, MBChB|Dawood Darbar, MD, MBChB]]
-- Ravi Ranjan
+- [[Ravi Ranjan, MD, PhD]]
+
 
 
 
