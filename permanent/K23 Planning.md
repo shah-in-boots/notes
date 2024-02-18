@@ -33,25 +33,13 @@ The hypothesis then needs to be approached using 3-4 specific aims, building on 
 - Electrophysiology procedures: animal and human studies, access to specific EP data
 
 My overall interest is in using the K23 to explore how research can be performed in the EP lab, while also advancing my skills in epidemiology, signal processing, and genetics. 
-As such, an aim needs to be in the EP lab collecting and enrolling patients. 
-Another aim needs to be in the genetics field, either in a large cohort like the UK Biobank or from other AF-based genetic cohorts.
-An aim also needs to be considering how to look at signal processing or computational techniques.
-The aims need to focus on a specific disease type, as the model, such as atrial fibrillation.
+These aims need to be related but independent, and will use atrial fibrillation as the model disease. 
 
-## Genetics aim
+1. Phenotype AF based on ECG, echo, and MRI parameters to evaluate progression. Utah Database + AF registry. 
+2. EP lab to look at differences in stress / functional repolarization abnormalities during AF mapping. EP lab. Needs patients with minimal AF burden prior to start.
+3. Mendelian randomization to evaluate phenotypes of AF risk using AFGen consortium data, UK Biobank, Utah Population Database based on subphenotype. Would need to confirm and explore genetic variants in the Stress Reactivity dataset from Emory.
 
-- genetic variant analysis and the relationship to ECG data (e.g. ECG classification of TTN variants)
-- Mendelian randomization approach in the UK Biobank to genetic data.
 
-## Epidemiology aim 
-
-- phenotyping of AF to help identify "autonomic" or "vagolytic" subtypes
-- evaluating rate of change or progression of AF
-- signal processing of ECG-based and Holter-based data on identify
-
-## Electrophysiology aim
-
-- During my EP fellowship, I will need to collect data for my in-lab based aim, and must be done with the support of the Utah faculty. 
 
 # Mentorship, Coaching, and Sponsorship
 
