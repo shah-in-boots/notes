@@ -20,5 +20,8 @@
     "downscalePercent": 100
   },
   "autoPairMarkdown": false,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "smartIndentList": false,
+  "foldIndent": false,
+  "foldHeading": false
 }

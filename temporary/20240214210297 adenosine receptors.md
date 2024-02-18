@@ -1,0 +1,26 @@
+---
+date: 2024-02-14
+category: temporary
+stage: considering
+---
+
+A1R = effect on heart rate and AVB
+
+A2aR = vasodilation
+A2bR = vasodilation
+
+A3R = ischemic protection
+
+> Adenosine impacts the cardiovascular system via A1, A2A, A2B, and A3 receptor subtypes. All four receptor subtypes have been detected in the heart, with subtype distributions varying from one tissue to another [[13](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B13-jcm-09-01366)]. A1R possesses high affinity for adenosine and is expressed throughout the cardiovascular system at high levels in the atria [[14](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B14-jcm-09-01366)]. A1R expression varies in cardiac tissues with higher levels in the right atrium than in the left atrium and lower expression in ventricular myocytes than in the atrium [[15](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B15-jcm-09-01366)]. A1R is also expressed in smooth muscles and endothelial coronary tissues [[16](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B16-jcm-09-01366)]. A2AR is widely expressed in the cardiovascular system but particularly in vessels [[17](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B17-jcm-09-01366)], atria, and ventricular tissues [[14](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B14-jcm-09-01366),[18](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B18-jcm-09-01366)]. In ventricular myocytes, activation of A2AR leads to inotropic properties [[19](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B19-jcm-09-01366),[20](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B20-jcm-09-01366)]. A2BR possesses the lowest affinity for adenosine. A2BR is expressed on myocytes and fibroblasts and is reported to modulate ventricular function in animals [[20](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B20-jcm-09-01366)]. A2BR is also expressed in smooth muscles of coronary arteries mediating vasodilation [[21](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B21-jcm-09-01366)]. A3R myocardial expression is very low. Its expression, however, can be observed within the heart and appears to play a role in coronary artery muscle cells but also in other smooth muscle cells [[22](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B22-jcm-09-01366),[23](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B23-jcm-09-01366),[24](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B24-jcm-09-01366)].
+
+> A1R stimulation leads to a decrease in cAMP production in target cells, which results in the inhibition of protein kinase A (PKA) and voltage-gated calcium channels and activation of phospholipase C [[6](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B6-jcm-09-01366),[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B7-jcm-09-01366),[8](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B8-jcm-09-01366)]. Activation of A1R also leads to direct activation (cAMP-independent) of the inwardly rectifying K+ current (IKAdo). Activation of A2AR also inhibits voltage-gated Ca++ channels [[25](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B25-jcm-09-01366)]. Schematically, activation of A1R leads to bradycardia or atrioventricular block (AVB), while activation of A2AR and, to a less extent, of A2BR leads to vasodilation via NO and KATP channels [[26](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B26-jcm-09-01366)]. A2AR also inhibits L Type calcium currents [[25](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B25-jcm-09-01366)]. Despite opposite effects on cAMP production in target cells, there is some overlap between the cardiovascular effects following A1R or A2AR activation. As an example, activation of A1R leads mainly to a decrease in heart rate, but KO mice for A2AR exhibit tachycardia, suggesting that A2AR activation leads to a reduction in heart rate [[27](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B27-jcm-09-01366)]. A3Rs are implicated more specifically in ischemia/reperfusion protection, but all receptor subtypes seem to be implicated in ischemia myocardium protection [[7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B7-jcm-09-01366)]. Finally, A2A and A2B receptors are expressed on platelets, where their activation leads to antiplatelet properties via calcium flux inhibition [[28](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B28-jcm-09-01366)].
+
+> Finally, a specific pharmacological profile, called the receptor of reserve, was described in some diseases, such as coronary artery disease or syncope [[29](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B29-jcm-09-01366)]. It seems that this type of receptor, which is characterized by maximal biological effects (evaluated by cAMP production) while only a weak proportion of receptors are activated by the ligand [[30](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B30-jcm-09-01366)], is an adaptive response to compensate for low adenosine levels, low receptor expression levels or both [[29](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290927/#B29-jcm-09-01366)]. The precise role of this kind of receptor needs further investigation.
+
+
+
+#cardiology 
+#arrhythmia
+#conduction
+#drugs 
+#coronary 

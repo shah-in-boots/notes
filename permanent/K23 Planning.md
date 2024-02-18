@@ -13,7 +13,7 @@ Particularly, I will need to reference the [[University of Utah Research]] oppor
 
 # Big hairy audacious goal
 
-zhe **BHAG**, as described by [[Emelia Benjamin, MD, ScM|Emelia Benjamin, MD, ScM]] from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
+zhe **BHAG**, as described by [[Emelia J. Benjamin, MD, ScM|Emelia J. Benjamin, MD, ScM]] from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
 My area of interest is in how stress can precipitate arrhythmia.
 Stress physiology is complex, and involves the entirety of the neurocardiac axis. 
 What I want to focus on is how, mechanistically, stress changes electrophysiological properties locally and how that leads to a propensity for arrhythmia.
@@ -47,7 +47,7 @@ I have started developing a research and mentorship network that will be critica
 
 - [[Amit J. Shah, MD, MS|Amit J. Shah, MD, MS]] 
 - [[Alvaro Alonso, MD, PhD|Alvaro Alonso, MD, PhD]]
-- [[Emelia Benjamin, MD, ScM|Emelia Benjamin, MD, ScM]]
+- [[Emelia J. Benjamin, MD, ScM|Emelia J. Benjamin, MD, ScM]]
 - [[Dawood Darbar, MD, MBChB|Dawood Darbar, MD, MBChB]]
 - [[Ravi Ranjan, MD, PhD]]
 

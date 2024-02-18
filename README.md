@@ -38,14 +38,14 @@ The following stages are ways to help identify where a document exists in its li
 | working | active and overall note |
 | factoring | simplification of note |
 | pending | held or reserved, lower priority |
-| complete | no longer expecting updates |
+| done | no longer expecting updates |
 | questioning | consideration for refactoring |
 
 
 Instead, here I have a working diagram of how I expect the stages to be cycled through.
 
 ```mermaid
-flowchart LR
+flowchart TD
 	considering --> building
 	building --> active
 	subgraph active[ ]
@@ -53,6 +53,6 @@ flowchart LR
 		factoring --> questioning
 		questioning --> working
 	end
-	active --> complete
+	active --> done
 	active --> pending
 ```
