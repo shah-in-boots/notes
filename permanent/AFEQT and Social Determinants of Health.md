@@ -83,6 +83,19 @@ flowchart LR
 
 When thinking of this data from a DAG perspective, the relationship between the SDOH factors and the outcome, it appears that the treatment strategies are potential mediators for this relationship. 
 
+An alternative or more simplified way may be to make the major exposure be baseline AFEQT score, and the outcome be the change or improvement in AFEQT. SDOH factors can thus interact or have an effect by different levels (e.g. high or low SDOH status).
+
+```mermaid
+flowchart TD
+  exposure[Baseline AFEQT]
+  outcome[Change in AFEQT scores]
+  confounder[Clinical covariates]
+
+  exposure --> outcome
+  confounder --> exposure
+  confounder --> outcome
+```
+
 # Analytical Plan
 
 Going back to the DAG, albeit not truly acyclic, what is presumed as directly *causal* of improvements in AFEQT are the rate and rhythm control strategies.
@@ -106,20 +119,4 @@ The figures and tables for this paper need to be thoughtful analyses of the majo
 1. Figure = AFEQT score breakdown in the population, with subscales (bar graph), showing score changes
 1. Table = regression model for SDOH factors and AFEQT change
 1. Table = mediation analysis for SDOH factors, treatment strategies, and AFEQT scores
-1. Figure = forest plot of interaction of the __highest yield__ SDOH marker and AFEQT score changes
-
-## Table 1: Cohort Description
-
-Potential ideas
-- Key grouping by at time of AFEQT baseline
-- Rate versus rhythm control strategy 
-- Divide by major outcome of AFEQT score change (not standard approach)
-
-## Table 2: AFEQT Scores
-
-Would need to break down by AFEQT score subtype
-
-
-## Table 3: Predictors of AFEQT Change
-
-## Table 4: NDI Association with AFEQT Change
+1. Figure = forest plot of interaction 
