@@ -91,12 +91,12 @@ The cardiac fibrosis pattern seems to be diffuse repolarization abnormalities, s
 The preliminary work from 2020 fits this pattern.
 
 1. The first step would be to have a simple cohort description between diabetics and non-diabetics.
-2. Show the relationship between diabetes status and ECG markers directly, regardless of medication or glycemic control.
-3. Then, evaluate the concept of insulin resistance versus chronic hyperglycemia, using A1c and HOMA as comparative models.
+1. Show the relationship between diabetes status and ECG markers directly, regardless of medication or glycemic control.
+1. Then, evaluate the concept of insulin resistance versus chronic hyperglycemia, using A1c and HOMA as comparative models.
     1. Can evaluate the interaction between A1c and HOMA as well.
-4. Treatment effect is important. Understanding if the observed ECG changes are mediated by drug therapy is important. Mediation analysis with drug therapy.
-5. Test interaction by drug effect if present
-6. Prove linearity with spline analysis and ECG changes
+1. Treatment effect is important. Understanding if the observed ECG changes are mediated by drug therapy is important. Mediation analysis with drug therapy.
+1. Test interaction by drug effect if present
+1. Prove linearity with spline analysis and ECG changes
 
 
 #diabetes
