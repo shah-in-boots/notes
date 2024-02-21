@@ -69,7 +69,6 @@ Additional Parameters:
 The first table should be just a description of the cohort, of just CARRS1, based on the causal model.
 The main outcome are the above ECG characteristics, while the main exposure will be characteristics of diabetes. 
 
-
 ```mermaid
 flowchart LR
   out[Cardiac Toxicity]
