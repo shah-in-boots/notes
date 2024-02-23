@@ -4,7 +4,7 @@ category: reference
 stage: considering
 ---
 
-[[../permanent/Social Determinants of Health|Social Determinants of Health]]
+[Social Determinants of Health](../permanent/Social%20Determinants%20of%20Health.md)
 
 NDI is...
 

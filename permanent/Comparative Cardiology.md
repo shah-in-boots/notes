@@ -12,13 +12,13 @@ This document serves as a resource for literature involving comparative cardiolo
 
 This section is primarily due to the effect of diving on autonomic reflexes.
 
-- [[../literature/Goldbogen2019|Goldbogen2019]] evaluates ECG data on whales while they are foraging, but has low-resolution data [@Goldbogen2019]
+- [Goldbogen2019](../literature/Goldbogen2019.md) evaluates ECG data on whales while they are foraging, but has low-resolution data [@Goldbogen2019]
 
 # Arrhythmias
 
 Atrial fibrillation
 
-- [[Atrial Fibrillation in Mammals]]
+- [atrial-fibrillation-in-mammals](atrial-fibrillation-in-mammals.md)
 
 #cardiology
 #animals 

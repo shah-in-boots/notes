@@ -3,14 +3,12 @@ category: reference
 citekey: @{{citekey}}
 stage: working
 year: {{date | format('YYYY')}}
+tags:
+  - literature
 ---
 
 
 # {{title}}
-
-{% persist "tags" %}{% if isFirstImport %}
-{% endif %}
-{% endpersist %}
 
 > [!tip]  
 > **Zotero** = {{pdfZoteroLink}}
@@ -33,7 +31,7 @@ year: {{date | format('YYYY')}}
 {% for annotation in newAnnotations %}  
 > {{annotation.annotatedText}}  
 {% if annotation.imageRelativePath %} 
-![[{{annotation.imageRelativePath}}]]
+![{{annotation.imageRelativePath}}]({{annotation.imageRelativePath}})
 {% endif %}
 {% if annotation.comment %}
 *{{annotation.comment}}*

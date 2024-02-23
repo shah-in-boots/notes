@@ -2,9 +2,14 @@
 date: 2024-01-16
 category: concept
 stage: working
+tags:
+- statistics 
+- epidemiology 
+- methods 
+- equations
 ---
 
-In the [[../docs/Computational/{vlndr}|{vlndr}]] software package, one simple concept is that of evaluating interaction. 
+In the [R-vlndr](../docs/Computational/R-vlndr.md) software package, one simple concept is that of evaluating interaction. 
 When evaluating a model that contains interaction terms, particularly categorical interaction terms, we can assess the interaction estimates on each level of the term.
 For example, in the case of two binary variables $x_{1}$ and $x_{2}$, with $\beta_{0}$ being the intercept term and $\epsilon$ being the error term, we can assess their interaction in the following equation:
 
@@ -49,10 +54,3 @@ $$
 
 To generalize this to categorical variables, such that $x_{2} \in ("a", "b", "c")$, **dummy variables** should/can be utilized. In this case, $x_{2a}, x_{2b}, x_{2c}$ are used as an example, while $x_{1}$ remains a continuous variable.
 
-
-
-#TODO 
-#statistics 
-#epidemiology 
-#methods 
-#equations

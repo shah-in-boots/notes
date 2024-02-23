@@ -12,8 +12,8 @@ hold sample datasets
 
 Software that I've written that is related
 
-- [[../docs/Computational/{vlndr}|{vlndr}]]
-- [[../permanent/{card}|{card}]]
+- [R-vlndr](R-vlndr.md)
+- [R-card](R-card.md)
 
 #R 
 #software 

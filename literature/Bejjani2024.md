@@ -35,7 +35,7 @@ For most patients, direct oral anticoagulants (DOACs) are preferred over vitamin
   
 >   
  
-![[figures/Bejjani2024/fig-4-x44-y188.png]]
+![fig-4-x44-y188](figures/Bejjani2024/fig-4-x44-y188.png)
 
 
 **Excluding patients with mechanical heart valves or rheumatic atrial fibrillation (AF). †Apixaban, rivaroxaban, and dabigatran are also approved for extended-treatment duration of venous thromboembolism (VTE). ‡The ENVISAGE-TAVI AF (Edoxaban Compared to Standard Care After Heart Valve Replacement Using a Catheter in Patients With Atrial Fibrillation) trial compared edoxaban with vitamin K antagonists (VKAs) in patients post-transcatheter aortic valve replacement (TAVR) and AF. §In patients with acute coronary syndromes and no indication for anticoagulation, direct oral anticoagulants (DOACs) are not approved by the U.S. Food and Drug Administration. Apixaban failed to show benefit. Rivaroxaban reduced ischemic events but increased major and intracranial bleeds. Dabigatran and edoxaban were not studied. Numbers in boxes indicate references. APS ¼ antiphospholipid syndrome; ESUS ¼ embolic stroke of undetermined source; LVAD ¼ left ventricular assist device.*
@@ -43,7 +43,7 @@ For most patients, direct oral anticoagulants (DOACs) are preferred over vitamin
   
 >   
  
-![[figures/Bejjani2024/fig-10-x53-y112.png]]
+![fig-10-x53-y112](figures/Bejjani2024/fig-10-x53-y112.png)
 
 
 *The efficacy and safety of DOACs in catheter-associated deep vein thrombosis (DVT), cerebral venous sinus thrombosis, splanchnic vein thrombosis, and the prevention and treatment of LV thrombus remain uncertain. DVT ¼ deep vein thrombosis; INR ¼ international normalized ratio; LV ¼ left ventricular; MI ¼ myocardial infarction; RCT ¼ randomized controlled trial; other abbreviations as in Figure 1.*
@@ -51,7 +51,7 @@ For most patients, direct oral anticoagulants (DOACs) are preferred over vitamin
   
 >   
  
-![[figures/Bejjani2024/fig-12-x56-y90.png]]
+![fig-12-x56-y90](figures/Bejjani2024/fig-12-x56-y90.png)
 
 
 *Evidence is limited for the use of DOACs in patients with AF and end-stage renal disease as well as patients with adult congenital heart disease, and their use should be avoided in pregnant and breastfeeding patients, pending further studies. *Patients with serum creatinine levels >2.5 mg/dL or creatinine clearance of <25 to 30 mL/min were excluded from landmark RCTs for acute or extended-duration secondary prevention of VTE and for stroke prevention in AF. Abbreviations as in Figures 1 and 2.*
@@ -59,7 +59,7 @@ For most patients, direct oral anticoagulants (DOACs) are preferred over vitamin
   
 >   
  
-![[figures/Bejjani2024/fig-14-x59-y98.png]]
+![fig-14-x59-y98](figures/Bejjani2024/fig-14-x59-y98.png)
 
 
 *Compared with vitamin K antagonists, direct oral anticoagulants only inhibit a single factor in the coagulation pathway, a distinction that may be essential given that medical devices such as mechanical valves result in contact activation and thrombosis through the intrinsic pathway. This also applies to neutrophil extracellular traps and complement activation that trigger clotting via the intrinsic pathway in patients with thrombotic antiphospholipid syndrome.*

@@ -4,9 +4,9 @@ category: project
 stage: building
 ---
 
-In the [[../docs/Computational/{vlndr}|{vlndr}]] package, the data needed to create forest plots is available. However, the structure of the forest plot are complicated. This note describes forest plots using interaction variables.
+In the [R-vlndr](../docs/Computational/R-vlndr.md) package, the data needed to create forest plots is available. However, the structure of the forest plot are complicated. This note describes forest plots using interaction variables.
 
-First, we find the effect of interaction, e.g. [[../permanent/Interaction Effect Estimation|Interaction Effect Estimation]], on the multiple levels of the interaction term. 
+First, we find the effect of interaction, e.g. [Interaction Effect Estimation](../permanent/Interaction%20Effect%20Estimation.md), on the multiple levels of the interaction term. 
 
 To visualize this, the following elements are needed.
 - Requires a single exposure and single interaction that would essentially make two rows of a plot

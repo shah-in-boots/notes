@@ -1,6 +1,6 @@
 ---
 date: {date}{time}
-parent: [[../temporary/Temporary]]
+parent: [../temporary/Temporary](../temporary/Temporary)
 ---
 
 #peripheral 

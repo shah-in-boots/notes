@@ -2,9 +2,14 @@
 date: 2024-01-16
 category: project
 stage: planning
+tags:
+- diabetes
+- electrocardiogram 
+- epidemiology 
+- manuscript 
 ---
 
-This project was started during the TL1 award and continued during [[T32 and F32 Research Years]]. 
+This project was started during the TL1 award and continued during [T32 and F32 Research Years](T32%20and%20F32%20Research%20Years.md). 
 
 # Introduction
 
@@ -96,9 +101,3 @@ The preliminary work from 2020 fits this pattern.
 1. Treatment effect is important. Understanding if the observed ECG changes are mediated by drug therapy is important. Mediation analysis with drug therapy.
 1. Test interaction by drug effect if present
 1. Prove linearity with spline analysis and ECG changes
-
-
-#diabetes
-#electrocardiogram 
-#epidemiology 
-#manuscript 

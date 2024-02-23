@@ -1,10 +1,12 @@
 ---
 date: 2024-01-19
 category: reference
-stage: considering
+stage: working
+tags:
 ---
 
-[Anki](https://apps.ankiweb.net/) is a spaced repetition program, which I am attempting to use to help maintain a life-long learning approach by focusing attention on things I *ought* to remember. 
+[Anki](https://apps.ankiweb.net/) is a spaced repetition program, which I am attempting to use to help maintain a life-long learning approach by focusing attention on things I *ought* to remember.  
+This is one of the many __meta__ files, like the vault [README](../README.md) file.
 
 # Structure
 
@@ -18,6 +20,3 @@ I use flags to help understand to give attention to a card after its been review
 - <font color='red'>Red</font> is for cards that are **wrong** about an answer and need to be fixed to avoid learning something incorrectly.
 - <font color='orange'>Orange</font> is for cards that could be re-structured or re-worded to be more clear. 
 - <font color='blue'>Blue</font> cards need to have grammatical corrections made, similar to the underlined squiggles in Microsoft Word.
-
-#studying
-#guide

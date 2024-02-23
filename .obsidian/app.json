@@ -1,5 +1,5 @@
 {
-  "tabSize": 2,
+  "tabSize": 3,
   "showLineNumber": true,
   "livePreview": false,
   "vimMode": true,
@@ -11,7 +11,7 @@
   "showUnsupportedFiles": true,
   "promptDelete": false,
   "strictLineBreaks": true,
-  "useTab": false,
+  "useTab": true,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
@@ -20,8 +20,9 @@
     "downscalePercent": 100
   },
   "autoPairMarkdown": false,
-  "propertiesInDocument": "visible",
+  "propertiesInDocument": "source",
   "smartIndentList": false,
   "foldIndent": false,
-  "foldHeading": false
+  "foldHeading": false,
+  "useMarkdownLinks": true
 }

@@ -2,16 +2,21 @@
 date: 2024-01-16
 category: project
 stage: working
+tags:
+  - research
+  - social
+  - epidemiology
+  - afib
 ---
 
-This project was initialized during [[T32 and F32 Research Years]].
+This project was initialized during [T32 and F32 Research Years](T32%20and%20F32%20Research%20Years.md).
 
 # Overview
 
-This analysis started as a "leftover" from the initial work previous lab members in the lab of  [[Dawood Darbar, MD, MBChB]]. 
+This analysis started as a "leftover" from the initial work previous lab members in the lab of  [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md). 
 The work was initially about 400 patients with baseline and follow-up AFEQT, however the paper languished for a few years and was revived in 2023.
 We have exppanded that dataset by several hundred patients, including those at UIC and the JBVA, and importantly feel that this is a timely cohort to describe.
-Our overall hypothesis was that [[Social Determinants of Health]] would drive part of the treatment decisions and outcomes in patients with AF.
+Our overall hypothesis was that [Social Determinants of Health](Social%20Determinants%20of%20Health.md) would drive part of the treatment decisions and outcomes in patients with AF.
 
 Generally, we have the follow variables.
 
@@ -89,7 +94,7 @@ An alternative or more simplified way may be to make the major exposure be basel
 flowchart TD
   exposure[Baseline AFEQT]
   outcome[Change in AFEQT scores]
-  confounder[Clinical covariates]
+  confounder[SDOH factors]
 
   exposure --> outcome
   confounder --> exposure
@@ -109,6 +114,14 @@ The general analyses I would propose to showcase this are:
 - Direct relationship between SDOH and treatment strategy choices
 - Mediation analysis of SDOH and AFEQT, with mediator being rate/rhythm strategies?
 - Interaction between SDOH and SDOH components
+
+As above, the key SDOH factors are: 
+
+- NDI and NDI quartiles
+- Race and ethnicity
+- Language
+- Sex/gender
+- Insurance type
 
 # Tables & Figures
 

@@ -35,7 +35,7 @@ BACKGROUND: ECG interpretation requires expertise and is mostly based on physici
   
 >   
  
-![[figures/vandeLeur2021/fig-5-x83-y115.png]]
+![fig-5-x83-y115](figures/vandeLeur2021/fig-5-x83-y115.png)
 
 
 *They used median beats on 12-lead ECG for phospholamban mutant carriers and compared them with controls (on the left side). On the right, they used a deep neural network approach to help highlight regions of importance.*

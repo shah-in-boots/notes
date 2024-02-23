@@ -2,18 +2,22 @@
 date: 2024-02-10
 category: project
 stage: building
+tags:
+  - grants
+  - research
 ---
 
 I will apply for the K23 award sometime in 2025 and/or 2026. 
-This should be a continuation of my [[T32 and F32 Research Years]] in terms of topics. 
+This should be a continuation of my [T32 and F32 Research Years](T32%20and%20F32%20Research%20Years.md) in terms of topics. 
 As its a training grant, the areas of research need to be somewhat innovative but more importantly have areas to be trained in.
 
 I will need to build off of strengths from previous research mentors and the institution and new/active mentors. 
-Particularly, I will need to reference the [[University of Utah Research]] opportunities.
+Particularly, I will need to reference the [University of Utah Research](University%20of%20Utah%20Research.md) opportunities.
+
 
 # Big hairy audacious goal
 
-zhe **BHAG**, as described by [[Emelia J. Benjamin, MD, ScM|Emelia J. Benjamin, MD, ScM]] from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
+zhe **BHAG**, as described by [Emelia J. Benjamin, MD, ScM](Emelia%20J.%20Benjamin,%20MD,%20ScM.md) from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
 My area of interest is in how stress can precipitate arrhythmia.
 Stress physiology is complex, and involves the entirety of the neurocardiac axis. 
 What I want to focus on is how, mechanistically, stress changes electrophysiological properties locally and how that leads to a propensity for arrhythmia.
@@ -45,15 +49,12 @@ These aims need to be related but independent, and will use atrial fibrillation 
 
 I have started developing a research and mentorship network that will be critical for this project. I will need a key sponsor to "fund" my work, and other field-specific mentors.
 
-- [[Amit J. Shah, MD, MS|Amit J. Shah, MD, MS]] 
-- [[Alvaro Alonso, MD, PhD|Alvaro Alonso, MD, PhD]]
-- [[Emelia J. Benjamin, MD, ScM|Emelia J. Benjamin, MD, ScM]]
-- [[Dawood Darbar, MD, MBChB|Dawood Darbar, MD, MBChB]]
-- [[Ravi Ranjan, MD, PhD]]
+- [Amit-j-Shah-MD-MS](Amit-j-Shah-MD-MS.md) 
+- [Alvaro-Alonso-MD-PhD](Alvaro-Alonso-MD-PhD.md)
+- [Emelia J. Benjamin, MD, ScM](Emelia%20J.%20Benjamin,%20MD,%20ScM.md)
+- [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md)
+- [Ravi Ranjan, MD, PhD](Ravi%20Ranjan,%20MD,%20PhD.md)
 
 
 
 
-
-#grants
-#research 

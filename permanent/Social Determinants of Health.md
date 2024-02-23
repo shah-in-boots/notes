@@ -6,7 +6,7 @@ stage: considering
 
 When evaluating social determinants of health, must consider that it is a multifaceted concept. 
 
-A common approach is neighborhood deprivation index (NDI) -->[[Neighborhood Deprivation Index]]
+A common approach is neighborhood deprivation index (NDI) -->[Neighborhood Deprivation Index](Neighborhood%20Deprivation%20Index.md)
 
 
 #social 

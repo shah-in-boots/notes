@@ -2,9 +2,16 @@
 date: 2024-01-16
 category: structure
 stage: working
+tags:
+  - R 
+  - programming 
+  - software
+  - epidemiology 
+  - causality
+  - methods 
 ---
 
-The `R` package `{vlndr}` is a software package built to handle and organize multiple models when performing causal-oriented analyses.  The package documentation is located on the [website](https://asshah4.github.io/vlndr) and development is on [Github](https://github.com/asshah4/vlndr).
+The `R` package `{vlndr}` is a software package built to handle and organize multiple models when performing causal-oriented analyses.  The package documentation is located on the [website](https://asshah4.github.io/vlndr) and software development is on [Github](https://github.com/asshah4/vlndr).
 
 This is a brainstorming area for the `{vlndr}` package. The goal is to organize multiple models for understanding relationship.
 
@@ -16,6 +23,12 @@ Interaction terms need:
 > dof <- nrow(X) - ncol(X)
 > coefs_var <- vcov(mod)
 ```
+
+# Major classes
+
+To pursue this project, several new classes would need to be generated. 
+I dive into how to consider and think about them here. 
+These are not necessarily formalized in the draft package, but are part of the development process.
 
 ---
 
@@ -310,12 +323,6 @@ To do this, the central feature that identifies a formula-list must be an __expo
 
 Software that I've written that is related
 
-- [[../docs/Computational/{vlndr}|{vlndr}]]
-- [[../permanent/{card}|{card}]]
+- [{vlndr}](../docs/Computational/{vlndr})
+- [{card}](../permanent/{card})
 
-#programming 
-#software
-#R 
-#epidemiology 
-#causality
-#methods 

@@ -11,7 +11,7 @@ flowchart TD
 	DM(diabetes) --> AF(atrial fibrillation)
 ```
 
-Similar to [[Diabetes and Cardiotoxicity in South Asians (CARRS)|Diabetes and Cardiotoxicity in South Asians (CARRS)]] project, except instead of looking at global *fibrosis* we are evaluating different pathways:
+Similar to [carrs-diabetes-and-cardiotoxicity-in-south-asians](carrs-diabetes-and-cardiotoxicity-in-south-asians.md) project, except instead of looking at global *fibrosis* we are evaluating different pathways:
 
 1. Autonomic paths through cardiac autonomic neuropathy
 2. Atrial pressure abnormalities through diastolic dysfunction

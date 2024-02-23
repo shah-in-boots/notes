@@ -9,7 +9,7 @@ Are the statistics performed differently?
 
 I think that the relationship is should then always be adjusted for the major exposure variable in all related analyses, otherwise there is some degree of bias.
 
-Need to read [[../literature/Greenland2016|Greenland2016]] to better consider this
+Need to read [Greenland2016](../literature/Greenland2016.md) to better consider this
 
 #epidemiology 
 #statistics

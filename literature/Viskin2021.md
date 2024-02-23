@@ -39,7 +39,7 @@ Polymorphic ventricular tachyarrhythmias are highly lethal arrhythmias. Several 
   
 >   
  
-![[figures/Viskin2021/fig-3-x54-y365.png]]
+![fig-3-x54-y365](figures/Viskin2021/fig-3-x54-y365.png)
 
 
 *<b>A</b> and <b>B</b>, Pause-dependent torsade de pointes. Note the short-long-short sequence created by extrasystoles and their postextrasystolic pause (annotated S-l-S), preceding torsade de pointes. Comparison of the baseline QT (blue arrowhead) and the postpause QT interval (red arrowhead) in <b>A</b> clearly demonstrates the maladaptation of the QT interval to sudden decrease in heart rate secondary to the postextrasystolic pause. <b>B</b>, Drug-induced long QT syndrome from methadone and erythromycin; the abnormal (notched) T-waves reflect early depolarizations (green arrowhead). The coupling interval of the beat initiating torsade de pointes is long (coupling interval, 705 ms [marked CI=705] in panel B). <b>C</b>, Tachycardia-induced torsade in an infant with congenital long QT syndrome. Note the macroscopic T-wave alternans (arrows of different colors) caused by the maladaptation of the QT interval to the accelerating heart rate immediately preceding torsade de pointes.*

@@ -16,7 +16,7 @@ Using `R` as the primary scripting language for my projects, which interfaces we
 
 # Approaches
 
-[[../literature/vandeLeur2021|vandeLeur2021]] describes an approach that uses signal averaged *median* beats for analysis. I'm wary of this as certain specific details are lost and information from other beats are thrown away. The use their ECG data to create a classifier model for evaluating phospholamban mutations.
+[vandeLeur2021](../literature/vandeLeur2021.md) describes an approach that uses signal averaged *median* beats for analysis. I'm wary of this as certain specific details are lost and information from other beats are thrown away. The use their ECG data to create a classifier model for evaluating phospholamban mutations.
 
 #electrocardiogram 
 #signal_processing
