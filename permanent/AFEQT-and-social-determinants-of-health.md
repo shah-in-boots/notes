@@ -130,5 +130,4 @@ The figures and tables for this paper need to be thoughtful analyses of the majo
 1. Table = cohort description by AFEQT score changes, with sections on clinical covariates, social determinants, treatment strategies, etc
 1. Figure or Table = AFEQT score breakdown in the population, with subscales (bar graph), showing score changes
 1. Table = regression model for SDOH factors and AFEQT change
-1. Table = mediation analysis for SDOH factors, treatment strategies, and AFEQT scores
 1. Figure = forest plot of interaction 
