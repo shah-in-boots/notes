@@ -3,12 +3,15 @@ category: reference
 citekey: @{{citekey}}
 stage: working
 year: {{date | format('YYYY')}}
-tags:
-  - literature
 ---
 
 
 # {{title}}
+
+{% persist "tags" %}{% if isFirstImport %}
+#literature
+{% endif %}
+{% endpersist %}
 
 > [!tip]  
 > **Zotero** = {{pdfZoteroLink}}
