@@ -323,6 +323,11 @@ To do this, the central feature that identifies a formula-list must be an __expo
 
 Software that I've written that is related
 
-- [{vlndr}](../docs/Computational/{vlndr})
-- [{card}](../permanent/{card})
+- [R-vlndr](R-vlndr.md)
+- [R-card](R-card.md)
+- [R-rcr](R-rcr.md)
+- [R-hrd](R-hrd.md)
+-[R-shiva](R-shiva.md)
+
+
 
