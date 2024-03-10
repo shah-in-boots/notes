@@ -8,7 +8,7 @@ tags:
 ---
 
 I will apply for the K23 award sometime in 2025 and/or 2026. 
-This should be a continuation of my [T32 and F32 Research Years](T32%20and%20F32%20Research%20Years.md) in terms of topics. 
+This should be a continuation of my [T32- and-F32-research-years](T32-%20and-F32-research-years.md) in terms of topics. 
 As its a training grant, the areas of research need to be somewhat innovative but more importantly have areas to be trained in.
 
 I will need to build off of strengths from previous research mentors and the institution and new/active mentors. 

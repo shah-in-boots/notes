@@ -2,6 +2,11 @@
 date: 2024-02-06
 category: project
 stage: considering
+tags:
+  - research
+  - grants
+  - stress
+  - afib
 ---
 
 In 2026, I will likely submit my K23 application. 
@@ -19,5 +24,3 @@ During this research time, some products have been:
 - Atrial Flutter and Family History 
 - Paper on how AF burden and treatment strategies lead to different quality of life changes based on social factors, as in [AFEQT-and-social-determinants-of-health](AFEQT-and-social-determinants-of-health.md)
 - Project in collaboration with the AFGen Consortium on predicting TTN variants based on ECG  features
-
-#research 

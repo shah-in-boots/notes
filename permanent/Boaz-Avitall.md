@@ -2,6 +2,9 @@
 date: 2024-02-15
 category: reference
 stage: working
+tags:
+  - electrophysiology
+  - faculty
 ---
 
 Boaz Avitall, MD, PhD, FACC, FHRS, description provided from the [UIC website](https://hospital.uillinois.edu/find-a-doctor/boaz-avitall)

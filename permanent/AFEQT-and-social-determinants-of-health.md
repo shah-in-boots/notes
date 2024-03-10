@@ -9,7 +9,7 @@ tags:
   - afib
 ---
 
-This project was initialized during [T32 and F32 Research Years](T32%20and%20F32%20Research%20Years.md).
+This project was initialized during [T32- and-F32-research-years](T32-%20and-F32-research-years.md).
 
 # Overview
 
