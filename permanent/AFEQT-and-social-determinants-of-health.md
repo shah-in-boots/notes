@@ -129,5 +129,5 @@ The figures and tables for this paper need to be thoughtful analyses of the majo
 
 1. Table = cohort description by AFEQT score changes, with sections on clinical covariates, social determinants, treatment strategies, etc
 1. Figure or Table = AFEQT score breakdown in the population, with subscales (bar graph), showing score changes
-1. Table = regression model for SDOH factors and AFEQT change
-1. Figure = forest plot of interaction 
+1. Table = Regression models with the primary exposure(s) being the SDOH factors, with sequential adjustment for traditional risk factors. Each column represents one exposure, with AFEQT changes as the outcome variable (with additional outcomes by AFEQT subscales).  
+1. Table = Regression models for rhythm/rate control strategy decisions by SDOH factors as primary exposure(s). 

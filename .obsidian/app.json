@@ -24,5 +24,6 @@
   "smartIndentList": false,
   "foldIndent": false,
   "foldHeading": false,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "spellcheck": false
 }
