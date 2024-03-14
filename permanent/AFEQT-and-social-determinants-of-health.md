@@ -123,6 +123,44 @@ As above, the key SDOH factors are:
 - Sex/gender
 - Insurance type
 
+## Genetics
+
+Ancestral markers were evaluated in related AF papers from work by [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md). 
+We should leverage those to emphasize the importance of self-reported race, and that "genetic race" isn't necessarily an appropriate usage.
+Genetic racial fingerprints would suggest that our findings are biological in nature, when in fact it is more likely tobe environmental (e.g. race as a social construct).
+
+
+# Results
+
+## Descriptive findings
+
+## Regression findings 
+
+### National deprivation index (Q4 v. Q1)
+
+- NDI Q4 has worse total AFEQT regardless of clinical risk factors (dose-dependent)
+- NDI Q4 was worse AFEQT regardless of rate/rhythm strategy (including non-pharmacological rhythm interventions)
+- NDI Q4 had high odds of starting in rate-control strategy
+
+### Black race (v. white)
+
+- Black race has worse total AFEQT regardless of clinical risk factors
+- Black race also had worse AFEQT regardless of treatment strategy (including non-pharmacological rhythm interventions)
+- Black race had decreased odds of being in rhythm control strategy at baseline or at follow-up time period
+
+### Spanish speakers (v. English)
+
+- Spanish speakers had improvement in activity AFEQT score on follow-up
+- Spanish speakers had higher odds of being on rate-control strategy at followup
+
+### Public insurance (v. private)
+
+- Public insurance had higher odds of switching to rhythm control by follow-up
+
+### Men (v. women)
+
+- Men had higher odds of being on rhythm control strategy compared to women
+
 # Tables & Figures
 
 The figures and tables for this paper need to be thoughtful analyses of the major relationships we hope to show.
