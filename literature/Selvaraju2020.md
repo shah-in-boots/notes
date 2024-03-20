@@ -1,6 +1,6 @@
 ---
 category: reference
-citekey: @Selvaraju2020a
+citekey: @Selvaraju2020
 stage: working
 year: 2020
 ---
@@ -9,12 +9,13 @@ year: 2020
 # Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization
 
 %% begin tags %%
+#literature 
 #machine_learning 
 %% end tags %%
 
 > [!tip]  
 > **Zotero** = [Selvaraju et al_2020_Grad-CAM.pdf](zotero://select/library/items/DNNBJJ5F)
-> **Citation Key** = @Selvaraju2020a
+> **Citation Key** = @Selvaraju2020
 
 > [!cite]
 > Selvaraju, R. R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., & Batra, D. (2020). Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization. _International Journal of Computer Vision_, _128_(2), 336–359. [https://doi.org/10.1007/s11263-019-01228-7](https://doi.org/10.1007/s11263-019-01228-7)
@@ -29,7 +30,7 @@ We propose a technique for producing ‘visual explanations’ for decisions fro
   
 
   
-###### Imported: 2024-02-08 8:44 am  
+###### Imported: 2024-03-19 8:49 pm  
   
 > Consequently, when today’s intelligent systems fail, they often fail spectacularly disgracefully without warning or explanation, leaving a user staring at an incoherent output, wondering why the system did what it did.  
 
@@ -51,7 +52,7 @@ We propose a technique for producing ‘visual explanations’ for decisions fro
   
 >   
  
-![fig-3-x43-y569](figures/Selvaraju2020a/fig-3-x43-y569.png)
+![figures/Selvaraju2020/fig-3-x43-y569.png](figures/Selvaraju2020/fig-3-x43-y569.png)
 
 
 *Fig. 1: (a) Original image with a cat and a dog. (b-f) Support for the cat category according to various visualizations for VGG-16 and ResNet. (b) Guided Backpropagation [53]: highlights all contributing features. (c, f) Grad-CAM (Ours): localizes class-discriminative regions, (d) Combining (b) and (c) gives Guided Grad-CAM, which gives high-resolution class-discriminative visualizations. Interestingly, the localizations achieved by our Grad-CAM technique, (c) are very similar to results from occlusion sensitivity (e), while being orders of magnitude cheaper to compute. (f, l) are Grad-CAM visualizations for ResNet-18 layer. Note that in (c, f, i, l), red regions corresponds to high score for class, while in (e, k), blue corresponds to evidence for the class. Figure best viewed in color.*
@@ -59,7 +60,7 @@ We propose a technique for producing ‘visual explanations’ for decisions fro
   
 >   
  
-![fig-4-x39-y569](figures/Selvaraju2020a/fig-4-x39-y569.png)
+![figures/Selvaraju2020/fig-4-x39-y569.png](figures/Selvaraju2020/fig-4-x39-y569.png)
 
 
 *Fig. 2: Grad-CAM overview: Given an image and a class of interest (e.g., ‘tiger cat’ or any other type of differentiable output) as input, we forward propagate the image through the CNN part of the model and then through task-specific computations to obtain a raw score for the category. The gradients are set to zero for all classes except the desired class (tiger cat), which is set to 1. This signal is then backpropagated to the rectified convolutional feature maps of interest, which we combine to compute the coarse Grad-CAM localization (blue heatmap) which represents where the model has to look to make the particular decision. Finally, we pointwise multiply the heatmap with guided backpropagation to get Guided Grad-CAM visualizations which are both high-resolution and concept-specific.*
@@ -74,8 +75,8 @@ We propose a technique for producing ‘visual explanations’ for decisions fro
 - [ ] Finish reading article
 - [ ] Look at equations and try to understand them
 
-I've started taking notes on using this software in [Gradient-Weighted Class Activation Mapping (Grad-CAM)](../permanent/Gradient-Weighted%20Class%20Activation%20Mapping%20(Grad-CAM).md). 
+I've started taking notes on using this software in [gradient-weighted-class-activation-mapping](../permanent/gradient-weighted-class-activation-mapping.md). 
 
 %% end notes %%
 
-%% Import Date: 2024-02-08T08:45:02.625-06:00 %%
+%% Import Date: 2024-03-19T20:49:55.055-05:00 %%

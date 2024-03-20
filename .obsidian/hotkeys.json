@@ -157,14 +157,6 @@
       "key": "Backspace"
     }
   ],
-  "obsidian-pandoc-reference-list:focus-reference-list-view": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "I"
-    }
-  ],
   "file-explorer:new-file": [],
   "zk-prefixer": [
     {
@@ -172,6 +164,15 @@
         "Mod"
       ],
       "key": "N"
+    }
+  ],
+  "obsidian-pandoc-reference-list:focus-reference-list-view": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "I"
     }
   ]
 }
