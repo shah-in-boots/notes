@@ -33,6 +33,14 @@ tags:
 
 ## Background
 
+- Most common sustained arrhythmia in adults
+- ~40% develop AF after age of 55 years [@Michaud2021]
+- Risk factors include: age, CAD, male sex, European ancestry, hypertension, obesity, smoking, sleep apnea, family history of AF in relatives
+- Approximately 3% of AF before age of 60 have suspected monogenic basis [@Chalazan2023]
+
+
+## Relationship to ECG
+
 - @Chaudhari2023 looked at ECG predictors of myocardial ischemia/injury
 - @Verweij2020 shows markers on the ECG associated with genetic variants from the UK Biobank
 - ECG can supplement genetic and clinical factors to predict risk of AF, such as work by @Wang2023
@@ -61,10 +69,9 @@ AF arrhythmogenesis is predicated on:
 
 @Siontis2021 notes that artificial intelligence methods can be used in CVD risk prediction.
 @vandeLeur2021 describes the methodology of using deep neural networks.
-Using a similar approach to the phospholambdan paper, [vandeLeur2021](../literature/vandeLeur2021.md), we will evaluate the relationship of TTN loss-of-function (LOF) genes and atrial fibrillation risk in a sample of individuals with WES. 
+We will evaluate the relationship of TTN loss-of-function (LOF) genes and atrial fibrillation risk in a sample of individuals with WES. 
 
-@Selvaraju2020 describes the Grad-CAM approach, annotated in [Selvaraju2020](../literature/Selvaraju2020.md). 
-We can visualize and explain the ECG findings and their weights using [gradient-weighted-class-activation-mapping](../permanent/gradient-weighted-class-activation-mapping.md) methods.
+@Selvaraju2020 describes the Grad-CAM approach.
 
 # Results
 
