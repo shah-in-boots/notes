@@ -9,7 +9,7 @@ tags:
 - manuscript 
 ---
 
-This project was started during the TL1 award and continued during [T32- and-F32-research-years](T32-%20and-F32-research-years.md). 
+This project was started during the TL1 award and continued during [T32-and-F32-research-years](T32-and-F32-research-years.md). 
 
 # Introduction
 

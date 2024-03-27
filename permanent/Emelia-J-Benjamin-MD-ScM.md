@@ -1,7 +1,7 @@
 ---
 date: 2024-02-10
 category: reference
-stage: considering
+stage: working
 ---
 
 One of the faculty mentors for the AFGen fellowship, and a member of the AFGen Consortium. 

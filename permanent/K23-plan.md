@@ -8,16 +8,16 @@ tags:
 ---
 
 I will apply for the K23 award sometime in 2025 and/or 2026. 
-This should be a continuation of my [T32- and-F32-research-years](T32-%20and-F32-research-years.md) in terms of topics. 
+This should be a continuation of my [T32-and-F32-research-years](T32-and-F32-research-years.md) in terms of topics. 
 As its a training grant, the areas of research need to be somewhat innovative but more importantly have areas to be trained in.
 
 I will need to build off of strengths from previous research mentors and the institution and new/active mentors. 
-Particularly, I will need to reference the [University of Utah Research](University%20of%20Utah%20Research.md) opportunities.
+Particularly, I will need to reference the [University-of-Utah-research](University-of-Utah-research.md) opportunities.
 
 
 # Big hairy audacious goal
 
-zhe **BHAG**, as described by [Emelia J. Benjamin, MD, ScM](Emelia%20J.%20Benjamin,%20MD,%20ScM.md) from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
+zhe **BHAG**, as described by [Emelia-J-Benjamin-MD-ScM](Emelia-J-Benjamin-MD-ScM.md) from the AFGen fellowship, is the big picture that I need to be working towards in my research efforts.
 My area of interest is in how stress can precipitate arrhythmia.
 Stress physiology is complex, and involves the entirety of the neurocardiac axis. 
 What I want to focus on is how, mechanistically, stress changes electrophysiological properties locally and how that leads to a propensity for arrhythmia.
@@ -51,9 +51,9 @@ I have started developing a research and mentorship network that will be critica
 
 - [Amit-j-Shah-MD-MS](Amit-j-Shah-MD-MS.md) 
 - [Alvaro-Alonso-MD-PhD](Alvaro-Alonso-MD-PhD.md)
-- [Emelia J. Benjamin, MD, ScM](Emelia%20J.%20Benjamin,%20MD,%20ScM.md)
+- [Emelia-J-Benjamin-MD-ScM](Emelia-J-Benjamin-MD-ScM.md)
 - [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md)
-- [Ravi Ranjan, MD, PhD](Ravi%20Ranjan,%20MD,%20PhD.md)
+- [Ravi-Ranjan-MD-PhD](Ravi-Ranjan-MD-PhD.md)
 
 - [ ] These sections below need to be cleaned up 
 - [ ] They are an amalgam of ideas from previous attempts to present my work to mentors but are not very accurate

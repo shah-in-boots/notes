@@ -4,7 +4,7 @@ category: reference
 stage: considering
 ---
 
-Dawood serves as the sponsor to the F32 at UIC and head of the T32 program, where research was done during the [T32- and-F32-research-years](T32-%20and-F32-research-years.md). 
+Dawood serves as the sponsor to the F32 at UIC and head of the T32 program, where research was done during the [T32-and-F32-research-years](T32-and-F32-research-years.md). 
 
 
 As of writing, here is a description from the [UIC profile](https://hospital.uillinois.edu/find-a-doctor/dawood-darbar).

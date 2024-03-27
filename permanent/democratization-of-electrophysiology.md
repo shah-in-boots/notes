@@ -4,7 +4,7 @@ category: project
 stage: building
 ---
 
-After discussion with [Boaz-Avitall](Boaz-Avitall.md), writing an *opinion* piece about how the field has changed over the last 20+ years may be insightful.
+After discussion with [Boaz-Avitall-MD-PhD](Boaz-Avitall-MD-PhD.md), writing an *opinion* piece about how the field has changed over the last 20+ years may be insightful.
 
 Some important themes or elements in designing the outline, from our initial discussion:
 - role of how CARTO has expanded from physician-led mapping to industry-led mappers/technicians

@@ -14,7 +14,7 @@ There are several folders for organization that serve difference purposes
 | templates | Obsidian templates |
 | temporary | brief notes that are fleeting |
 
-The literature file uses Zotero-integrated articles, which are annotated as I read them, based on [Zotero Guide](permanent/Zotero%20Guide.md).
+The literature file uses Zotero-integrated articles, which are annotated as I read them, based on [Zotero-guide](permanent/Zotero-guide.md).
 
 # Note Classification
 
