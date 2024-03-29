@@ -3,7 +3,6 @@ date: 2024-03-18
 category: project
 stage: building
 tags:
-  - todo
   - afib
   - social
   - epidemiology

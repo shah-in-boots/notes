@@ -1,5 +1,5 @@
-#ideas
-	#electrocardiography
+ideas
+	electrocardiography
 		ECG signals as they related to EPS and ablation maps
 			Can ECG signal predict contents of ablation maps?
 			Can ECG signal before and after AF ablation predict success of ablations?
@@ -11,12 +11,12 @@
 			Annotation system for EGM using a Shiny application?
 				Could import several seconds of a clip and annotate (or adjust annotations)
 				Would need to be able to save the annotations subsequently
-	#autonomic
+	autonomic
 		Measuring ANS activity during EPS
 			Where can we measure ANS activity during an EPS?
 				Measure extracardiac activity from recordings from Vein of Marshall
 				Measure directly from bilateral stellate ganglia
-	#stress
+	stress
 		Mental stress testing
 			Are there effects of mental stress that can be measured during EPS? Do they predict future arrhythmia?
 		Pacing effects on cardiac function
@@ -25,6 +25,6 @@
 			Predict volume overload using a impedance change assessment in heart failure
 				Rate of change of impedance with case/control based on time to first hospitalization
 					Unclear however if this has already been done, and if there is a way to correlate this in a CareLink fashion (e.g. Medtronic)
-	#electrophysiology
-	#genetics
+	electrophysiology
+	genetics
 

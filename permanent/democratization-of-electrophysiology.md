@@ -2,6 +2,8 @@
 date: 2024-02-15
 category: project
 stage: building
+tags:
+  - electrophysiology
 ---
 
 After discussion with [Boaz-Avitall-MD-PhD](Boaz-Avitall-MD-PhD.md), writing an *opinion* piece about how the field has changed over the last 20+ years may be insightful.
@@ -14,9 +16,8 @@ Some important themes or elements in designing the outline, from our initial dis
 - an increasing number of younger individuals, who trained in a technology-savvy environment, are "flocking" to EP
 - role of EP as the intersection of medicine and electrical engineering
   
-These foundational conversations are helpful in __steering__ the manuscript and outline.
+These foundational conversations are helpful in __steering__ the manuscript and the outline, located at [outline-democratization-of-electrophysiology](outline-democratization-of-electrophysiology.md).
 
-# Outline
 
 
 #manuscript 
