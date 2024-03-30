@@ -15,6 +15,8 @@ This project has two major components: (1) Genetic assessment of TTN variants, b
 
 The [outline-ECG-prediction-of-TTN-variants](outline-ECG-prediction-of-TTN-variants.md) will be used for the initial presentation of results (and serves as a tentative/growing outline for the paper).
 
+# Approach
+
 ## ECG approach
 
 1. ECG-beat segmentation: Each ECG beat that is "sinus" has to be split into individual beats. These beats should be centered such that the R peak is the center of the beat, so relationships before and after the R can be interpreted temporally. This function is managed in the in [R-shiva](../docs/Computational/R-shiva.md).
@@ -31,3 +33,13 @@ The [outline-ECG-prediction-of-TTN-variants](outline-ECG-prediction-of-TTN-varia
 
 1. Model definition: Using the work by @vandeLeur2021, can create similar model training examples. 
 1. Guided Gradient Class Activation Mapping: Visualization technique that will be used to identify which parts of the ECG are contributing the most. [gradient-weighted-class-activation-mapping](gradient-weighted-class-activation-mapping.md) which is described by @Selvaraju2020.
+
+# Next steps
+
+This project was presented to the [AFGen-consortium](AFGen-consortium.md). 
+The overall suggestions along with [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md) was to consider expanding the study before validation. 
+
+As such, this may be a more expanded study that can be validated in the UK Biobank (or alternative). 
+
+- *null* types, or *wild-types* patients will have __no__ monogenic contributors to atrial fibrillation
+- *mutant-types* will have deleterious variants in known monogenic contributors, such as *TTN* or *LMNA* variants 
