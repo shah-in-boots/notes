@@ -3,6 +3,8 @@ date: 2024-01-19
 category: reference
 stage: working
 tags:
+  - study
+  - guide
 ---
 
 [Anki](https://apps.ankiweb.net/) is a spaced repetition program, which I am attempting to use to help maintain a life-long learning approach by focusing attention on things I *ought* to remember.  

@@ -1,3 +1,12 @@
+---
+date: 2024-01-01
+category: project
+stage: factoring
+tags:
+  - guide
+  - grants
+---
+
 This repository contains a merger of personal notes, documentation, and an R project to help convert some elements to an online format. It is primarily focused on the Obsidian-rooted *zettlekestan* method.
 
 # Folders
@@ -40,7 +49,6 @@ The following stages are ways to help identify where a document exists in its li
 | pending | held or reserved, lower priority |
 | done | no longer expecting updates |
 | questioning | consideration for refactoring |
-
 
 Instead, here I have a working diagram of how I expect the stages to be cycled through.
 

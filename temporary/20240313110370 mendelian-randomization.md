@@ -8,7 +8,7 @@ tags:
   - genetics
 ---
 
-Mendelian randomization (MR) may become useful for the aims for my [K23-plan](../permanent/K23-plan.md). 
+Mendelian randomization (MR) may become useful for the aims for my [K23-overview](../permanent/K23-overview.md). 
 There are multiple types of MR studies (such as one- and two-sample studies), multiple assumptions, and multiple methods to handle the assumptions. 
 
 - @Bennett2017 and @Davies2018 introduce evaluation and reading MR studies
