@@ -14,7 +14,7 @@ As its a training grant, the areas of research need to be somewhat innovative bu
 I will need to build off of strengths from previous research mentors and the institution and new/active mentors. 
 Particularly, I will need to capitalize on the [University-of-Utah-research](University-of-Utah-research.md) research opportunities.
 
-Notes: *Relevant [K23-background](K23-background.md) information and potential [K23-data](../temporary/K23-data.md)*
+Notes: *Relevant [K23-background](K23-background.md) information and potential [K23-data](K23-data.md)*
 
 # Big hairy audacious goal
 
@@ -30,7 +30,7 @@ I will have to be more specific at the level of a K23 award, but it should be fo
 
 I have started developing a research and mentorship network that will be critical for this project. I will need a key sponsor to "fund" my work, and other field-specific mentors.
 
-- [Amit-j-Shah-MD-MS](Amit-j-Shah-MD-MS.md) 
+- [Amit-J-Shah-MD-MS](Amit-J-Shah-MD-MS.md) 
 - [Alvaro-Alonso-MD-PhD](Alvaro-Alonso-MD-PhD.md)
 - [Emelia-J-Benjamin-MD-ScM](Emelia-J-Benjamin-MD-ScM.md)
 - [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md)
@@ -51,29 +51,16 @@ The hypothesis then needs to be approached using 3-4 specific aims, building on 
 My overall interest is in using the K23 to explore how research can be performed in the EP lab, while also advancing my skills in epidemiology, signal processing, and genetics. 
 These aims need to be related but independent, and will use atrial fibrillation as the model disease. 
 
-Working Titles:
+## Working Titles (in likelihood order)
 
 - Substrate and ion channel-mediated phenotypes of paroxysmal atrial fibrillation
 - Autonomic-mediation of atrial fibrillation pathways
 
-Potential aim ideas:
+## Potential aims
 
-1. Phenotype AF based on ECG, echo, and MRI parameters to evaluate progression. Utah Database + AF registry. 
-2. EP lab to look at differences in stress / functional repolarization abnormalities during AF mapping. EP lab. Needs patients with minimal AF burden prior to start.
-3. Mendelian randomization to evaluate phenotypes of AF risk using AFGen consortium data, UK Biobank, Utah Population Database based on subphenotype. Would need to confirm and explore genetic variants in the Stress Reactivity dataset from Emory.
+The aims are oriented around different topics, methodologies, and datasets that may be available. 
 
-1. Identify electrocardiographic phenotypes of paroxysmal AF with structurally normal atria.
-2. [Determine the electrophysiological characteristics of sympathetically-mediated paroxysmal AF.]{.red}
-3. Evaluate the role of genetic variants in cardiovagal receptors in sympathetically-mediated paroxysmal AF.
-
-- APD variability in the atria precede onset of AF at rapid pacing rates [@vanStaveren2020]
-- AERP measurement durnig extrastimuli protocols (e.g. bottom quintile of fibrillatory intervals from endocardium) [@Capucci1995]
-- Two studies that have looked at mental stress and EPS are quite small (`n = 10` & `n = 12`), but neither looked at atrial properties [@Insulander2003; @Finlay2016]
-
-
-1. Measure of EPS parameters during mental stress: evaluate HRV changes and intracardiac changes simultaneously 
-1. Measure neuropeptide Y, epinephrine, and galanin levels before, during, and after
-1. Cardiac autonomic modulation with vagal stimulation $\pm$ atropine during EPS
-1. 24-hour Holter monitor before and after AF ablation to assess changes in ANS, and potentially more distant recordings to assess "autonomic recovery"
-
-
+1. Structural/substrate-based phenotypes of AF. Image-guided focus, using substrate/voltage maps during EP study, in addition to CMR, ECG data to evaluate overall clinical trajectory. Retrospective, combining Utah and UIC datasets.
+1. Repolarization and depolarization abnormalities in AF. Prospective approach to mapping in EP lab. Study monophasic action potentials in paroxysmal AF cases undergoing ablation. Evaluate under influence of isoproterenol $\pm$ atropine $\pm$ vagal stimulation. Why? Assess repolarization abnormalities and affect of stress/triggers on AF threshold. 
+1. *Wild-type* and *mutant* ECG patterns of paroxysmal AF. Relationship of monogenic variants in AF with changes in substrate pathology and ion channel remodeling in categorization AF subtypes. Can evaluate the ECG-based association with specific "substrate" genes and "ion channel" genes, and "wild-type" AF. See if ECG patterns can categorize patients utilizing UIC dataset, and UK Biobank.  This extends the [ECG-prediction-of-TTN-variants](ECG-prediction-of-TTN-variants.md)
+1. Mendelian randomization of triggered arrhythmias. Look at Emory HRV stress reactivity dataset, evaluate for GWAS-based rare/common variants. Assess role in future triggered arrhythmia burden and outcomes locally. Test again in UK Biobank.
