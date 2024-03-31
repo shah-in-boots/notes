@@ -1,6 +1,6 @@
 ---
 date: 2024-02-10
-category: project
+category: structure
 stage: factoring
 tags:
   - grants
@@ -59,8 +59,9 @@ These aims need to be related but independent, and will use atrial fibrillation 
 ## Potential aims
 
 The aims are oriented around different topics, methodologies, and datasets that may be available. 
+There looks to be three major themes here that *pull together* my aims - there is a __mapping__ oriented aim in the EP lab, a __ECG__ based aim looking at phenotypic differences based on genetics (and null variants), and an exploratory aim on __novel variants__. 
 
-1. Structural/substrate-based phenotypes of AF. Image-guided focus, using substrate/voltage maps during EP study, in addition to CMR, ECG data to evaluate overall clinical trajectory. Retrospective, combining Utah and UIC datasets.
-1. Repolarization and depolarization abnormalities in AF. Prospective approach to mapping in EP lab. Study monophasic action potentials in paroxysmal AF cases undergoing ablation. Evaluate under influence of isoproterenol $\pm$ atropine $\pm$ vagal stimulation. Why? Assess repolarization abnormalities and affect of stress/triggers on AF threshold. 
-1. *Wild-type* and *mutant* ECG patterns of paroxysmal AF. Relationship of monogenic variants in AF with changes in substrate pathology and ion channel remodeling in categorization AF subtypes. Can evaluate the ECG-based association with specific "substrate" genes and "ion channel" genes, and "wild-type" AF. See if ECG patterns can categorize patients utilizing UIC dataset, and UK Biobank.  This extends the [ECG-prediction-of-TTN-variants](ECG-prediction-of-TTN-variants.md)
-1. Mendelian randomization of triggered arrhythmias. Look at Emory HRV stress reactivity dataset, evaluate for GWAS-based rare/common variants. Assess role in future triggered arrhythmia burden and outcomes locally. Test again in UK Biobank.
+1. Structural/substrate-based phenotypes of AF: Image-guided focus, using substrate/voltage maps during EP study, in addition to CMR, ECG data to evaluate overall clinical trajectory. Retrospective, combining Utah and UIC datasets.
+1. Repolarization and depolarization abnormalities in AF: Prospective approach to mapping in EP lab. Study monophasic action potentials in paroxysmal AF cases undergoing ablation. Evaluate under influence of isoproterenol $\pm$ atropine $\pm$ vagal stimulation. Why? Assess repolarization abnormalities and affect of stress/triggers on AF threshold. 
+1. *Wild-type* and *mutant* ECG patterns of paroxysmal AF: Relationship of monogenic variants in AF with changes in substrate pathology and ion channel remodeling in categorization AF subtypes. Can evaluate the ECG-based association with specific "substrate" genes and "ion channel" genes, and "wild-type" AF. See if ECG patterns can categorize patients utilizing UIC dataset, and UK Biobank.  This extends the [ECG-prediction-of-TTN-variants](ECG-prediction-of-TTN-variants.md)
+1. Mendelian randomization of triggered arrhythmias: Look at Emory HRV stress reactivity data, and evaluate association with common/rare variants in GWAS data. Then, test association of these rare variants with future arrhythmia risk (both in local Emory data) and in UK Biobank. 
