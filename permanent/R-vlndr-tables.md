@@ -16,20 +16,21 @@ The visualization process requires using the `{gt}` package, but extending it to
 # Visualization of multiple models
 
 To create a new `{gt}`-based class for using and pulling together multiple models, the fundamental features of model tables needs to be explored. 
+The inspiration for this comes from articles and tables seen in publication, which seem to show repeating patterns that likely can be replicated and atomized.
 
-Below are notes and examples seen on how multiple models can be visualized.
+- In work by @Vaccarino2021, several examples are seen. The most helpful are *Table 3* and *Figure 2*, which are a Cox model regression table and forest plots for interaction, respectively.  These are seen in [Vaccarino2021](../literature/Vaccarino2021.md)
+	- Table 3
+		- Vertical columns: incidence by event, rate differences, hazard ratios
+		- Vertical groups: cohorts
+		- Horizontal groups: outcome types
+	- Figure 2
+		- Verticle groups: none
+		- Vertical columns: incidence by event, rate per 100-patient years, absolute rate difference (per 100-years), hazard ratios
+		- Plot (vertical): forest plot (left and right of x-intercept of neutral/null has directional labels), P-values by interaction
+		- Horizontal groups: categorical variables, p-values for interaction in forest plot
+		- Horizontal rows: levels of categorical/binary variables
+		- Horizontal axis: relegated to only forest plot, axis with labels
 
-- Forest plots that show hazard ratios on RHS of table, like the subgroup analyses in @Vaccarino2021a
-- Sequential adjustment
-- Interaction
+# Structure of model tables
 
-
-
-Forest plots based on interaction terms
-Interaction terms need:
-
-```r
-> X <- model.matrix(mod)
-> dof <- nrow(X) - ncol(X)
-> coefs_var <- vcov(mod)
-```
+The most atomic element is the point-estimates $\pm$ confidence intervals. 
