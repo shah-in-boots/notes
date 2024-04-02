@@ -21,7 +21,6 @@ tags:
 
 ## UK Biobank
 
-
 **Electrophysiology Study**
 
 -   Baseline and post-procedural atrial conduction properties

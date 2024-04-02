@@ -7,5 +7,6 @@
   "obsidian-minimal-settings",
   "tag-wrangler",
   "obsidian-pandoc",
-  "obsidian-link-converter"
+  "obsidian-link-converter",
+  "obsidian-linter"
 ]

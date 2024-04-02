@@ -36,8 +36,6 @@ flowchart LR
 	epaf --> ppaf --> lpaf
 ```
 
-
-
 ## Phenotyping
 
 __Paroxysmal__ AF requires both a trigger and a substrate to progenerate. 
@@ -79,8 +77,12 @@ E.g. PhenoKB uses binary diagnosis of AF (2012), while recent studies showed up 
 		- Both directly/indirectly involve protein kinase C
 	- NPY receptors exist along the neurocardiac axis, including adrenal medulla (Y3) and cardiac tissue (Y2)[@Coote2013]
 
-1. APD variability in the atria precede onset of AF at rapid pacing rates [@vanStaveren2020]
-1. AERP measurement durnig extrastimuli protocols (e.g. bottom quintile of fibrillatory intervals from endocardium) [@Capucci1995]
-1. Two studies that have looked at mental stress and EPS are quite small (`n = 10` & `n = 12`), but neither looked at atrial properties [@Insulander2003; @Finlay2016]
+## Electrophysiology 
+
+- APD variability in the atria precede onset of AF at rapid pacing rates [@vanStaveren2020]
+- AERP measurement durnig extrastimuli protocols (e.g. bottom quintile of fibrillatory intervals from endocardium) [@Capucci1995]
+- Two studies that have looked at mental stress and EPS are quite small (`n = 10` & `n = 12`), but neither looked at atrial properties [@Insulander2003; @Finlay2016]
 
 ## Genetic factors
+
+There are currently known associations of ECG intervals and monogenic arrhythmia susceptibility genes, done by @Choi2021. 

@@ -24,7 +24,6 @@ The [outline-ECG-prediction-of-TTN-variants](outline-ECG-prediction-of-TTN-varia
 	1. In the `{tensorflow}`  package, a matrix could be stored in a *rank 4* tensor, with the following axis order: 1 = batch, 2 = width, 3 = height, 4 = feature. 
 	1. The feature classification comes from the genetic approach below, and is either a `0` or `1` if the ECG comes from a TTN variant or not.
 
-
 ## Genetic approach
 
 1. Each VCF file needs to be annotated and evaluated for deleterious TTN variants.  The worfklow is partially documented in [vep-workflow-for-ttn-variants](vep-workflow-for-ttn-variants.md).
@@ -42,4 +41,9 @@ The overall suggestions along with [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBC
 As such, this may be a more expanded study that can be validated in the UK Biobank (or alternative). 
 
 - *null* types, or *wild-types* patients will have __no__ monogenic contributors to atrial fibrillation
-- *mutant-types* will have deleterious variants in known monogenic contributors, such as *TTN* or *LMNA* variants 
+	- No known genetic contributors (excluding any patient with non-benign VUS in any above genes $\pm$ SNPs associated with polygenic risk for AF)
+- *mutant-types* will have deleterious variants in known monogenic contributors, with specific monogenic-types being broken down into subtypes by "type" of mutation (e.g. sarcomeric versus ion-channel)
+	- Sarcomeric/structural variants (e.g. *TTN*, *PITX2*, *LMNA*, *NUP155*, *GJA1/5*)
+	- Ionic channel variants (e.g. *KCNE1-5*, *KCNQ1*, *SCN5A*)
+
+There are currently known associations of ECG intervals and monogenic arrhythmia susceptibility genes, done by @Choi2021. 
