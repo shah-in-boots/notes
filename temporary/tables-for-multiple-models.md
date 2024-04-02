@@ -9,7 +9,7 @@ tags:
   - programming
 ---
 
-The explicit purpose of [R-vlndr](../docs/Computational/R-vlndr.md)
+The explicit purpose of [R-vlndr](../permanent/R-vlndr.md)
 
 
 # Sequential Models

@@ -9,7 +9,7 @@ tags:
 - equations
 ---
 
-In the [R-vlndr](../docs/Computational/R-vlndr.md) software package, one simple concept is that of evaluating interaction. 
+In the [R-vlndr](R-vlndr.md) software package, one simple concept is that of evaluating interaction. 
 When evaluating a model that contains interaction terms, particularly categorical interaction terms, we can assess the interaction estimates on each level of the term.
 For example, in the case of two binary variables $x_{1}$ and $x_{2}$, with $\beta_{0}$ being the intercept term and $\epsilon$ being the error term, we can assess their interaction in the following equation:
 
