@@ -19,6 +19,10 @@ To create a new `{gt}`-based class for using and pulling together multiple model
 
 Below are notes and examples seen on how multiple models can be visualized.
 
+- Forest plots that show hazard ratios on RHS of table, like the subgroup analyses in @Vaccarino2021a
+- Sequential adjustment
+- Interaction
+
 
 
 Forest plots based on interaction terms
