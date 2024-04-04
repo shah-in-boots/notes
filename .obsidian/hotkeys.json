@@ -17,23 +17,6 @@
     }
   ],
   "workspace:goto-last-tab": [],
-  "workspace:next-tab": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "Tab"
-    }
-  ],
-  "workspace:previous-tab": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "Tab"
-    }
-  ],
   "workspace:goto-tab-1": [],
   "workspace:goto-tab-2": [],
   "workspace:goto-tab-3": [],
@@ -182,6 +165,35 @@
         "Shift"
       ],
       "key": "A"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
     }
   ]
 }

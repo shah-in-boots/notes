@@ -35,13 +35,3 @@ A milestone focused on models and model visualization.
 
 ## v0.3.0
 
-# Miscellaneous
-
-Software that I've written that is related
-
-- [R-vlndr](R-vlndr.md)
-- [R-card](R-card.md)
-- [R-rcr](R-rcr.md)
-- [R-hrd](R-hrd.md)
-- [R-shiva](R-shiva.md)
-

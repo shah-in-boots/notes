@@ -10,13 +10,18 @@ tags:
 ---
 
 This project was initialized during [T32-and-F32-research-years](T32-and-F32-research-years.md).
-
-
-# Overview
-
 This analysis started as a "leftover" from the initial work previous lab members in the lab of  [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md). 
 The work was initially about 400 patients with baseline and follow-up AFEQT, however the paper languished for a few years and was revived in 2023.
 We have exppanded that dataset by several hundred patients, including those at UIC and the JBVA, and importantly feel that this is a timely cohort to describe.
+
+Collaborators:
+
+- [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md)
+- [Alvaro-Alonso-MD-PhD](Alvaro-Alonso-MD-PhD.md)
+- [Emelia-J-Benjamin-MD-ScM](Emelia-J-Benjamin-MD-ScM.md)
+
+# Overview
+
 Our overall hypothesis was that [social-determinants-of-health](social-determinants-of-health.md) would drive part of the treatment decisions and outcomes in patients with AF.
 
 Generally, we have the follow variables.
@@ -129,52 +134,3 @@ As above, the key SDOH factors are:
 Ancestral markers were evaluated in related AF papers from work by [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md). 
 We should leverage those to emphasize the importance of self-reported race, and that "genetic race" isn't necessarily an appropriate usage.
 Genetic racial fingerprints would suggest that our findings are biological in nature, when in fact it is more likely tobe environmental (e.g. race as a social construct).
-
-
-# Outline
-
-## Introduction
-
-## Methods
-
-## Results
-
-### Descriptive findings
-
-### Regression findings 
-
-#### National deprivation index (Q4 v. Q1)
-
-- NDI Q4 has worse total AFEQT regardless of clinical risk factors (dose-dependent)
-- NDI Q4 was worse AFEQT regardless of rate/rhythm strategy (including non-pharmacological rhythm interventions)
-- NDI Q4 had high odds of starting in rate-control strategy
-
-#### Black race (v. white)
-
-- Black race has worse total AFEQT regardless of clinical risk factors
-- Black race also had worse AFEQT regardless of treatment strategy (including non-pharmacological rhythm interventions)
-- Black race had decreased odds of being in rhythm control strategy at baseline or at follow-up time period
-
-#### Spanish speakers (v. English)
-
-- Spanish speakers had improvement in activity AFEQT score on follow-up
-- Spanish speakers had higher odds of being on rate-control strategy at followup
-
-#### Public insurance (v. private)
-
-- Public insurance had higher odds of switching to rhythm control by follow-up
-
-#### Men (v. women)
-
-- Men had higher odds of being on rhythm control strategy compared to women
-
-## Discussion
-
-## Tables & Figures
-
-The figures and tables for this paper need to be thoughtful analyses of the major relationships we hope to show.
-
-1. Table = cohort description by AFEQT score changes, with sections on clinical covariates, social determinants, treatment strategies, etc
-1. Figure or Table = AFEQT score breakdown in the population, with subscales (bar graph), showing score changes
-1. Table = Regression models with the primary exposure(s) being the SDOH factors, with sequential adjustment for traditional risk factors. Each column represents one exposure, with AFEQT changes as the outcome variable (with additional outcomes by AFEQT subscales).  
-1. Table = Regression models for rhythm/rate control strategy decisions by SDOH factors as primary exposure(s). 

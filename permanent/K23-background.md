@@ -75,7 +75,7 @@ E.g. PhenoKB uses binary diagnosis of AF (2012), while recent studies showed up 
 		- Galanin released as a adrenergic co-transmitter, binding to GalR1 receptors
 		- NPY binds to cholinergic neurons through the Y2 receptor
 		- Both directly/indirectly involve protein kinase C
-	- NPY receptors exist along the neurocardiac axis, including adrenal medulla (Y3) and cardiac tissue (Y2)[@Coote2013]
+	- NPY receptors exist along the neurocardiac axis, including adrenal medulla (Y3) and cardiac tissue (Y2) [@Coote2013] 
 
 ## Electrophysiology 
 
