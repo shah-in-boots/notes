@@ -10,15 +10,10 @@ tags:
 
 __Outline__
 
-1. Results
-	- Descriptive statistics
-		- Cohort description by AFEQT changes (outcome)
-		- Cohort description by SDOH factors (exposure)
-	- Regression models
-		- Linear relationships with changes in AFEQT scores
-		- Logistic relationships with rate/rhythm control strategies
 
 # Introduction
+
+
 
 ## Relevance/Importance
 
@@ -37,6 +32,10 @@ __Outline__
 - importance of symptoms in AF management
 - diversity in how AF is assessed/evaluated and managed
 - Symptoms in AF are variable [@Darbar2005] and maybe more important burden alone
+- Difference of AF and paradox by race [@Stamos2016]
+- Review of AF in Nature by @Lip2016
+- @Magnani2016 describes differences in AF disease mortality in ARIC
+- @Essien2021 shows SDOH gap in AF management/outcomes
 
 ## Purpose
 
@@ -53,8 +52,10 @@ __Hypothesis__: *We hypothesize that...*
 
 The UIC Multi-Ethnic AF Registry is highly enriched for minority populations, including Black/African-American and Hispanic/Latinx race-ethnicities
 
+- UIC + JBVA recruitment (multicenter) with clinical and genetics as a registry of AF patients
 - Inclusion criteria: age > 18 years, paroxysmal AF at time of enrollment
 - AFEQT measured at enrollment and follow-up (approximately 12 months)
+- Recruitment approach
 
 ## Atrial Fibrillation Effect on Quality-of-Life Scores
 
@@ -77,11 +78,24 @@ The Atrial Fibrillation Effect on Quality-of-Life (AFEQT) is a validated questio
 - Primary spoken language
 - Marital status
 
+## Clinical history
+
+- Clinical covariates
+- Heart failure status and echocardiogram
+- Medications, focused on rate/rhythm control agents (e.g. AAD)
+- Medications, including AP/AC agents in terms of CHADSVASC risk scores
+- Longitudinal follow-up data
+
 ## Statistical analysis
 
-- Descriptive statistics of cohort characteristics
-- Multivariable linear regression models to evaluate the association of SDOH with AFEQT scores
-- Models adjusted for clinical risk factors and treatment strategy
+- Descriptive statistics
+	- Cohort characteristics of cross-sectional and longitudinal cohort
+	- AFEQT description + changes over time
+- Linear regression models to evaluate changes in AFEQT scores
+	- Multivaraible adjustment
+	- Multiple SDOH exposures
+- Logistic regression models for treatment strategy
+	- Multivariable adjustment
 
 # Results
 
