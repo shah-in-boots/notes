@@ -34,3 +34,20 @@ The inspiration for this comes from articles and tables seen in publication, whi
 # Structure of model tables
 
 The most atomic element is the point-estimates $\pm$ confidence intervals. 
+This atom represents a relationship between an `outcome ~ exposure`. 
+That may be in the form of a regression, risk ratio, incidence, etc.
+
+This relationship can be of different types:
+
+- beta estimates
+- risk ratio
+- rate ratio
+- odds ratio
+- hazard ratio
+- incidence/prevalence
+- mean $\pm$ adjustment
+
+This relationship can be compared in a variety of *contexts*:
+
+- sequential adjustment
+- parallel adjustment
