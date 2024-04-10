@@ -13,8 +13,6 @@ __Outline__
 
 # Introduction
 
-
-
 ## Relevance/Importance
 
 - need for SDOH in AF research
@@ -127,10 +125,30 @@ The Atrial Fibrillation Effect on Quality-of-Life (AFEQT) is a validated questio
 - Spanish speakers had higher odds of being on rate-control strategy at followup
 - Men had higher odds of being on rhythm control strategy compared to women (known phenomenon)
 
+
 # Discussion
+
+## Key findings
+
+- SDOH factors, particularly ancestry + NDI quartile effect overall AFEQT scores (delta with time) regardless of basline clinical factors
+- SDOH factors also effect relationship with rate/rhythm control strategy in the local community
+
+## Supporting findings (from literature)
+
+- @Meschia2010 noted that blacks less likely than whites to know if they have AF
+- @Holmes2019 showed that $\pm$ 5 points was a clinically significant and meaningful difference in AFEQT scores
+
+## Mechanisms underlying findings
+
+## Clinical implications
+
+- Rate and rhythm control strategies were similar in MACE in ORBIT-AF, however >90% of population was white [@Noheria2016]
+
+## Future investigations
 
 ## Limitations
 
+- cross-sectional data more robust then longitdunal data
 - retrospective cohort
 - lack of validation externally
 - imbalanced data from UIC and JBVA
