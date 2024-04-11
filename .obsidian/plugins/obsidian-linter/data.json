@@ -1,7 +1,7 @@
 {
   "ruleConfigs": {
     "add-blank-line-after-yaml": {
-      "enabled": false
+      "enabled": true
     },
     "dedupe-yaml-array-values": {
       "enabled": false,
@@ -35,8 +35,8 @@
       "text-to-insert": "aliases: \ntags: "
     },
     "move-tags-to-yaml": {
-      "enabled": false,
-      "how-to-handle-existing-tags": "Nothing",
+      "enabled": true,
+      "how-to-handle-existing-tags": "Remove hashtag",
       "tags-to-ignore": ""
     },
     "remove-yaml-keys": {
@@ -123,7 +123,7 @@
       "default-language": ""
     },
     "emphasis-style": {
-      "enabled": false,
+      "enabled": true,
       "style": "consistent"
     },
     "no-bare-urls": {
