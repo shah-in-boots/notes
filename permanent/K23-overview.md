@@ -53,20 +53,33 @@ The hypothesis then needs to be approached using 3-4 specific aims, building on 
 My overall interest is in using the K23 to explore how research can be performed in the EP lab, while also advancing my skills in epidemiology, signal processing, and genetics. 
 These aims need to be related but independent, and will use atrial fibrillation as the model disease. 
 
-## Working Titles (in likelihood order)
-
-- Substrate and Ion Channel-Mediated Phenotypes of Paroxysmal Atrial Fibrillation
-- Autonomic-Mediation of Atrial Fibrillation Pathways
-- Drivers of Triggered Episodes of Paroxysaml Atrial Fibrillation
-- Substrate and Triggered Drivers of Paroxysmal Atrial Fibrillation Phenotypes
-- Tissue and Ion Channel-Mediated Phenotypes of Paroxysmal Atrial Fibrillation
-
-## Potential aims
+## Working Titles
 
 The aims are oriented around different topics, methodologies, and datasets that may be available. 
 There looks to be three major themes here that *pull together* my aims - there is a __mapping__ oriented aim in the EP lab, a __ECG__ based aim looking at phenotypic differences based on genetics (and null variants), and an exploratory aim on __novel variants__. 
+Below I go over potential working titles and conceptual aim ideas, which are then expanded in the subsequent sections.
 
-1. Repolarization and depolarization abnormalities in AF: 
+*Substrate and Ion Channel-Mediated Phenotypes of Paroxysmal Atrial Fibrillation*  
+*Tissue and Ion Channel-Mediated Phenotypes of Paroxysmal Atrial Fibrillation*
+1. (A) substrate phenotyping based on LGE patterns on CMR; (B) EP lab evaluation of properties of substrate in "trigger" conditions
+1. Substrate by genotypes on ECG in UIC and Utah datasets.
+1. Novel variants that are stress-related with Emory data.
+
+*Autonomic-Mediation of Atrial Fibrillation Pathways*  
+*Drivers of Triggered Episodes of Paroxysmal Atrial Fibrillation*  
+
+*Contextualized Substrate-Based Phenotypes in Atrial Fibrillation*
+1. Substrate-mapping using CMR and phenotyping areas of LGE pattern.
+1. EP lab based evaluation of scar-interaction with different vagal maneuvers for propagation of AF
+1. Creation of novel prediction maps for AF and arrhythmia pathways
+
+*Genetic and Epigenetic Interactions with Substrate-Based Phenotypes of Atrial Fibrillation*  
+*Substrate-Based Evolution of Atrial Fibrillation Phenotypes*  
+1. Phenotype substrates of AF based on LGE/EPS scar models from Utah, with ECG-based reference/training. Explore EPS relationship with scar-burden modulation by context (pacing rate, vagal maneuvers, vagolysis).
+1. Evolution of ECG-based phenotypes in *mutants* and *wild-types* of AF using WES/WGS datasets. Assess relationship of ECG-findings with amount of expected change based on genetic variants.
+1. Evaluation of rare/novel variants of AF using mendelian randomization of stress-related disorders associated with AF. 
+
+## Aim drafts
 
 ### v0.1.0
 
