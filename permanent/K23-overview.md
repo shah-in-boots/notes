@@ -14,7 +14,9 @@ As its a training grant, the areas of research need to be somewhat innovative bu
 I will need to build off of strengths from previous research mentors and the institution and new/active mentors. 
 Particularly, I will need to capitalize on the [University-of-Utah-research](University-of-Utah-research.md) research opportunities.
 
-Notes: *Relevant [K23-background](K23-background.md) information and potential [K23-data](K23-data.md)*
+Notes: 
+- Relevant literature for review in [K23-background](K23-background.md) 
+- Potential dataset information and descriptions in[K23-data](K23-data.md)
 
 # Big hairy audacious goal
 
@@ -53,8 +55,11 @@ These aims need to be related but independent, and will use atrial fibrillation 
 
 ## Working Titles (in likelihood order)
 
-- Substrate and ion channel-mediated phenotypes of paroxysmal atrial fibrillation
-- Autonomic-mediation of atrial fibrillation pathways
+- Substrate and Ion Channel-Mediated Phenotypes of Paroxysmal Atrial Fibrillation
+- Autonomic-Mediation of Atrial Fibrillation Pathways
+- Drivers of Triggered Episodes of Paroxysaml Atrial Fibrillation
+- Substrate and Triggered Drivers of Paroxysmal Atrial Fibrillation Phenotypes
+- Substrated-Based Phenotypes of Paroxysmal Atrial Fibrillation
 
 ## Potential aims
 
