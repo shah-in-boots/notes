@@ -89,7 +89,7 @@ Title: Substrate-Based Phenotypes of Paroxysmal Atrial Fibrillation
 1. __Sarcomeric and Ion-Channel Based ECG phenotypes of AF: *Wild-type* and *mutant* ECG patterns of paroxysmal AF. Relationship of monogenic variants in AF with changes in substrate pathology and ion channel remodeling in categorization AF subtypes.__ Can evaluate the ECG-based association with specific "substrate" genes and "ion channel" genes, and "wild-type" AF. See if ECG patterns can categorize patients utilizing UIC dataset, and UK Biobank.  This extends the [ECG-prediction-of-TTN-variants](ECG-prediction-of-TTN-variants.md) project. May also validate using *All of Us* dataset.
 1. __Identify novel/rare variants associated with AF (Exploratory Aim): Mendelian randomization of triggered arrhythmias approach focusing on high-risk/high-stress conditions (PTSD, anxiety, reduced stress-induced HRV reactivity).__ Look at Emory HRV stress reactivity data, and evaluate association with common/rare variants in GWAS data. Then, test association of these rare variants with future arrhythmia risk (both in local Emory data) and in UK Biobank. 
 
-### v0.2.0
+### v0.1.1
 
 Title: 
 
