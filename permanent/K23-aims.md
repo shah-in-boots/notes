@@ -20,7 +20,17 @@ The hypothesis then needs to be approached using 3-4 specific aims, building on 
 - Electrophysiology procedures: animal and human studies, access to specific EP data
 
 My overall interest is in using the K23 to explore how research can be performed in the EP lab, while also advancing my skills in epidemiology, signal processing, and genetics. 
+The most important element is that the proposal must be novel, innovative, and *worth* investing in from a research perspective.
 These aims need to be related but independent, and will use atrial fibrillation as the model disease. 
+They need to reflect expertise from the institution/primary mentors & sponsors.
+
+The areas of expertise of the mentorship group and institutions revolve around the following:
+
+- Mental stress and autonomic dysfunction with [Amit-j-Shah-MD-MS](Amit-j-Shah-MD-MS.md) at Emory
+- Genetic data and whole exome sequencing with [Yan-Sun-PhD](Yan-Sun-PhD.md) at Emory
+- Atrial fibrillation modeling using MRI and EPS with [Ravi-Ranjan-MD-PhD](Ravi-Ranjan-MD-PhD.md) and [Robert-MacLeod-PhD](Robert-MacLeod-PhD.md) at Utah
+- AF genetics and translational work with [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md) at UIC
+
 
 # Drafts
 
@@ -82,3 +92,15 @@ __Genetic Interaction with Substrate-Based Atrial Fibrillation Phenotypes__
 1. Classify AF phenotypes and their trajectories (A) based on markers of scar/fibrosis found on MRI/EPS, and (B) based on genetic variants that are causal for AF, based on structural/ion-channel mutations.
 1. Evaluate the effect of AF thresholds based on scar burden in EP studies prior to PVI, utilizing differential autonomic contexts, including vagal stimulation, vagolysis, and sympathetic stimulation.
 1. __Exploratory:__ Evaluate the role of common and rare variants in stress-related disorders (abnormal response to acute and chronic stress) with future arrhythmia risk using a two-sample Mendelian randomization approach.
+
+Feedback...
+- This doesn't seem like it comes together very well as an overall project however. It needs more sup
+- Needs to be more inline with research done at Utah (e.g. EP lab/mapping aim, scar-mediation) and previous resources (AF genetics and stress/autonomic function)
+
+## v0.1.4
+
+__Dynamicity in Substrate-Based Atrial Fibrillation Phenotypes__   
+*Identify the interaction between substrate and context lead to more accurate prediction of arrhythmia type and progression. If AF can be more accurately phenotyped, then future risk can be better mitigated.*
+1. Phenotype AF based on scar properties and scar contribution. Evaluate genetic contribution.
+1. Assess intracardiac and MRi-based AF dynamics in context with EP studies. Evaluate in stress-related conditions (e.g. PTSD).
+1. Identify novel variants for AF risk in MR-based study

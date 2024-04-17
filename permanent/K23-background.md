@@ -5,7 +5,10 @@ stage: building
 tags:
   - research
   - grants
+  - literature
 ---
+
+# Background
 
 ```mermaid
 flowchart LR
@@ -36,8 +39,6 @@ flowchart LR
 	epaf --> ppaf --> lpaf
 ```
 
-## Phenotyping
-
 __Paroxysmal__ AF requires both a trigger and a substrate to progenerate. 
 Paroxysmal, early AF rallies primarily through triggered activity
 Electrical abnormalities preceed ± cause mechanical changes (fibrosis, myocardial disarray, leading to increased pre-disposed substrate.
@@ -47,6 +48,8 @@ Firing mechanisms occurs primarily from pulmonary veins due to:
  -   Enhanced automaticity
  -   Myocardial micro-reentry
  -   Triggered activity
+
+## Phenotyping
 
 However, phenotyping is lmited.
 E.g. PhenoKB uses binary diagnosis of AF (2012), while recent studies showed up to four potential clusters may exist. [@Pastori2020; @Vitolo2021]
@@ -77,12 +80,32 @@ E.g. PhenoKB uses binary diagnosis of AF (2012), while recent studies showed up 
 		- Both directly/indirectly involve protein kinase C
 	- NPY receptors exist along the neurocardiac axis, including adrenal medulla (Y3) and cardiac tissue (Y2) [@Coote2013] 
 
-## Electrophysiology 
+# Cardiac Electrophysiology
+
+## Electrophysiology studies
 
 - APD variability in the atria precede onset of AF at rapid pacing rates [@vanStaveren2020]
 - AERP measurement durnig extrastimuli protocols (e.g. bottom quintile of fibrillatory intervals from endocardium) [@Capucci1995]
+- @Avula2019 in JCI insight showed that AF rotors were associated with regions of the greatest heterogeneity of the APD, which was improved by pharmacological intervention regardless of spontaneous or pacing-induced AF (as long as APD heterogeneity was reduced)
+- Different types of heterogeneity in atrial tissue may drive AF, as discussed by @Rabinovitch2023
+- In a computational model, heterogenous fibrosis affects arrhythmia dynamics as described by @Kazbanov2016
+
+## Stress mechanisms
+
 - Two studies that have looked at mental stress and EPS are quite small (`n = 10` & `n = 12`), but neither looked at atrial properties [@Insulander2003; @Finlay2016]
+- @Rosman2019 showed relationship with PTSD and EOAF
 
-## Genetic factors
+## Machine learning
 
-There are currently known associations of ECG intervals and monogenic arrhythmia susceptibility genes, done by @Choi2021. 
+- @Tang2022 looked at clinical risk prediction using ECG and EGM data, which used a machine learning model
+	- Methods here are interesting because documents how time-series + multi-channel data can be brought together in ML approach
+	- Notably also done by [Sanjiv-Narayan-MD](Sanjiv-Narayan-MD.md)
+
+# Genetics
+
+## Atrial fibrillation
+
+- There are currently known associations of ECG intervals and monogenic arrhythmia susceptibility genes, done by @Choi2021
+- Genetic susceptibility predicted by PRS and ECG in a machine learning approach, by @Wang2023
+- @Shoemaker2020 showed association with rare variants in AF cases undergoing ablation
+
