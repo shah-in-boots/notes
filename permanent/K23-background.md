@@ -106,6 +106,6 @@ E.g. PhenoKB uses binary diagnosis of AF (2012), while recent studies showed up 
 ## Atrial fibrillation
 
 - There are currently known associations of ECG intervals and monogenic arrhythmia susceptibility genes, done by @Choi2021
-- Genetic susceptibility predicted by PRS and ECG in a machine learning approach, by @Wang2023
+- Genetic susceptibility prediced by PRS and ECG in a machine learning approach, by @Wang2023
 - @Shoemaker2020 showed association with rare variants in AF cases undergoing ablation
 
