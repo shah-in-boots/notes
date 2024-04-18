@@ -35,6 +35,8 @@ __Outline__
 - @Magnani2016 describes differences in AF disease mortality in ARIC
 - @Essien2021 shows SDOH gap in AF management/outcomes
 
+@Holmes2019 showed that AFEQT scores mattered > 5 change
+
 ## Purpose
 
 __Objective__: *Evaluate the role of SDOH in AF symptom burden and quality-of-life.*
@@ -65,6 +67,8 @@ The Atrial Fibrillation Effect on Quality-of-Life (AFEQT) is a validated questio
 - Treatment subscale
 
 *Treatment concerns were not included in this analysis due to incomplete responses.*
+
+- @Holmes2019 showed a >5 change in AFEQT was clinically significant
 
 ## Social Determinants of Health
 
@@ -134,6 +138,7 @@ The Atrial Fibrillation Effect on Quality-of-Life (AFEQT) is a validated questio
 - SDOH factors also effect relationship with rate/rhythm control strategy in the local community
 
 ## Supporting findings (from literature)
+
 
 - @Meschia2010 noted that blacks less likely than whites to know if they have AF
 - @Holmes2019 showed that $\pm$ 5 points was a clinically significant and meaningful difference in AFEQT scores
