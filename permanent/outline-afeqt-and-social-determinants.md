@@ -90,14 +90,23 @@ The Atrial Fibrillation Effect on Quality-of-Life (AFEQT) is a validated questio
 
 ## Statistical analysis
 
-- Descriptive statistics
-	- Cohort characteristics of cross-sectional and longitudinal cohort
-	- AFEQT description + changes over time
-- Linear regression models to evaluate changes in AFEQT scores
-	- Multivaraible adjustment
-	- Multiple SDOH exposures
-- Logistic regression models for treatment strategy
-	- Multivariable adjustment
+- Cohort characteristics
+	- Descriptive characteristics of the cross-sectional cohort at baseline (by AFEQT quartile)
+	- Descriptive characteristics of the longitudinal cohort at baseline (by AFEQT quartile)
+	- Descriptive characteristics of the longitudinal cohort by SDOH factors (focusing on SDOH differences)
+- Effects on AFEQT
+	- Baseline AFEQT status and at follow-up
+	- Describe mean change of AFEQT
+	- Statistical and linear regression testing with SDOH with baseline AFEQT scores
+		- Multivariable adjustment for traditional risk factors
+	- Statistical and linear regression testing with SDOH for changes in future AFEQT
+		- Adjusting for baseline AFEQT scores
+		- Multivariable adjustment in sequential fashion with traditional risk factors
+		- Adjusting for treatment strategies (cardioversion, PVI, etc)
+- Treatment strategy
+	- Description of treatment strategy
+	- Statistical and logistic regression testing with SDOH for baseline and future treatment strategies
+		- Multivariable adjustment in sequential fashion with traditional risk factors
 
 # Results
 
