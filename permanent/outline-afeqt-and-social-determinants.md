@@ -35,6 +35,13 @@ __Outline__
 - @Magnani2016 describes differences in AF disease mortality in ARIC
 - @Essien2021 shows SDOH gap in AF management/outcomes
 
+- @Gisi2020 is a paper by Magnani on `n=260` individuals with AFEQT and depression, showing stepwise relationship between depression and AFEQT
+- @Katsumata2020 showed that physicians under-reported (estimated) symptom burden, primarily in elderly patients and in men (however in Japanese cohort), and additionally along with Spertus (by @Ikemura2024) showed that physician often underestimate or overestimate AFEQT, leading to inappropriate or lack of treatment escalation
+- @Randolph2016 noted that some clinical factors, such as female sex, heart failure, OSA, COPD, etc were associated with reduced AFEQT. This was in `n=2007` patients, but no one looked at social determinants
+- PRO study by @Guhl2019 showed that lower income was associated with worse AFEQT
+- A meta-analysis of PRO by @Steinberg2019 showed that only 14% of AF studies included PROs, and of those studies, 17% only had AFEQT or AF-specific QOL measure
+
+
 @Holmes2019 showed that AFEQT scores mattered > 5 change
 
 ## Purpose
