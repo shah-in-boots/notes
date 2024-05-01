@@ -9,7 +9,7 @@ tags:
 ---
 
 I need to break apart my __BHAG__ into a overarching hypothesis that leads me towards it, as it needs to be a small enough project that can be tested and finished within 5 years (at 50% protected time).
-This is described in [K23-overview](../permanent/K23-overview.md).
+This is described in [K23](K23.md).
 The hypothesis then needs to be approached using 3-4 specific aims, building on my skills and prior research.
 
 - Signal processing: ECG and EGM data
@@ -116,3 +116,5 @@ Feedback from Ravi Ranjan...
 - The ECG phenotypes from aim 1 need to be written in such a way that PVI (the mainstay) is not thrown out or goes against dogma (e.g. paroxysmal without myopathy needs PVI, regardless of ECG characteristics)
 - The second aim requires understanding how to measure APD effectively
 - The third aim is not cohesive with the others
+
+## v0.1.6
