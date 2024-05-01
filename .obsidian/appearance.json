@@ -1,10 +1,10 @@
 {
-  "accentColor": "#ffc23d",
+  "accentColor": "",
   "monospaceFontFamily": "Source Code Pro",
   "textFontFamily": "",
   "interfaceFontFamily": "",
-  "translucency": false,
+  "translucency": true,
   "cssTheme": "Minimal",
-  "theme": "obsidian",
+  "theme": "system",
   "baseFontSize": 15
 }

@@ -100,6 +100,14 @@ Additional Parameters:
 	- Sequential adjustment
 - Causal analysis of insulin resistance and acute hyperglycemia
 
+# Results
+
+## Cohort Description
+
+## ECG Associations A1c
+
+## ECG Associations with HOMA
+
 # Discussion
 
 ## Key Findings
@@ -113,6 +121,7 @@ Support from literature: 
 - SVG is well-supported clinial tool for evaluating cardiac abnormalities [@Hurst2005]
 - GEH is associated with SCD in ARIC and CHS [@Waks2016a] 
 - Diabetes and SVG has not yet been studied
+
 
 ## Potential Mechanisms
 
