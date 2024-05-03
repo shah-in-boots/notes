@@ -4,7 +4,7 @@ category: project
 stage: building
 ---
 
-In the [R-vlndr](R-vlndr.md) package, the data needed to create forest plots is available. However, the structure of the forest plot are complicated. This note describes forest plots using interaction variables.
+In the [R-rmdl](R-rmdl.md) package, the data needed to create forest plots is available. However, the structure of the forest plot are complicated. This note describes forest plots using interaction variables.
 
 First, we find the effect of interaction, e.g. [interaction-effect-estimation](interaction-effect-estimation.md), on the multiple levels of the interaction term. 
 

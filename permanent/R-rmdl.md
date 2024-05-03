@@ -11,7 +11,7 @@ tags:
   - methods 
 ---
 
-The `R` package `{vlndr}` is a software package built to handle and organize multiple models when performing causal-oriented analyses.  The package documentation is located on the [website](https://asshah4.github.io/vlndr) and software development is on [Github](https://github.com/asshah4/vlndr).
+The `R` package `{rmdl}` is a software package built to handle and organize multiple models when performing causal-oriented analyses.  The package documentation is located on the [website](https://shah-in-boots.github.io/rmdl) and software development is on [Github](https://github.com/shah-in-boots/rmdl).
 
 This package is under active development. 
 The summary of the versions is below, and serves as an implementation timeline. 
@@ -19,8 +19,8 @@ Additionally, descriptions of the major classes, and their development, are desc
 The most up-to-date descriptions will be on the package website.
 Additional expansion of the documentation and development process are listed:
 
-- Creation of the major new class `<fmls>` is described at [R-vlndr-formulas](../../permanent/R-vlndr-formulas.md)
-- Development of the `<mdl_tbl>` class and its visualization using the `{gt}` package is described at [R-vlndr-tables](../../permanent/R-vlndr-tables.md)
+- Creation of the major new class `<fmls>` is described at [R-rmdl-formulas](R-rmdl-formulas.md)
+- Development of the `<mdl_tbl>` class and its visualization using the `{gt}` package is described at [R-rmdl-tables](R-rmdl-tables.md)
 
 # Versions
 
