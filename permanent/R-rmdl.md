@@ -13,6 +13,9 @@ tags:
 
 The `R` package `{rmdl}` is a software package built to handle and organize multiple models when performing causal-oriented analyses.  The package documentation is located on the [website](https://shah-in-boots.github.io/rmdl) and software development is on [Github](https://github.com/shah-in-boots/rmdl).
 
+
+# Development
+
 This package is under active development. 
 The summary of the versions is below, and serves as an implementation timeline. 
 Additionally, descriptions of the major classes, and their development, are described. 

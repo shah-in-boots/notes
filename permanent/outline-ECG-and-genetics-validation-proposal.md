@@ -42,3 +42,18 @@ tags:
 
 - @Tereshchenko2018 looked at GEH patterns in the ARIC and CHS study, and found that there were associations with GEH (GEH x GWAS)
 	- ARIC + CHS has roughly 13k patients with ECG
+
+# Validation Cohorts
+
+UK Biobank:
+
+- `72,485` ECG are available, covering `68,081` participants
+- `469,779` whole exome sequence data are available in VCF format
+
+ARIC:
+
+- `11,478` participants with genotype and phenotype datasets (including ECG)
+
+Cardiac Heart Study:
+
+- `5,888` individuals with WES/WGS and ECG data, with 31% CVD prevalence, 16% AA, and 58% female
