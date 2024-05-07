@@ -57,3 +57,18 @@ ARIC:
 Cardiac Heart Study:
 
 - `5,888` individuals with WES/WGS and ECG data, with 31% CVD prevalence, 16% AA, and 58% female
+
+
+# Aims
+
+Key questions:
+
+- Can an ECG that was trained on AF polygenic risk scores predict future risk of AF? 
+- Can ECG-AI be used to differentiate between types of pro-arrhythmic gene effects? Essentially can it explain the genotype-phenotype relationship? 
+
+1. Define polygenic risks using known/studied PGS scores for AF. Train model to predict AF-PGS from ECG. Evaluate for rare/novel variants in those that are considered high risk by PGS.
+1. Separate known ~140 arrhythmia genes into ion-channel or structural proteins. Train based on LOF or severely pathogenic variants as predicted outcome from ECG.
+
+Power/sample:
+
+

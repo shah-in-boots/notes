@@ -13,7 +13,12 @@ It is primarily intended for `Cardiovascular Research Data`, and contains functi
 
 - The major sample datasets are described in [R-card-data](R-card-data.md).
 
+
 # Versions
+
+## Development version
+
+- Functions to help create an AF composite treatment response score, described in [AF-composite-treatment-response-score](AF-composite-treatment-response-score.md)
 
 ## v0.1.0
 
