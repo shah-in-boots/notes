@@ -26,7 +26,7 @@ They need to reflect expertise from the institution/primary mentors & sponsors.
 
 The areas of expertise of the mentorship group and institutions revolve around the following:
 
-- Mental stress and autonomic dysfunction with [Amit-j-Shah-MD-MS](Amit-j-Shah-MD-MS.md) at Emory
+- Mental stress and autonomic dysfunction with [Amit-J-Shah-MD-MS](Amit-J-Shah-MD-MS.md) at Emory
 - Genetic data and whole exome sequencing with [Yan-Sun-PhD](Yan-Sun-PhD.md) at Emory
 - Atrial fibrillation modeling using MRI and EPS with [Ravi-Ranjan-MD-PhD](Ravi-Ranjan-MD-PhD.md) and [Robert-MacLeod-PhD](Robert-MacLeod-PhD.md) at Utah
 - AF genetics and translational work with [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md) at UIC
@@ -120,3 +120,13 @@ Feedback from Ravi Ranjan...
 ## v0.2.0
 
 At this point, have decided that the aims may be disparate enough that two different applications are likely more conducive - one through a VA-CDA and another through the NIH-K23 mechanism.
+[Amit-J-Shah-MD-MS](Amit-J-Shah-MD-MS.md) however suggested a way to unify the aims more clearly, under the auspice of stress and arrhythmias.
+
+1. EPS to evaluate measures of how a "mental stress cocktail" can help evaluate the properties of atrial tissue and islands of cholinergic neurons. 
+	- Build a cohort to identify features of "atrial resilience" to arrhythmia (particularly AF). 
+	- Obtain bloodwork to help measure autonomic responses and whole genome sequencing data to create polygenic risk
+1. Apply autonomic variables to algorithm in computational geometry maps that predict arrhythmia. Use weights of variables based off of (1) to help with prediction. Compare those to future EP studies with multiple arrhythmias that are found.
+1. Evaluate association of polygenic risk score for chronic stress disorders (e.g. PTSD, depression, anxiety) with cohort of 50-100 individuals undergoing EP study. 
+	- Identify the "difficulty" in inducing arrhythmia and rank PGS against that to identify "susceptible" and "resiliency" SNPs. 
+	- Obtain additional SNPs using abnormal HRV response from mental stress cohort from Emory
+	- Perform Mendelian Randomization using those SNPs in UK Biobank

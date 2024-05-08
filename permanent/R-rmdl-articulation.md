@@ -12,6 +12,20 @@ The concept of an `articulation` is the underlying joinery between outcome and e
 The concept needs to be cover the contexts it may exist in to help create the `{gt}` tables for publications.
 Here we brainstorm how to put that together.
 
+Direct relationships:
+
+A majority of direct relationships will be based on the 1) type of modeling approach, and 2) variable type.
+
+Continuous ~ Binary | Categorical
+
+Binary ~ Continuous
+
+Binary ~ Binary | Categorical
+
+Categorical ~ Continuous
+
+Categorical ~ Binary | Categorical
+
 Variable types:
 
 - continuous
