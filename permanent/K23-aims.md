@@ -117,4 +117,6 @@ Feedback from Ravi Ranjan...
 - The second aim requires understanding how to measure APD effectively
 - The third aim is not cohesive with the others
 
-## v0.1.6
+## v0.2.0
+
+At this point, have decided that the aims may be disparate enough that two different applications are likely more conducive - one through a VA-CDA and another through the NIH-K23 mechanism.

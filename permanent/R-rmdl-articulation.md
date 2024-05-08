@@ -28,6 +28,10 @@ Direction relationships:
 
 Contexts:
 
+Sequential adjustment: 
+	- The major exposure or predictor (in relationship to the outcome), referred here as an `articulation` is in a model multiple times due to sequential adjustment, each adjustment layer is an additional *context*
+	- Each *context* here is ordered based on the sequence of covariates, e.g. rows in a column for repeated, sequentially-adjusted models
+
 - strata
 - interaction
 - dataset differences
