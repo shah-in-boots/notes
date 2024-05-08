@@ -7,6 +7,10 @@ stage: building
 The `{egm}` package is an electrophysiology signal oriented software that I am developing to evaluation of electrogram data.
 The [website](https://shah-in-boots.github.io/egm) and [Github site](https://github.com/shah-in-boots/egm) should have the most up-to-date documentation and source code.
 
+# Development
+
+
+
 # Milestones
 
 ## v0.1.0

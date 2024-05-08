@@ -8,6 +8,7 @@ tags:
   - causality
 ---
 
+This is a concept page from the main software [R-rmdl](R-rmdl.md). 
 The concept of an `articulation` is the underlying joinery between outcome and exposure (or any other predictor). 
 The concept needs to be cover the contexts it may exist in to help create the `{gt}` tables for publications.
 Here we brainstorm how to put that together.

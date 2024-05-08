@@ -23,7 +23,9 @@ The most up-to-date descriptions will be on the package website.
 Additional expansion of the documentation and development process are listed:
 
 - Creation of the major new class `<fmls>` is described at [R-rmdl-formulas](R-rmdl-formulas.md)
+- Creation of a major class that represents the relationship between two variables, which serves as the atomic building block for tables. This is in [R-rmdl-articulation](R-rmdl-articulation.m).
 - Development of the `<mdl_tbl>` class and its visualization using the `{gt}` package is described at [R-rmdl-tables](R-rmdl-tables.md)
+
 
 # Versions
 
