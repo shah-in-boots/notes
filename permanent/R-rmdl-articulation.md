@@ -52,3 +52,12 @@ Sequential adjustment:
 - dataset differences
 - covariates
 	- sequential adjustment
+
+
+```mermaid
+classDiagram
+
+class Articulation{
+	+character
+}
+```
