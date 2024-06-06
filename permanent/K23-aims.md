@@ -130,3 +130,19 @@ At this point, have decided that the aims may be disparate enough that two diffe
 	- Identify the "difficulty" in inducing arrhythmia and rank PGS against that to identify "susceptible" and "resiliency" SNPs. 
 	- Obtain additional SNPs using abnormal HRV response from mental stress cohort from Emory
 	- Perform Mendelian Randomization using those SNPs in UK Biobank
+
+## v0.2.1
+
+**Aim 1: Determine the differences in APD heterogeneity of scar tissue in the context of modulated autonomic activity.** Our working hypothesis is that the interaction between APD heterogeneity and autonomic modulation will predict differential risk for future AF, particularly in cases of abnormal baseline autonomic activity such as PTSD.
+
+**Aim 2: Determine the effect of autonomic changes in computational models of arrhythmia to predict differential risk for atrial arrhythmias.** Our working hypothesis is that by modifying dromotropic and lusitropic properties of computational models of atria, clinically-relevant arrhythmias can be elicited over that of fibrosis-based models alone.
+
+**Aim 3: Evaluate the association of polygenic risk scores for chronic stress disorders with risk of atrial arrhythmias.** We hypothesize that SNPs associated with stress disorders have differential susceptibility (or resilience) to future arrhythmias. We will validate our findings in the UK Biobank using a two-sample Mendelian randomization study design.
+
+We tried to pull together the aims even more in a meeting with [Amit-J-Shah-MD-MS](Amit-J-Shah-MD-MS.md)].  His revisions:
+
+- Change verbiage of aim 1 to be simpler and talk about sympathovagal balance instead of autonomic modulation
+- Consider each aim as an attempt at phenotyping, with the focus being on comparing the different phenotypes. E.g.
+	- Aim 1 i s all about the electrical and autonomic phenotype, and its definition
+	- Aim 2 is more about comparing it with scar-based phenotypes
+	- Aimd 3 is about comparing the role of autonomic phenotypes against that of genetic phenotypes (e.g. 20% of the population)
