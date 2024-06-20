@@ -61,3 +61,8 @@ class Articulation{
 	+character
 }
 ```
+
+# Visual Elements
+
+An important aspect of presenting data is grouping of variables. 
+These groups are not necessarily how modeling is performed, but how the table organizes variables.
