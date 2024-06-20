@@ -1,5 +1,5 @@
 site_name: Notes
-site_url: https://asshah4.github.io/notes
+site_url: https://shah-in-boots.github.io/notes
 
 # Theme
 theme:
@@ -7,6 +7,9 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+
+extra_css:
+  - colors.css 
 
 # Extensions
 markdown_extensions:
