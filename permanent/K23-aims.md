@@ -133,11 +133,15 @@ At this point, have decided that the aims may be disparate enough that two diffe
 
 ## v0.2.1
 
-**Aim 1: Determine the differences in APD heterogeneity of scar tissue in the context of modulated autonomic activity.** Our working hypothesis is that the interaction between APD heterogeneity and autonomic modulation will predict differential risk for future AF, particularly in cases of abnormal baseline autonomic activity such as PTSD.
+**Aim 1: Determine the differences in APD heterogeneity of scar tissue in the context of modulated autonomic activity.** 
+Our working hypothesis is that the interaction between APD heterogeneity and autonomic modulation will predict differential risk for future AF, particularly in cases of abnormal baseline autonomic activity such as PTSD.
 
-**Aim 2: Determine the effect of autonomic changes in computational models of arrhythmia to predict differential risk for atrial arrhythmias.** Our working hypothesis is that by modifying dromotropic and lusitropic properties of computational models of atria, clinically-relevant arrhythmias can be elicited over that of fibrosis-based models alone.
+**Aim 2: Determine the effect of autonomic changes in computational models of arrhythmia to predict differential risk for atrial arrhythmias.** 
+Our working hypothesis is that by modifying dromotropic and lusitropic properties of computational models of atria, clinically-relevant arrhythmias can be elicited over that of fibrosis-based models alone.
 
-**Aim 3: Evaluate the association of polygenic risk scores for chronic stress disorders with risk of atrial arrhythmias.** We hypothesize that SNPs associated with stress disorders have differential susceptibility (or resilience) to future arrhythmias. We will validate our findings in the UK Biobank using a two-sample Mendelian randomization study design.
+**Aim 3: Evaluate the association of polygenic risk scores for chronic stress disorders with risk of atrial arrhythmias.** 
+We hypothesize that SNPs associated with stress disorders have differential susceptibility (or resilience) to future arrhythmias. 
+We will validate our findings in the UK Biobank using a two-sample Mendelian randomization study design.
 
 We tried to pull together the aims even more in a meeting with [Amit-J-Shah-MD-MS](Amit-J-Shah-MD-MS.md)].  His revisions:
 
@@ -146,3 +150,21 @@ We tried to pull together the aims even more in a meeting with [Amit-J-Shah-MD-M
 	- Aim 1 i s all about the electrical and autonomic phenotype, and its definition
 	- Aim 2 is more about comparing it with scar-based phenotypes
 	- Aimd 3 is about comparing the role of autonomic phenotypes against that of genetic phenotypes (e.g. 20% of the population)
+
+## v0.2.2
+
+Overarching hypothesis: The autonomic phenotype of AF is an alternative and novel mechanism that should be understood and may lead to potential treatments.
+
+**Aim 1: Quantify the effect of the ANS on the atrial substrate to assess the variable threshold for arrhythmias.**
+During EPS, the ANS can be modulated through pharmacological intervention and pacing maneuvers (such as vagal stimulation). 
+ANS modulation will have varying effects on the atrial substrate based on the burden of underlying scar.
+Hypothesis: The changes in electrophysiological parameters in response to ANS modulation will reflect the underlying propensity for episodes of AF.
+
+**Aim 2: Compare the efficacy of computational scar-based models of atrial arrhythmias with models including ANS parameters.**
+Current computational models for arrhythmia prediction are predicated on the differential conductive properties of scar.
+Hypothesis: The effect of ANS innervation on cardiac conduction will improve prediction of clinical-relevant arrhythmias.
+As a secondary hypothesis, the ANS parameters obtained from **Aim 1** will validate the computational models.
+
+**Aim 3: Explore the contribution of ANS genetic variants in the polygenic risk of atrial arrhythmias.**
+Hypothesis: Genetic variants associated with the perturbations of the ANS, particularly stress-related disorders, may overlap with and contribute to both risk and resilience to future development of AF. 
+Using a two-sample Mendelian randomization study design, we will identify SNPs that contribute to stress-related disorders, including potentially novel loci, and assess their impact on the polygenic risk of AF in a validation cohort (UK Biobank).
