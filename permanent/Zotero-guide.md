@@ -6,6 +6,8 @@ stage: working
 
 # Approach
 
+There is an import feature from Zotero while in Obsidian that will let us pull in a citation, using the citation key (@AuthorYYYY) that should be the title.
+
 ## Highlighter
 
 - <font color='gold'>Yellow</font> is interesting comment
