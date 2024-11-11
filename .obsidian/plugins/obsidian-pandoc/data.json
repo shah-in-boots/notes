@@ -7,8 +7,8 @@
   "displayYAMLFrontmatter": false,
   "linkStrippingBehaviour": "text",
   "highDPIDiagrams": true,
-  "pandoc": null,
-  "pdflatex": null,
+  "pandoc": "/opt/homebrew/bin/pandoc",
+  "pdflatex": "/usr/local/bin/pdflatex",
   "outputFolder": "/Users/asshah4/projects/notes/evernote/",
   "extraArguments": "",
   "exportFrom": "html"
