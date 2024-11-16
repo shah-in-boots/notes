@@ -10,8 +10,8 @@ There is an import feature from Zotero while in Obsidian that will let us pull i
 
 ## Highlighter
 
-- <font color='gold'>Yellow</font> is interesting comment
-- <font color='indianred'>Red</font> is controversial or disagreeing comment
+- <font color='gold'>Yellow</font> is for standard highlighting of interesting comments
+- <font color='orange'>Orange</font> is controversial or disagreeing comment
+- <font color='violetred'>Magenta/Pink</font> is for methods of note
+- <font color='teal'>Green</font> is an important reference for follow-up
 - <font color='royalblue'>Blue</font> is about a major conclusion or finding
-- <font color='teal'>Green</font> is about a reference that is worth looking into
-- <font color='violetred'>Magenta</font> is for interesting methods
