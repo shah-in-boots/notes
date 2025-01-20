@@ -1,6 +1,6 @@
 ---
 category: reference
-citekey: @{{citekey}}
+citekey: {{citekey}}
 stage: working
 year: {{date | format('YYYY')}}
 ---

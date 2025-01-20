@@ -1,6 +1,6 @@
 ---
 category: reference
-citekey: @vandeLeur2021
+citekey: vandeLeur2021
 stage: working
 year: 2021
 ---

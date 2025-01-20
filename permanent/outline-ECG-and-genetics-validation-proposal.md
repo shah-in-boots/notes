@@ -10,6 +10,7 @@ tags:
   - genetics
 ---
 
+
 # Current Literature
 
 - @Verweij2020 looked at ECG and correlated it with GWAS for cardiac genetic variants
@@ -68,7 +69,7 @@ Key questions:
 
 1. Define polygenic risks using known/studied PGS scores for AF. Train model to predict AF-PGS from ECG. Evaluate for rare/novel variants in those that are considered high risk by PGS.
 1. Separate known ~140 arrhythmia genes into ion-channel or structural proteins. Train based on LOF or severely pathogenic variants as predicted outcome from ECG.
+1. Attempt to understand the types of effects on AF risk from genetic mutations associated with AF in structural genes, ion channel genes, metabolic genes, and inflammatory genes. 
 
-Power/sample:
 
 

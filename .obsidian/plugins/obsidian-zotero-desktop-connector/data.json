@@ -3,7 +3,7 @@
   "noteImportFolder": "literature",
   "pdfExportImageDPI": 300,
   "pdfExportImageFormat": "png",
-  "pdfExportImageQuality": 90,
+  "pdfExportImageQuality": 100,
   "citeFormats": [],
   "exportFormats": [
     {
