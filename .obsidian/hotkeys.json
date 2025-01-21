@@ -49,18 +49,11 @@
       "key": "W"
     }
   ],
-  "app:go-back": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "H"
-    }
-  ],
   "app:go-forward": [
     {
       "modifiers": [
-        "Alt"
+        "Ctrl",
+        "Shift"
       ],
       "key": "L"
     }
@@ -79,15 +72,6 @@
         "Ctrl"
       ],
       "key": "M"
-    }
-  ],
-  "outline:open": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": " "
     }
   ],
   "backlink:toggle-backlinks-in-document": [
@@ -173,12 +157,6 @@
         "Ctrl"
       ],
       "key": "Tab"
-    },
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "J"
     }
   ],
   "workspace:previous-tab": [
@@ -188,12 +166,104 @@
         "Shift"
       ],
       "key": "Tab"
-    },
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "S"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:focus-top": [
     {
       "modifiers": [
         "Alt"
       ],
       "key": "K"
+    }
+  ],
+  "editor:focus-bottom": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": " "
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "9"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "0"
+    }
+  ],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
     }
   ]
 }

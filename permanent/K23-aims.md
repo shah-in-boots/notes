@@ -33,10 +33,23 @@ The areas of expertise of the mentorship group and institutions revolve around t
 
 # Versions of Aims
 
-The aims are oriented around different topics, methodologies, and datasets that may be available. 
+The aims are oriented around different topics, methodologies, and datasets that may be available.
 There looks to be three major themes here that *pull together* my aims - there is a __mapping__ oriented aim in the EP lab, a __ECG__ based aim looking at phenotypic differences based on genetics (and null variants), and an exploratory aim on __novel variants__. 
 Below I go over potential working titles and conceptual aim ideas, which are then expanded subsequently. 
 Aims are presented in reverse chronological order. 
+
+## v0.2.3
+
+General ideas:
+
+1. **Aim 1** focuses on which patient would benefit from considering their autonomic phenotype
+	- NPY and Gal may be associated with *adrenergic* AF in otherwise low scar burden atria
+1. **Aim 2** looks at how to decrease fibrillatory area and considers dynamic and autonomically influenced substrate
+	- MRI perspective helps as the gold standard for scar
+2. **Aim 3** looks at  how genetic and epigenetic factors influence the autonomic phenotype in AF
+	- NPY and Gal are released from sympathetic terminals and inhibit cholinergic activity
+	- Gene variants in NPY
+	- Look at genetic variants in ANS related genes to understand their association with atrial arrhythmias
 
 ## v0.2.2
 
@@ -59,7 +72,7 @@ Using a two-sample Mendelian randomization study design, we will identify SNPs t
 I received early feedback from [Ravi-Ranjan-MD-PhD](Ravi-Ranjan-MD-PhD.md) about these aims, and his major thoughts were to consider the specific hypothesis and how the implementation would happen.
 - For aim 1, there isn't a clear "big picture". Perhaps using prediction to help identify which patients would be strong respondeds to GP ablation. But this would require an implementation tool or measurement that was safe and was already part of an EP study to some degree.
 - For aim 2, the MRI findings could be helpful to understand which patients would benefit from more or less aggressive treatment at time of first ablation. This could be a measurement of pre- vs. post- fibrillatory area that accounts for "modulation" from ANS to increase or decrease size.
-- Aim 3 is the weakest, and will require a conversation with [[../temporary/Martin-Tristani-Firouzi-MD]].
+- Aim 3 is the weakest, and will require a conversation with [Martin-Tristani-Firouzi-MD](Martin-Tristani-Firouzi-MD.md). 
 
 ## v0.2.1
 
