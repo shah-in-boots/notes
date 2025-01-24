@@ -5,6 +5,9 @@ stage: building
 tags:
   - electrocardiogram
   - genetics
+  - manuscript
+  - draft
+  - outline
 ---
 
 1. Introduction

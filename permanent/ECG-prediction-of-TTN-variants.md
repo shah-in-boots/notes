@@ -48,5 +48,4 @@ As such, this may be a more expanded study that can be validated in the UK Bioba
 
 There are currently known associations of ECG intervals and monogenic arrhythmia susceptibility genes, done by @Choi2021. 
 
-The work is continued in a separate note at [outline-ECG-and-genetics-validation-proposal](outline-ECG-and-genetics-validation-proposal.md).
-
+The work is continued in a separate note at [outline-ECG-and-genetics-validation-proposal](outline-ECG-and-genetics-validation-proposal.md), with the eventual paper proposal started in [outline-ECG-prediction-of-TTN-variants](outline-ECG-prediction-of-TTN-variants.md).

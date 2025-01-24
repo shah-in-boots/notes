@@ -44,6 +44,7 @@ General ideas:
 
 1. **Aim 1** focuses on which patient would benefit from considering their autonomic phenotype
 	- NPY and Gal may be associated with *adrenergic* AF in otherwise low scar burden atria
+	- can measure NPY levels, S100B (neural damage), along with baroreflex testing
 1. **Aim 2** looks at how to decrease fibrillatory area and considers dynamic and autonomically influenced substrate
 	- MRI perspective helps as the gold standard for scar
 2. **Aim 3** looks at  how genetic and epigenetic factors influence the autonomic phenotype in AF

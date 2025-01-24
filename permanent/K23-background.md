@@ -63,6 +63,7 @@ E.g. PhenoKB uses binary diagnosis of AF (2012), while recent studies showed up 
 
 - From an ablation perspective, the ganglionated plexi and their locatins, as well as their mapping strategies, are described in [cardioneuroablation](cardioneuroablation.md) 
 - From the perspective of basic physiology and basic cardiac electrophysiology, particulary as it pertains to the ganglionated plexi and intrinsic cardiac nervous system, are described in [intrinsic-cardiac-nervous-system](intrinsic-cardiac-nervous-system.md)
+- To identify patients that would benefit from cardioneuroablation, would need to understand the sympathetic and parasympathetic state of the patient. Could potentially test at least their vagal responsiveness with the [baroreceptor-reflex](baroreceptor-reflex.md)
 
 - Genetic variants that affect autonomic function along the neurocardiac axis may interplay with known inherited arrhythmis, such as the vagal-mediated triggers of SCD in LQTS patients
 - Chronic VNS reduces drop in ejection fraction in different animal models of cardiomyopathy, including MI, but studies have mixed results in humans

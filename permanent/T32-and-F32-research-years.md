@@ -23,4 +23,4 @@ During this research time, some products have been:
 
 - Atrial Flutter and Family History 
 - Paper on how AF burden and treatment strategies lead to different quality of life changes based on social factors, as in [AFEQT-and-social-determinants-of-health](AFEQT-and-social-determinants-of-health.md)
-- Project in collaboration with the AFGen Consortium on predicting TTN variants based on ECG  features
+- Project in collaboration with the AFGen Consortium on predicting TTN variants based on ECG  features seen in [ECG-prediction-of-TTN-variants](ECG-prediction-of-TTN-variants.md),  with an eventual proposal to evaluate these findings in the UK Biobank [outline-ECG-and-genetics-validation-proposal](outline-ECG-and-genetics-validation-proposal.md). The hope is these projects will link together for an eventual formal paper. 
