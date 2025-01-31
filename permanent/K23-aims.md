@@ -38,16 +38,89 @@ There looks to be three major themes here that *pull together* my aims - there i
 Below I go over potential working titles and conceptual aim ideas, which are then expanded subsequently. 
 Aims are presented in reverse chronological order. 
 
+
 ## v0.2.3
 
-General ideas:
+Draft:
 
-1. **Aim 1** focuses on which patient would benefit from considering their autonomic phenotype
+The overarching goal is to develop a precision-medicine framework for the management of AF by integrating autonomic triggers, imaging measures of atrial substrate, and genetic and epigenetic correlates that predispose to adrenergically-driven episodes of AF. 
+1. **Profile the autonomic phenotypes of paroxysmal AF who may benefit from combined cardioneuroablation and PVI ablation approaches.** *Hypothesis: Heightened sympathetic activity and impaired vagal activity will associate with an adrergic phenotype of AF, which will have increased rates of AF recurrence.* Sympathetic outflow, measured through stellate ganglia activity surrogates (skin sympathetic nerve activity, cardiac biomarkers of NPY and Gal1) and parasympathetic outflow (baroreceptor reflex, heart rate variability) are somewhat antagonistic, with exaggerated antagonism being predictive of those at risk of future AF despite PVI. The identification of an adrenergic phenotype of AF can help identify autonomic-targeted therapies in AF.
+1. **Characterize the dynamic atrial substrate and fibrillatory area using MRI-based computational modeling to identify potential ablation targets.** *Hypothesis: Sympathovagal imbalance amplifies conduction heterogeneity in fibrotic tissue, augmenting the dynamic fibrillatory and re-entry area, increasing propensity for AF initiation under stress.*  Cardiac MRI before and after PVI can assess scar and fibrosis burden of the atria in static manner. By including the dynamic information of autonomic tone, the true potential fibrillatory thresholds can be determined, which can be obtained and verified during EP study. Moreso,  ablation approaches for specific atrial substrates can be tailored to increase efficacy.
+1. **Explore the genetic and epigenetic determinants of autonomic dysfunction that predispose to AF.** *Hypothesis: Genetic variants associated with neurocardiac regulation, and epigenetic changes on similar trait loci, increases the risk of future AF occurrence.* By creating a polygenic risk for abnormal neurocardiac responses to mental stress (the Emory Myocardial Ischemia and Mental Stress study), key neurocardiac genes can be identified. By evaluating those genes, and their epigenetic modifications, in large biobank databases (Million Veterans Project, UK Biobank), we can quantifiy part of the polygenic and allostatic contribution to AF.
+
+Atrial fibrillation (AF) is the most common sustained arrhythmia and a major contributor to morbidity and mortality [Reference]. While pulmonary vein isolation (PVI) has improved AF outcomes, recurrence rates remain high, suggesting that additional pathophysiologic mechanisms—including autonomic dysregulation—play a central role [Reference]. Autonomic triggers, mediated by the sympathetic and parasympathetic nervous systems (e.g., ganglionated plexi), remain understudied in a systematic way that can inform targeted interventions [Reference]. My overarching goal is to develop a precision-medicine framework for AF by characterizing autonomic contributions, integrating imaging markers of atrial substrate, and identifying genetic/epigenetic correlates that predispose to autonomic-driven AF.
+
+
+**SPECIFIC AIMS**
+
+Atrial fibrillation (AF) is the most common sustained arrhythmia and a major contributor to morbidity and mortality [Reference]. While pulmonary vein isolation (PVI) has improved AF outcomes, recurrence rates remain high, suggesting that additional pathophysiologic mechanisms—including autonomic dysregulation—play a central role [Reference]. Autonomic triggers, mediated by the sympathetic and parasympathetic nervous systems (e.g., ganglionated plexi), remain understudied in a systematic way that can inform targeted interventions [Reference]. My overarching goal is to develop a precision-medicine framework for AF by characterizing autonomic contributions, integrating imaging markers of atrial substrate, and identifying genetic/epigenetic correlates that predispose to autonomic-driven AF.
+
+**Aim 1: Determine the autonomic phenotype of AF and identify patients who may benefit from combined ganglionated plexus (GP) ablation and PVI.**  
+**Rationale:** While GP ablation in addition to PVI may benefit certain AF patients, there is no established method to identify who will respond [Reference].  
+**Hypothesis:** Patients with heightened sympathetic tone, as evidenced by elevated neuropeptide Y (NPY) levels and impaired baroreflex sensitivity, exhibit a higher burden of sympatho-triggered AF and will demonstrate improved outcomes with adjunctive GP ablation.  
+**Approach:**
+
+1. Prospectively enroll patients undergoing PVI.
+2. Quantify autonomic markers (e.g., NPY, baroreflex sensitivity) at baseline and during controlled autonomic perturbation (e.g., isoproterenol infusion).
+3. Randomize high-sympathetic phenotype patients to PVI vs. PVI + GP ablation.
+4. Compare AF recurrence, arrhythmogenic triggers, and clinical outcomes over 12 months.  
+    **Expected Outcomes:** Identification of an “adrenergic phenotype” that predicts which patients will derive maximal benefit from GP ablation.  
+    **Impact:** This will lay the groundwork for precision autonomic-targeted therapies in AF.
+
+**Aim 2: Characterize dynamic interactions between autonomic triggers and the structural substrate to refine ablation strategies.**  
+**Rationale:** Atrial fibrosis, revealed on late gadolinium-enhanced MRI, partially explains AF propensity, but scar burden alone incompletely predicts arrhythmic risk [Reference]. Autonomic inputs may modify conduction in fibrotic regions, further promoting arrhythmogenesis [Reference].  
+**Hypothesis:** Sympathetic–parasympathetic imbalance amplifies conduction heterogeneity in scarred tissue, increasing propensity for AF re-initiation under autonomic stress.  
+**Approach:**
+
+1. Perform high-resolution atrial MRI to quantify scar burden pre-ablation.
+2. Correlate scar distribution with in-lab EP assessments under sympathetic (isoproterenol) and parasympathetic (e.g., glycopyrrolate) challenges.
+3. Assess changes in action potential duration (APD) and conduction velocity in scarred vs. non-scarred regions in response to autonomic modulation.
+4. Evaluate whether dynamic “fibrillatory area” during these maneuvers predicts AF recurrence.  
+    **Expected Outcomes:** A refined understanding of how autonomic–fibrotic interactions shape AF vulnerability, enabling personalized lesion sets that better target arrhythmic triggers.  
+    **Impact:** Results could support integrating autonomic provocative testing into routine AF mapping to guide ablation strategy.
+
+
+**Aim 3: Investigate genetic and epigenetic determinants of autonomic dysfunction that predispose to AF.**  
+**Rationale:** Emerging data suggest that AF risk has a strong hereditary component, with both polygenic risk and epigenetic modifications implicated [Reference]. However, the contribution of specific autonomic-related genetic pathways remains underexplored.  
+**Hypothesis:** Genetic variants and epigenetic markers (e.g., differential methylation) in autonomic regulatory genes confer heightened sympathetic responses and increase AF susceptibility.  
+**Approach:**
+
+1. Develop a polygenic risk score based on existing mental stress and autonomic dysfunction datasets [Reference].
+2. Measure candidate gene methylation patterns from peripheral blood in patients stratified by autonomic phenotype (Aim 1).
+3. Correlate these genetic/epigenetic profiles with AF incidence and recurrence following ablation.  
+    **Expected Outcomes:** Identification of novel biomarkers and mechanistic links between autonomic dysregulation and AF at the molecular level.  
+    **Impact:** Findings will pave the way for future genetic risk stratification, facilitating personalized approaches to AF screening and therapy.
+
+
+**Overall Significance and Career Development**  
+Through this K23 award, I will develop expertise in (1) advanced autonomic physiology testing in the electrophysiology lab, (2) cardiac MRI for substrate characterization, and (3) translational genomic/epigenetic methodologies. These skills will enable me to integrate mechanistic insights into targeted AF interventions, ultimately improving patient outcomes and reducing the burden of this prevalent arrhythmia.
+
+Outline:
+
+**Aim 1** = Phenotype ANS in pxAF
+- phenotype AF by ANS factors to assess future AF 
+- SKNA measurement with high frequency ECG patches before ablation along with baroreflex testing prior to ablation (minimizing sedation by bispectral index)
+- identify those who would benefit from GP ablation (e.g. similar to baroreceptor delta and future AF risk)
+- Measure NPY levels
+
+**Aim 2** = Personalize ablation lines in pxAF based on ANS substrate
+- measure ANS parameters of dynamic atrial substrate and compare with MRI substrate and assess "delta" on future AF risk
+- get fibrillatory dynamic area predictions/models to understand future AF
+- predict change in fibrillatory area with GP ablation
+
+**Aim 3** = Genetic and Epigenetic ANS markers in AF
+- Emory dataset on MS HRV and WGS
+- VA MVP dataset with methylation patterns
+- Role of neurocardiac genes in future AF risk (polygenic risk score for autonomic dysfunction)
+
+Notes:
+
+1. AIm 1 focuses on which patient would benefit from considering their autonomic phenotype
 	- NPY and Gal may be associated with *adrenergic* AF in otherwise low scar burden atria
 	- can measure NPY levels, S100B (neural damage), along with baroreflex testing
-1. **Aim 2** looks at how to decrease fibrillatory area and considers dynamic and autonomically influenced substrate
+1. Aim 2 looks at how to decrease fibrillatory area and considers dynamic and autonomically influenced substrate
 	- MRI perspective helps as the gold standard for scar
-2. **Aim 3** looks at  how genetic and epigenetic factors influence the autonomic phenotype in AF
+2. Aim 3 looks at  how genetic and epigenetic factors influence the autonomic phenotype in AF
 	- NPY and Gal are released from sympathetic terminals and inhibit cholinergic activity
 	- Gene variants in NPY
 	- Look at genetic variants in ANS related genes to understand their association with atrial arrhythmias
