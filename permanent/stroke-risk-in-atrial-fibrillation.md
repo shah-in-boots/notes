@@ -23,7 +23,7 @@ Stroke risk can be broken down into several categories:
 | --- | --- |
 | Low | <1%/year |
 | Intermediate | 1-2%/year |
-| High | >2%.year |
+| High | >2%/year |
 
 Calculations of risk are limited  because they can overestimate and underestimate risk based on criteria that may or may not be included [@Joglar2024].
 Some scoring systems include:
@@ -46,7 +46,7 @@ They go along with the timeline of CVA prophylaxis in AF.
 # Left atrial appendage occlusion
 
 Key trials looked at percutaneous occlusion systems and future CVA risk, particularly as comparison to OAC...
- - ASAP study, by @Holmes2009, comparing ASA and clopidogrel with LAAO, looked at how well patients who were ineligble for OAC would do with DAPT. It showed reduced risk from about 7% based on $CHADS_{2}$ score
+ - ASAP study, by @Reddy2013, showed that LAAO who could not tolerate warfarin (but were able to take DAPT), showed a reduction of expected CVA risk of 7% down to 2%
  - EWOLUTION trial, by @Turagam2019, looked at Watchman procedural success even when majority did not use OAC in the peri-procedural time period
  - PINNACLE FLX, by @Kar2021, looked at the Watchman FLX device and procedural complications
  - PROTECT AF, by @Reddy2014, was a RCT that looked at Watchman versus warfarin, and was non-inferior but had fewer CV mortality and all-cause mortality events
