@@ -1,9 +1,8 @@
 ---
 date: 2024-11-11
 category: structure
-stage: considering
+stage: building
 tags:
-  - todo
   - guide
   - electrophysiology
 ---

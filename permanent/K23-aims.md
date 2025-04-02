@@ -38,7 +38,6 @@ There looks to be three major themes here that *pull together* my aims - there i
 Below I go over potential working titles and conceptual aim ideas, which are then expanded subsequently. 
 Aims are presented in reverse chronological order. 
 
-
 ## v0.2.3
 
 Draft:
