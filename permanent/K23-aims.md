@@ -31,6 +31,8 @@ The areas of expertise of the mentorship group and institutions revolve around t
 - Atrial fibrillation modeling using MRI and EPS with [Ravi-Ranjan-MD-PhD](Ravi-Ranjan-MD-PhD.md) and [Robert-MacLeod-PhD](Robert-MacLeod-PhD.md) at Utah
 - AF genetics and translational work with [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md) at UIC
 
+Additionally, methodology and drafting of protocols are in [K23-methods](K23-methods.md).
+
 # Versions of Aims
 
 The aims are oriented around different topics, methodologies, and datasets that may be available.
@@ -38,7 +40,16 @@ There looks to be three major themes here that *pull together* my aims - there i
 Below I go over potential working titles and conceptual aim ideas, which are then expanded subsequently. 
 Aims are presented in reverse chronological order. 
 
+## v0.3.0
+
+1. MRI-based comparison of dynamic atrial fibrillatory area. Adding APD changes with isoproterenol washout by measuring ARI/ATA in the atria.
+1. Phenotyping autonomic response in AF. Oxford testing prior to ablation for paroxysmal AF. Goal is to consider if GP ablation would be beneficial in certain populations.
+1. Phenotyping AF and risk prediction for future AF progression based on phenotype.  
+
+
 ## v0.2.3
+
+Feedback - biggest issue is that genetic data is hard to come by and doesn't leverage strengths of Utah. Have to reconsider the genetics aim for now. This is advice from [Martin-Tristani-Firouzi-MD](Martin-Tristani-Firouzi-MD.md)
 
 Draft:
 
@@ -48,7 +59,6 @@ The overarching goal is to develop a precision-medicine framework for the manage
 1. **Explore the genetic and epigenetic determinants of autonomic dysfunction that predispose to AF.** *Hypothesis: Genetic variants associated with neurocardiac regulation, and epigenetic changes on similar trait loci, increases the risk of future AF occurrence.* By creating a polygenic risk for abnormal neurocardiac responses to mental stress (the Emory Myocardial Ischemia and Mental Stress study), key neurocardiac genes can be identified. By evaluating those genes, and their epigenetic modifications, in large biobank databases (Million Veterans Project, UK Biobank), we can quantifiy part of the polygenic and allostatic contribution to AF.
 
 Atrial fibrillation (AF) is the most common sustained arrhythmia and a major contributor to morbidity and mortality [Reference]. While pulmonary vein isolation (PVI) has improved AF outcomes, recurrence rates remain high, suggesting that additional pathophysiologic mechanisms—including autonomic dysregulation—play a central role [Reference]. Autonomic triggers, mediated by the sympathetic and parasympathetic nervous systems (e.g., ganglionated plexi), remain understudied in a systematic way that can inform targeted interventions [Reference]. My overarching goal is to develop a precision-medicine framework for AF by characterizing autonomic contributions, integrating imaging markers of atrial substrate, and identifying genetic/epigenetic correlates that predispose to autonomic-driven AF.
-
 
 **SPECIFIC AIMS**
 
