@@ -8,6 +8,8 @@ tags:
   - afib
 ---
 
+# Overview
+
 I need to break apart my __BHAG__ into a overarching hypothesis that leads me towards it, as it needs to be a small enough project that can be tested and finished within 5 years (at 50% protected time).
 This is described in [K23](K23.md).
 The hypothesis then needs to be approached using 3-4 specific aims, building on my skills and prior research.
@@ -30,6 +32,12 @@ The areas of expertise of the mentorship group and institutions revolve around t
 - Genetic data and whole exome sequencing with [Yan-Sun-PhD](Yan-Sun-PhD.md) at Emory
 - Atrial fibrillation modeling using MRI and EPS with [Ravi-Ranjan-MD-PhD](Ravi-Ranjan-MD-PhD.md) and [Robert-MacLeod-PhD](Robert-MacLeod-PhD.md) at Utah
 - AF genetics and translational work with [Dawood-Darbar-MD-MBChB](Dawood-Darbar-MD-MBChB.md) at UIC
+
+## Aims exploration
+
+- Mapping aim on fibrillatory area is described 
+
+
 
 Additionally, methodology and drafting of protocols are in [K23-methods](K23-methods.md).
 
