@@ -11,7 +11,7 @@ tags:
 ---
 
 Researcher and clinical EP at [University-of-Utah-research](University-of-Utah-research.md). 
-Also worked with [Benjamin-Steinberg-MD](../temporary/Benjamin-Steinberg-MD.md)
+Also worked with [Benjamin-Steinberg-MD](Benjamin-Steinberg-MD.md)
 
 From the [website](https://cvrti.utah.edu/the-ranjan-laboratory/), 
 
