@@ -1,6 +1,6 @@
 ---
 category: reference
-citekey: @Vaccarino2021
+citekey: Vaccarino2021
 stage: working
 year: 2021
 ---

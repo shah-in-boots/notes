@@ -1,6 +1,6 @@
 ---
 category: reference
-citekey: @Selvaraju2020
+citekey: Selvaraju2020
 stage: working
 year: 2020
 ---

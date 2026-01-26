@@ -1,6 +1,6 @@
 ---
 category: reference
-citekey: @Santucci2023
+citekey: Santucci2023
 stage: done
 year: 2023
 ---
