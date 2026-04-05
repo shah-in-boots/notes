@@ -56,6 +56,11 @@ Key trials looked at percutaneous occlusion systems and future CVA risk, particu
 Alternatives to percutaneous closure were surgical closure, through multiple methods. Key articles include...
 - LAAOS III, by XXX, an RCT that looked at those undergoing cardiac surgery with pre-existing AF. Trial showed that there was a decreased thromboembolism burden, further reduced with OAC therapy. 
 
+Additional trials include...
+
+- CHAMPION-AF [@Doshi2026] as seen in the [Doshi2026](../literature/Doshi2026.md) review of the landmark trial, came out in ACC 2026
+- Just before hand, CLOSURE-AF [@Landmesser2026] was presented, with further details in [Landmesser2026](../literature/Landmesser2026.md)
+
 # Device complications
 
 Peridevice leaks (**PDL**) are relatively common after LAAO.
