@@ -10,7 +10,7 @@
       "name": "Article",
       "outputPathTemplate": "literature/{{citekey}}.md",
       "imageOutputPathTemplate": "figures/{{citekey}}/",
-      "imageBaseNameTemplate": "fig-{{citekey}}",
+      "imageBaseNameTemplate": "fig",
       "templatePath": "templates/literature-note.md",
       "cslStyle": "apa"
     }

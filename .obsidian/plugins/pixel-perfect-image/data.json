@@ -18,11 +18,7 @@
   "wheelModifierKey": "Alt",
   "wheelZoomPercentage": 10,
   "invertScrollDirection": false,
-  "externalEditorName": "",
-  "externalEditorPathMac": "",
-  "externalEditorPathWin": "",
-  "externalEditorPathLinux": "",
   "confirmBeforeDelete": true,
   "debugMode": false,
-  "lastShownVersion": "1.0.24"
+  "lastShownVersion": "1.0.28"
 }

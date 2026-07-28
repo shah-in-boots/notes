@@ -30,22 +30,18 @@ Among patients with atrial fibrillation at high risk for stroke and bleeding, le
   
 
   
-###### Imported: 2026-04-02 1:57 pm  
-  
-> U. Landmesser,1-3 C. Skurk,1,2 P. Kirchhof,4-6 T. Lewalter,7 J. Hartung,1,2 A. Rroku,1 B. Pieske,8 J. Brachmann,9 I. Akin,10 C. Jacobshagen,11 B. Meder,12,13 A. Zeiher,14,15 S.D. Anker,2,16 H. Thiele,17 S. Blankenberg,4,5 S. Massberg,18,19 H. Schunkert,19,20 N. Frey,12,13 A. Joost,5,21 M. Bergmann,22 R.S. von Bardeleben,23 T. Friede,24,25 M. Placzek,24,25 A. Suling,26 K.G. Haeusler,27 M. Endres,2,28 K. Wegscheider,5,26 L.-H. Boldt,2,29 and I. Eitel,5,21 for the CLOSURE-AF Trial Investigators  
-
-
-*Of the 29 authors, 12 authors had consulting positions with either Boston Scientific or Abbott (however no stock or direct employees).*
-
-  
-
-  
-###### Imported: 2026-04-02 3:21 pm  
+###### Imported: 2026-04-06 7:53 pm  
   
 > Among patients with atrial fibrillation at high risk for stroke and bleeding, left atrial appendage closure was not noninferior to physician-directed best medical care with regard to a composite end point of stroke, systemic embolism, major bleeding, or cardiovascular or unexplained death.  
 
 
 *Interesting conclusion for being statistical "not noninferior" of LAAO compared to physician-directed therapy*
+
+  
+> U. Landmesser,1-3 C. Skurk,1,2 P. Kirchhof,4-6 T. Lewalter,7 J. Hartung,1,2 A. Rroku,1 B. Pieske,8 J. Brachmann,9 I. Akin,10 C. Jacobshagen,11 B. Meder,12,13 A. Zeiher,14,15 S.D. Anker,2,16 H. Thiele,17 S. Blankenberg,4,5 S. Massberg,18,19 H. Schunkert,19,20 N. Frey,12,13 A. Joost,5,21 M. Bergmann,22 R.S. von Bardeleben,23 T. Friede,24,25 M. Placzek,24,25 A. Suling,26 K.G. Haeusler,27 M. Endres,2,28 K. Wegscheider,5,26 L.-H. Boldt,2,29 and I. Eitel,5,21 for the CLOSURE-AF Trial Investigators  
+
+
+*Of the 29 authors, 12 authors had consulting positions with either Boston Scientific or Abbott (however no stock or direct employees).*
 
   
 > This trial was a pragmatic, prospective, openlabel, multicenter, randomized, controlled trial with blinded outcome assessment and a parallel two-group design that recruited patients at 42 German sites with experience in left atrial appendage closure.  
@@ -58,6 +54,12 @@ Among patients with atrial fibrillation at high risk for stroke and bleeding, le
 
 
 *Not sponsored by the related companies (Abbott, Amplatzer, Boston Scientific)*
+
+  
+> The treating physician decided what qualified as best medical care, with DOAC as the default therapy in patients who were deemed to be eligible for anticoagulation therapy.15 When anticoagulation therapy was ruled out, an antiplatelet or no-antithrombotic therapy was selected.  
+
+
+*Allowed to pick what was best for a patient and did not use that to screen patients.*
 
   
 > Because Schoenfeld residual plots indicated that there were some deviations from the proportional-hazards assumption for the primary end point as well as for some of its components (Fig. S2), in particular major bleeding, differences in restricted mean survival times were used to summarize the between-group differences in end-point events.  
@@ -98,7 +100,7 @@ Among patients with atrial fibrillation at high risk for stroke and bleeding, le
   
 >   
  
-![figures/Landmesser2026/fig-Landmesser2026-6-x64-y261.png](figures/Landmesser2026/fig-Landmesser2026-6-x64-y261.png)
+![figures/Landmesser2026/fig-6-x64-y261.png](figures/Landmesser2026/fig-6-x64-y261.png)
 
 
 *Not clear cardiomyopathy definition. CHADSVASC on average in the high risk category.*
@@ -106,7 +108,7 @@ Among patients with atrial fibrillation at high risk for stroke and bleeding, le
   
 >   
  
-![figures/Landmesser2026/fig-Landmesser2026-7-x129-y82.png](figures/Landmesser2026/fig-Landmesser2026-7-x129-y82.png)
+![figures/Landmesser2026/fig-7-x129-y82.png](figures/Landmesser2026/fig-7-x129-y82.png)
 
 
 *Adjusted mean survival time was major observational end-point. Difference seems to favor medical therapy over closure.*
@@ -114,7 +116,7 @@ Among patients with atrial fibrillation at high risk for stroke and bleeding, le
   
 >   
  
-![figures/Landmesser2026/fig-Landmesser2026-8-x64-y323.png](figures/Landmesser2026/fig-Landmesser2026-8-x64-y323.png)
+![figures/Landmesser2026/fig-8-x64-y323.png](figures/Landmesser2026/fig-8-x64-y323.png)
 
 
 *<i>The primary end point was a composite of stroke (ischemic or hemorrhagic), systemic embolism, major bleeding, or cardiovascular or unexplained death, assessed in a time-to-event analysis.</i>
@@ -136,4 +138,4 @@ The event rate for p=0.44 for non-inferiority means that they did not reach non-
 
 %% end notes %%
 
-%% Import Date: 2026-04-02T15:21:45.469-06:00 %%
+%% Import Date: 2026-04-06T20:51:21.410-06:00 %%

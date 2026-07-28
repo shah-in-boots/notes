@@ -30,7 +30,7 @@ In patients with atrial fibrillation, left atrial appendage closure was noninfer
   
 
   
-###### Imported: 2026-04-02 12:32 pm  
+###### Imported: 2026-04-06 7:52 pm  
   
 > Among patients with atrial fibrillation who were candidates for anticoagulation, device-based left atrial appendage closure was noninferior to NOAC therapy with respect to a composite of death from cardiovascular causes, stroke, or systemic embolism and was superior to NOAC therapy for non–procedure-related bleeding at 3 years.  
 
@@ -62,7 +62,7 @@ In patients with atrial fibrillation, left atrial appendage closure was noninfer
 - Columbia, SC
 - Jonesboro, AR
 - Jacksonville, FL
-- Tuscon, AZ*
+- Tuscon, AZ
 
   
 > After device implantation, patients took a NOAC plus aspirin, NOAC monotherapy, or dual antiplatelet therapy for 3 months, at which point aspirin or P2Y12 inhibitor monotherapy was recommended.  
@@ -127,7 +127,7 @@ In patients with atrial fibrillation, left atrial appendage closure was noninfer
   
 >   
  
-![figures/Doshi2026/fig-Doshi2026-4-x102-y388.png](figures/Doshi2026/fig-Doshi2026-4-x102-y388.png)
+![figures/Doshi2026/fig-4-x102-y388.png](figures/Doshi2026/fig-4-x102-y388.png)
 
 
 *Patients were assigned to receive either device-based left atrial appendage closure (device group) or non–vitamin K antagonist oral anticoagulant therapy (anticoagulation group).*
@@ -135,7 +135,7 @@ In patients with atrial fibrillation, left atrial appendage closure was noninfer
   
 >   
  
-![figures/Doshi2026/fig-Doshi2026-5-x65-y412.png](figures/Doshi2026/fig-Doshi2026-5-x65-y412.png)
+![figures/Doshi2026/fig-5-x65-y412.png](figures/Doshi2026/fig-5-x65-y412.png)
 
 
 *This is an excerpt from table 1, showing the distribution of CHADSVASC scores. The mean for this cohort was 3.5.*
@@ -143,7 +143,7 @@ In patients with atrial fibrillation, left atrial appendage closure was noninfer
   
 >   
  
-![figures/Doshi2026/fig-Doshi2026-6-x115-y80.png](figures/Doshi2026/fig-Doshi2026-6-x115-y80.png)
+![figures/Doshi2026/fig-6-x115-y80.png](figures/Doshi2026/fig-6-x115-y80.png)
 
 
 ** Plus–minus values are Kaplan–Meier estimates ±SE. The analyses were performed in the intention-to-treat population, which included all the patients who had undergone randomization, grouped according to their assigned treatment group. Testing was performed in a hierarchical manner, whereby each test result needed to reject the null hypothesis in order to  proceed to the next step. The first step consisted of both noninferiority testing of the primary efficacy end point and superiority testing of the primary safety end point. This step was  followed by testing for noninferiority of the secondary safety end point and then the secondary net clinical benefit end point. Prespecified noninferiority margins for the between-group  percentage difference in the incidence of events at 3 years are 4.8 percentage points for the primary efficacy and secondary safety end points and 9.6 percentage points for the secondary  net clinical benefit end point. CI denotes confidence interval and ISTH International Society on Thrombosis and Haemostasis.  † Death from a cardiovascular cause included hemorrhage-related and unexplained deaths.  ‡ Stroke included ischemic stroke and hemorrhagic stroke.  § Non–procedure-related bleeding included major bleeding (as defined by ISTH) and clinically relevant nonmajor bleeding (defined according to modified ISTH criteria).*
@@ -151,7 +151,7 @@ In patients with atrial fibrillation, left atrial appendage closure was noninfer
   
 >   
  
-![figures/Doshi2026/fig-Doshi2026-7-x65-y308.png](figures/Doshi2026/fig-Doshi2026-7-x65-y308.png)
+![figures/Doshi2026/fig-7-x65-y308.png](figures/Doshi2026/fig-7-x65-y308.png)
 
 
 *Figure 2. Kaplan–Meier Curves for the Primary End Points.  Panel A shows the 3-year incidence of death from cardiovascular causes, stroke, or systemic embolism (primary composite efficacy end point). Panel B shows the incidence of non–procedure-related bleeding (the primary safety end point), which included major bleeding (as defined by the International Society on Thrombosis and Haemostasis [ISTH]) and clinically relevant nonmajor bleeding (defined according to modified ISTH criteria). The insets show the same data on an expanded y axis. The I bars indicate 1.5 times the standard error.*
@@ -159,7 +159,7 @@ In patients with atrial fibrillation, left atrial appendage closure was noninfer
   
 >   
  
-![figures/Doshi2026/fig-Doshi2026-8-x102-y156.png](figures/Doshi2026/fig-Doshi2026-8-x102-y156.png)
+![figures/Doshi2026/fig-8-x102-y156.png](figures/Doshi2026/fig-8-x102-y156.png)
 
 
 *Figure 3. Kaplan–Meier Curves for the Secondary End Points.  Panel A shows the 3-year incidence of major bleeding (secondary safety end point), which included procedure-related and non–procedure-related ISTH major bleeding. Panel B shows the incidence of the death from cardiovascular causes, stroke, systemic embolism, or non–procedure-related clinically relevant nonmajor bleeding (defined according to modified ISTH criteria). The insets show the same data on an expanded y axis. The I bars indicate 1.5 times the standard error.*
@@ -183,25 +183,9 @@ In patients with atrial fibrillation, left atrial appendage closure was noninfer
 *The discussion of CLOSURE-AF, which was published 1-2 weeks prior, suggested that LAAO was actually "not noninferior".*
 
   
-
-  
-###### Imported: 2026-04-02 12:41 pm  
-  
 >   
  
-![figures/Doshi2026/fig-Doshi2026-25-x68-y498.png](figures/Doshi2026/fig-Doshi2026-25-x68-y498.png)
-
-
-*Three-year incidence rates for procedural and non-procedural International Society on Thrombosis and Haemostasis (ISTH) major and modified ISTH clinically relevant non-major bleeding events (modified definition is provided in Table S7). The two cohorts are those who were assigned to the anticoagulation group (red) and those who were assigned to the device (left atrial appendage occlusion implant) group (blue). The widths of the confidence intervals have not been adjusted for multiplicity and should not be used to infer treatment effect*
-
-  
-
-  
-###### Imported: 2026-04-02 1:54 pm  
-  
->   
- 
-![figures/Doshi2026/fig-Doshi2026-23-x66-y211.png](figures/Doshi2026/fig-Doshi2026-23-x66-y211.png)
+![figures/Doshi2026/fig-23-x66-y211.png](figures/Doshi2026/fig-23-x66-y211.png)
 
 
 *<i>Three-year incidence rates for non-procedural clinically relevant non-major bleeding using a modified definition derived from the International Society on Thrombosis and Haemostasis (ISTH) (definition is provided in Table S7). The two cohorts are those who were assigned to the anticoagulation group (red) and those who were assigned to the device (left atrial appendage occlusion implant) group (blue). The widths of the confidence intervals have not been adjusted for multiplicity and should not be used to infer treatment effect.</i>
@@ -211,7 +195,7 @@ What is interesting however is that so many events are powered by the non-major 
   
 >   
  
-![figures/Doshi2026/fig-Doshi2026-24-x68-y455.png](figures/Doshi2026/fig-Doshi2026-24-x68-y455.png)
+![figures/Doshi2026/fig-24-x68-y455.png](figures/Doshi2026/fig-24-x68-y455.png)
 
 
 *<i>The widths of the confidence intervals have not been adjusted for multiplicity and should not be used to infer treatment effect. KM denotes Kaplan-Meier, HR hazard ratio, AF atrial fibrillation and LAAC left atrial appendage closure.</i>
@@ -221,7 +205,7 @@ Interesting, shows in the primary, unadjusted analysis there is benefit to AC in
   
 >   
  
-![figures/Doshi2026/fig-Doshi2026-25-x68-y498.png](figures/Doshi2026/fig-Doshi2026-25-x68-y498.png)
+![figures/Doshi2026/fig-25-x68-y498.png](figures/Doshi2026/fig-25-x68-y498.png)
 
 
 *<i>Three-year incidence rates for procedural and non-procedural International Society on Thrombosis and Haemostasis (ISTH) major and modified ISTH clinically relevant non-major bleeding events (modified definition is provided in Table S7). The two cohorts are those who were assigned to the anticoagulation group (red) and those who were assigned to the device (left atrial appendage occlusion implant) group (blue). The widths of the confidence intervals have not been adjusted for multiplicity and should not be used to infer treatment effect
@@ -275,4 +259,4 @@ Study came out at time of ACC 2026, shortly after @Landmesser2026 came out.
 See link for CLOSURE-AF trial [Landmesser2026](Landmesser2026.md). 
 %% end notes %%
 
-%% Import Date: 2026-04-02T13:54:14.808-06:00 %%
+%% Import Date: 2026-04-06T19:52:55.268-06:00 %%
