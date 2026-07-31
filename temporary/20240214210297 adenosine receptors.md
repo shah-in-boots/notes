@@ -1,7 +1,7 @@
 ---
 date: 2024-02-14
 category: temporary
-stage: considering
+stage: raw
 ---
 
 A1R = effect on heart rate and AVB

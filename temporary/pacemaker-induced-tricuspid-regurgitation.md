@@ -1,7 +1,7 @@
 ---
 date: 2024-10-15
 category: concept
-stage: building
+stage: raw
 tags:
   - todo
   - electrophysiology

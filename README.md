@@ -1,7 +1,7 @@
 ---
 date: 2024-01-01
 category: project
-stage: factoring
+stage: working
 tags:
   - guide
   - grants
@@ -38,29 +38,19 @@ The literature file uses Zotero-integrated articles, which are annotated as I re
 
 ## Stage
 
-The following stages are ways to help identify where a document exists in its life-span. They are listed alphabetically below and not in the order of how they should be used.
+`stage` tracks a note's maturity, using three values:
 
 | Stage | Indication |
 | - | --- |
-| considering | initialization of note |
-| building | development of outline elements |
-| working | active and overall note |
-| factoring | simplification of note |
-| pending | held or reserved, lower priority |
-| done | no longer expecting updates |
-| questioning | consideration for refactoring |
-
-Instead, here I have a working diagram of how I expect the stages to be cycled through.
+| raw | forming — fleeting capture or early outline |
+| working | actively developed and being refined |
+| stable | settled; no major changes expected |
 
 ```mermaid
-flowchart TD
-	considering --> building
-	building --> active
-	subgraph active[ ]
-		working --> factoring
-		factoring --> questioning
-		questioning --> working
-	end
-	active --> done
-	active --> pending
+flowchart LR
+	raw --> working
+	working --> stable
+	working --> raw
 ```
+
+Notes put on hold are marked with an `#on-hold` tag rather than a `stage`, since priority is separate from maturity.

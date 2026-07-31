@@ -1,7 +1,7 @@
 ---
 date: 2024-05-26
 category: project
-stage: building
+stage: raw
 tags:
   - R
   - programming

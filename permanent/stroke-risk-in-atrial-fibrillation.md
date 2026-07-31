@@ -1,7 +1,7 @@
 ---
 date: 2025-02-09
 category: concept
-stage: building
+stage: raw
 tags:
   - afib
   - neurology

@@ -1,7 +1,7 @@
 ---
 date: 2025-04-02
 category: concept
-stage: building
+stage: raw
 tags:
   - todo
   - grants

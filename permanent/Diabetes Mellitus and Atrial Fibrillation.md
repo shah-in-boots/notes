@@ -1,7 +1,7 @@
 ---
 date: 2024-01-16
 category: temporary
-stage: considering
+stage: raw
 ---
 
 Working with a student on DM and AF prediction.

@@ -1,7 +1,7 @@
 ---
 date: 2024-02-07
 category: concept
-stage: considering
+stage: raw
 ---
 
 This technique is used to help understand and visualize how a prediction was made from a neural network. 

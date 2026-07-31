@@ -1,7 +1,7 @@
 ---
 date: 2024-02-15
 category: project
-stage: building
+stage: raw
 tags:
   - electrophysiology
 ---

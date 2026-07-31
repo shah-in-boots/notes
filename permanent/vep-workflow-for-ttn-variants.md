@@ -1,7 +1,7 @@
 ---
 date: 2024-02-21
 category: reference
-stage: considering
+stage: raw
 tags:
   - programming
   - genetics

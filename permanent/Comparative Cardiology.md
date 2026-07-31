@@ -1,7 +1,7 @@
 ---
 date: 2024-01-14
 category: structure
-stage: considering
+stage: raw
 ---
 
 This document serves as a resource for literature involving comparative cardiology in different species.

@@ -1,7 +1,7 @@
-	---
+---
 date: 2024-11-11
 category: structure
-stage: building
+stage: raw
 tags:
   - guide
   - electrophysiology

@@ -1,7 +1,7 @@
 ---
 date: 2024-02-14
 category: concept
-stage: building
+stage: raw
 tags: 
   - afib
   - animals

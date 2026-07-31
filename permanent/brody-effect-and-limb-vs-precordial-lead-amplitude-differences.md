@@ -1,7 +1,7 @@
 ---
 date: 2024-03-09
 category: project
-stage: considering
+stage: raw
 tags:
   - electrocardiogram
   - research

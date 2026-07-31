@@ -1,7 +1,7 @@
 ---
 date: 2024-01-25
 category: project
-stage: building
+stage: raw
 ---
 
 In the [R-rmdl](R-rmdl.md) package, the data needed to create forest plots is available. However, the structure of the forest plot are complicated. This note describes forest plots using interaction variables.

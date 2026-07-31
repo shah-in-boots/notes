@@ -1,7 +1,7 @@
 ---
 date: 2024-03-19
 category: project
-stage: building
+stage: raw
 tags:
   - electrocardiogram
   - genetics

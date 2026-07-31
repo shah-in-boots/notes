@@ -1,7 +1,7 @@
 ---
 date: 2024-02-06
 category: project
-stage: building
+stage: raw
 ---
 
 The `{EGM}` package is an electrophysiology signal oriented software that I am developing to evaluation of electrogram data.

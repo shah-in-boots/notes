@@ -1,7 +1,7 @@
 ---
 date: 2025-04-15
 category: concept
-stage: building
+stage: raw
 tags:
   - afib
   - arrhythmia

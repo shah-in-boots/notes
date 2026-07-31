@@ -1,7 +1,7 @@
 ---
-date: {{date:YYYY-MM-DD}}
+date: <% tp.date.now("YYYY-MM-DD") %>
 category: temporary
-stage: considering
+stage: raw
 tags:
   - todo
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2026-03-08
 category: concept
-stage: building
+stage: raw
 tags:
   - todo
 ---

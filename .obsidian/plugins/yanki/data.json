@@ -5,14 +5,21 @@
   },
   "folders": [
     "anki",
-    "anki/Clinical",
-    "anki/Clinical/Electrophysiology"
+    "anki/clinical",
+    "anki/clinical/electrophysiology",
+    "anki/clinical/cardiology",
+    "anki/clinical/medicine",
+    "anki/personal",
+    "anki/research",
+    "anki/research/epidemiology",
+    "anki/research/computational",
+    "anki/research/arrhythmia"
   ],
   "ignoreFolderNotes": true,
   "manageFilenames": {
     "autoRenameDebounceIntervalMs": 300,
     "autoRenameTrigger": "file-changed",
-    "maxLength": 60,
+    "maxLength": 80,
     "mode": "prompt"
   },
   "namespace": "Yanki Obsidian - Vault ID 26f8d2d81471dc5f",
@@ -20,17 +27,18 @@
   "stats": {
     "sync": {
       "auto": 0,
-      "duration": 0,
+      "duration": 1985.1238281079568,
       "errors": 0,
       "invalid": 0,
-      "manual": 0,
+      "latestSyncTime": 1785479474,
+      "manual": 9,
       "notes": {
         "ankiUnreachable": 0,
-        "created": 0,
+        "created": 14,
         "deleted": 0,
         "matched": 0,
-        "unchanged": 0,
-        "updated": 0
+        "unchanged": 41,
+        "updated": 9
       }
     }
   },

@@ -1,7 +1,7 @@
 ---
 category: reference
 citekey: Santucci2023
-stage: done
+stage: stable
 year: 2023
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2024-01-16
 category: project
-stage: planning
+stage: raw
 tags:
 - diabetes
 - electrocardiogram 

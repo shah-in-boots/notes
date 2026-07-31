@@ -1,7 +1,7 @@
 ---
 date: 2024-03-29
 category: temporary
-stage: considering
+stage: raw
 tags:
   - todo
 ---
