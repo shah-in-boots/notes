@@ -2,52 +2,134 @@
 
 /* Rename Modal Styles */
 .pixel-perfect-rename-modal {
-  padding: 0.8em 1.2em;
+    padding: 0.8em 1.2em;
 }
 
 .pixel-perfect-rename-modal .modal-title {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .pixel-perfect-rename-form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
 }
 
 .pixel-perfect-rename-input {
-  width: 100%;
+    width: 100%;
 }
 
 .pixel-perfect-button-container {
-  display: flex;
-  justify-content: flex-end;
-  gap: 0.8em;
-  margin-top: 0.4em;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8em;
+    margin-top: 0.4em;
 }
 
 /* Settings Tab Styles */
 .pixel-perfect-px-suffix {
-  width: 40px;
-  text-align: left;
-  border: none;
-  background-color: transparent;
+    width: 40px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
 }
 
-.pixel-perfect-zoom-value {
-  min-width: 2.5em;
-  text-align: right;
-  margin-right: 1em;
+/* The plugin row lays its cards out below the label rather than beside it */
+.setting-item.pixel-perfect-plugins {
+    display: block;
 }
 
-/* Settings page indentation for sub-settings */
-.pixel-perfect-sub-settings {
-  margin-inline-start: var(--size-4-5);
-  padding-inline-start: var(--size-4-5);
+/* ========================================================================
+   Other Plugin Cards
+   ======================================================================== */
+
+/* One column when the settings pane is narrow, because the description needs the width */
+.pixel-perfect-plugin-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+    gap: var(--size-4-2);
+    margin-top: var(--size-4-2);
 }
 
-.pixel-perfect-setting-hidden {
-  display: none;
+/* A button so the whole card can be reached from the keyboard. The declarations before
+   the layout undo the button styling a theme applies. */
+.pixel-perfect-plugin-card {
+    height: auto;
+    padding: var(--size-4-3);
+    background-color: var(--background-secondary);
+    box-shadow: none;
+    text-align: start;
+    white-space: normal;
+    display: flex;
+    align-items: flex-start;
+    gap: var(--size-4-3);
+    width: 100%;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-m);
+    cursor: pointer;
+}
+
+.pixel-perfect-plugin-card:hover {
+    border-color: var(--background-modifier-border-hover);
+    background-color: var(--background-modifier-hover);
+}
+
+.pixel-perfect-plugin-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: var(--size-4-8);
+    height: var(--size-4-8);
+    border-radius: var(--radius-m);
+    background-color: var(--background-primary);
+    color: var(--text-accent);
+}
+
+/* min-width lets a long word wrap instead of stretching the card past its column */
+.pixel-perfect-plugin-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-2-1);
+    min-width: 0;
+}
+
+.pixel-perfect-plugin-name {
+    color: var(--text-normal);
+    font-size: var(--font-ui-small);
+    font-weight: var(--font-semibold);
+    line-height: 1.3;
+}
+
+/* One line whatever the language, cut with an ellipsis, so every card is the same height
+   and the row costs the same as the rows above it */
+.pixel-perfect-plugin-description {
+    color: var(--text-muted);
+    font-size: var(--font-ui-smaller);
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Sits at the far edge, the way Obsidian marks a row that opens somewhere else. It keeps
+   to the middle of the card while the icon and the name line up at the top. */
+.pixel-perfect-plugin-arrow {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex: 0 0 auto;
+    margin-inline-start: auto;
+    color: var(--text-faint);
+}
+
+.pixel-perfect-plugin-arrow .svg-icon {
+    width: var(--icon-s);
+    height: var(--icon-s);
+}
+
+.pixel-perfect-plugin-card:hover .pixel-perfect-plugin-arrow {
+    color: var(--text-muted);
 }
 
 /* ========================================================================
@@ -56,202 +138,192 @@
 
 /* What's new modal width */
 .modal.pixel-perfect-whats-new-modal {
-  width: 600px;
-  max-width: calc(100vw - 40px);
+    width: 600px;
+    max-width: calc(100vw - 40px);
+    overflow: hidden;
 }
 
 /* What's new content layout */
 .modal.pixel-perfect-whats-new-modal .modal-content {
-  padding: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+    padding: 16px;
 }
 
 .modal.pixel-perfect-whats-new-modal .modal-close-button {
-  z-index: 10;
-  pointer-events: auto;
-}
-
-/* What's new header */
-.pixel-perfect-whats-new-header {
-  margin-bottom: 16px;
+    z-index: 10;
+    pointer-events: auto;
 }
 
 /* What's new scrollable container */
 .pixel-perfect-whats-new-scroll {
-  max-height: 400px;
-  overflow-y: auto;
-  margin-bottom: 0;
-  padding-right: 8px;
-  padding-bottom: 16px;
+    flex: 1 1 auto;
+    min-height: 0;
+    max-height: min(70vh, 520px);
+    overflow-y: auto;
+    margin-bottom: 0;
+    padding-right: 8px;
+    padding-bottom: 16px;
 }
 
 /* Version container */
 .pixel-perfect-whats-new-version {
-  margin-bottom: 16px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--background-modifier-border);
+    margin-bottom: 16px;
 }
 
-/* Version container - last child no border */
+/* Version container - last child no margin */
 .pixel-perfect-whats-new-version:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* Version header */
 .pixel-perfect-whats-new-version h3 {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-normal);
-  margin: 0 0 4px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-normal);
+    background: var(--background-secondary);
+    margin: 0 0 4px;
+    padding: 6px 10px;
+    border-radius: 6px;
 }
 
 /* Feature list */
 .pixel-perfect-whats-new-features {
-  margin-left: 16px;
+    margin-left: 16px;
 }
 
 /* Category headers */
 .pixel-perfect-whats-new-category {
-  font-weight: bold;
-  margin-top: 8px;
-  margin-bottom: 4px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 4px;
 }
 
 /* Info text */
 .pixel-perfect-whats-new-info {
-  margin-bottom: 12px;
-  color: var(--text-normal);
-  line-height: 1.5;
-  font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-normal);
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 /* What's new divider */
 .pixel-perfect-whats-new-divider {
-  border-top: 1px solid var(--background-modifier-border);
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-/* Version date */
-.pixel-perfect-whats-new-date {
-  color: var(--text-muted);
-  font-size: 12px;
-  display: block;
-  margin-bottom: 8px;
+    border-top: 1px solid var(--background-modifier-border);
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 /* Feature list */
 .pixel-perfect-whats-new-version ul {
-  list-style: disc;
-  margin: 0;
-  padding-left: 16px;
+    list-style: disc;
+    margin: 0;
+    padding-left: 16px;
 }
 
 /* Feature list item */
 .pixel-perfect-whats-new-version li {
-  margin-bottom: 4px;
-  color: var(--text-normal);
-  font-size: 14px;
-  line-height: 1.5;
+    margin-bottom: 4px;
+    color: var(--text-normal);
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 /* Highlight emphasis */
 .pixel-perfect-whats-new-highlight {
-  background-color: var(--text-highlight-bg);
-  color: var(--text-normal);
-  padding: 0 2px;
-  border-radius: 3px;
-  font-weight: 600;
+    background-color: var(--text-highlight-bg);
+    color: var(--text-normal);
+    padding: 0 2px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.pixel-perfect-whats-new-info code,
+.pixel-perfect-whats-new-version li code {
+    color: var(--code-normal);
+    background-color: var(--code-background);
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    font-size: 0.9em;
 }
 
 /* Support container */
 .pixel-perfect-whats-new-support {
-  margin-top: 0;
-  padding-top: 0;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /* Support text */
 .pixel-perfect-whats-new-support-text {
-  color: var(--text-muted);
-  font-size: 14px;
-  margin-bottom: 12px;
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-bottom: 12px;
 }
 
 /* Button container */
 .pixel-perfect-whats-new-buttons {
-  display: flex;
-  gap: 8px;
-  margin-top: 12px;
-  justify-content: center;
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    justify-content: center;
 }
 
 /* Support button styling */
 .pixel-perfect-whats-new-support-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
 }
 
 .pixel-perfect-whats-new-support-icon {
-  display: inline-flex;
-  font-size: 14px;
-  line-height: 1;
+    display: inline-flex;
+    font-size: 14px;
+    line-height: 1;
 }
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
-  .modal.pixel-perfect-whats-new-modal {
-    width: calc(100vw - 40px);
-    max-width: calc(100vw - 40px);
-    margin: 0 auto;
-  }
+    .modal.pixel-perfect-whats-new-modal {
+        width: calc(100vw - 40px);
+        max-width: calc(100vw - 40px);
+        margin: 0 auto;
+    }
 
-  .modal.pixel-perfect-whats-new-modal .modal-content {
-    padding: 12px;
-  }
+    .modal.pixel-perfect-whats-new-modal .modal-content {
+        padding: 12px;
+    }
 
-  .pixel-perfect-whats-new-scroll {
-    max-height: 300px;
-    padding-right: 4px;
-  }
+    .pixel-perfect-whats-new-scroll {
+        max-height: min(60vh, 360px);
+        padding-right: 4px;
+    }
 
-  .pixel-perfect-whats-new-info,
-  .pixel-perfect-whats-new-version li,
-  .pixel-perfect-whats-new-category {
-    font-size: 15px;
-    line-height: 1.6;
-  }
+    /* Use standard text sizing for readability on mobile */
+    .pixel-perfect-whats-new-info,
+    .pixel-perfect-whats-new-version li,
+    .pixel-perfect-whats-new-category {
+        font-size: 15px;
+        line-height: 1.6;
+    }
 
-  .pixel-perfect-whats-new-header {
-    font-size: 16px;
-  }
-
-  .pixel-perfect-whats-new-version h3 {
-    font-size: 15px;
-  }
-
-  .pixel-perfect-whats-new-date {
-    font-size: 14px;
-  }
+    /* Version header size on mobile */
+    .pixel-perfect-whats-new-version h3 {
+        font-size: 15px;
+    }
 }
 
 /* Obsidian mobile app adjustments */
-.is-mobile .pixel-perfect-whats-new-header {
-  font-size: 16px;
-}
-
 .is-mobile .pixel-perfect-whats-new-info,
 .is-mobile .pixel-perfect-whats-new-version li,
 .is-mobile .pixel-perfect-whats-new-category {
-  font-size: 15px;
-  line-height: 1.6;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 .is-mobile .pixel-perfect-whats-new-version h3 {
-  font-size: 15px;
-}
-
-.is-mobile .pixel-perfect-whats-new-date {
-  font-size: 14px;
+    font-size: 15px;
 }

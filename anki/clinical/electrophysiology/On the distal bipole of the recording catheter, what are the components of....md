@@ -18,3 +18,4 @@ Waveform amplitude reflects the amount of tissue, not its proximity to the recor
 
 ![](../../../resources/paste-b7828e20ed9eed0db445b75254ccce6469ab0bc3.png)
 
+Source: [unipolar-and-bipolar-electrograms](../../../permanent/unipolar-and-bipolar-electrograms.md)

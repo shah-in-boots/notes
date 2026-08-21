@@ -13,7 +13,8 @@ Based on the bipolar signal seen, in relation to the unipolar signal, what direc
 
 ---
 
-This appears to be a perpendicular angle of hte recording catheter. The proximal unipolar is not in contact, and serves a pseudo-unipolar configuration - the pattern is almost the same as the true distal unipolar signal. 
+The recording electrode pair must be perpendicular to the wavefront, as the `Rs` pattern on the unipolar tip matches the `Rs` pattern on the bipolar tip-ring configuration.
+The proximal electrode is not in contact, and serves a pseudo-unipolar configuration.
 
 $$
 EGM_{bipolar} = EGM_{unipolar_{distal}} - EGM_{unipolar_{proximal}}
