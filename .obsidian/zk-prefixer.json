@@ -1,5 +1,5 @@
 {
   "folder": "temporary",
-  "template": "templates/temporary-note",
+  "template": "templates/temporary-note.md",
   "format": "YYYYMMDDHHMMSS"
 }

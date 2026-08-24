@@ -7,7 +7,7 @@
   "newFileFolderPath": "temporary",
   "attachmentFolderPath": "resources",
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "showUnsupportedFiles": true,
   "promptDelete": false,
   "strictLineBreaks": true,

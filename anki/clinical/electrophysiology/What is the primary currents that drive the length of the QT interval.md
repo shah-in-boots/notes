@@ -12,6 +12,6 @@ What is the primary currents that drive the length of the QT interval?
 
 The QT interval is predominantly a balance between repolarizing outward $I_{K+}$ channels and depolarization, inward $I_{Ca++}$ channels
 
-![](../../../resources/action-potential-for-sinus-beat.png)
+![](../../../resources/cellular-electrophysiology.png)
 
-Source:: [action-potential-durations](action-potential-durations.md)
+Source: [cellular-electrophysiology](../../../permanent/cellular-electrophysiology.md)

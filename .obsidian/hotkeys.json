@@ -125,14 +125,6 @@
     }
   ],
   "file-explorer:new-file": [],
-  "zk-prefixer": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
   "obsidian-pandoc-reference-list:focus-reference-list-view": [
     {
       "modifiers": [
@@ -278,10 +270,9 @@
   "templater-obsidian:create-new-note-from-template": [
     {
       "modifiers": [
-        "Alt",
         "Mod"
       ],
-      "key": "`"
+      "key": "N"
     }
   ]
 }
