@@ -4,7 +4,7 @@
   "livePreview": false,
   "vimMode": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "temporary",
+  "newFileFolderPath": "inbox",
   "attachmentFolderPath": "resources",
   "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",

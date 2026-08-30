@@ -53,6 +53,12 @@ incomplete penetrance $\righttarrow$ individuals carrying a mutation do not have
 
 variable expressivity $\rightarrow$ variations in the phenotype with similar mutations (i.e. SCN5a causes Brugada, LQTS, and other conduction system disease)
 
+haploinsufficiency $\rightarrow$ proportional decrease in function because wild-type cannot coassemble with mutant
+
+dominant negative $\rightarrow$ when the wild-type combines with mutant, the resulting protein becomes non-functional, such that the mutant allele "poisons" the rest of the protein
+
+![Visual example of *haploinsufficiency* and *dominant negative effect* with potassium channels](resources/genetic-vocabulary.png)
+
 # Inheritance
 
 autosomal dominant $\rightarrow$ single copy of mutation is sufficient to cause disease
