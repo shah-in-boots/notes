@@ -1,7 +1,5 @@
 ---
 date: 2026-08-23
-category: temporary
-stage: raw
 tags:
   - methods
   - physics

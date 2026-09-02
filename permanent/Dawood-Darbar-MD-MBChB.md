@@ -1,7 +1,5 @@
 ---
 date: 2024-02-10
-category: reference
-stage: raw
 ---
 
 Dawood serves as the sponsor to the F32 at UIC and head of the T32 program, where research was done during the [T32-and-F32-research-years](T32-and-F32-research-years.md). 

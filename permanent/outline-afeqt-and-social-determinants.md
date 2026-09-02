@@ -1,7 +1,5 @@
 ---
 date: 2024-03-18
-category: project
-stage: raw
 tags:
   - afib
   - social

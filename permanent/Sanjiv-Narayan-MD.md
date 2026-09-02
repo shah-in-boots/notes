@@ -1,7 +1,5 @@
 ---
 date: 2024-04-11
-category: reference
-stage: working
 tags:
   - research
   - electrophysiology

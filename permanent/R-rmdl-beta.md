@@ -1,7 +1,5 @@
 ---
 date: 2024-05-03
-category: project
-stage: working
 tags:
   - R
   - programming

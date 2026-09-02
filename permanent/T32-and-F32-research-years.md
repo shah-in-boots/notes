@@ -1,7 +1,5 @@
 ---
 date: 2024-02-06
-category: project
-stage: raw
 tags:
   - research
   - grants

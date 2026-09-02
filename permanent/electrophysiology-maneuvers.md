@@ -1,7 +1,5 @@
 ---
 date: 2024-11-11
-category: structure
-stage: raw
 tags:
   - guide
   - electrophysiology

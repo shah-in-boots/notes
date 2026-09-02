@@ -14,4 +14,4 @@ ECG-based diagnosis?
 
 __LQT2__, with bifid/notched T waves due to $LOF$ in $I_{Kr}$
 
-Source: [long-qt-syndromes](permanent/long-qt-syndromes.md)
+Source: [long-QT-syndrome](permanent/long-QT-syndrome.md)

@@ -1,7 +1,5 @@
 ---
 date: 2026-07-28
-category: concept
-stage: stable
 tags:
   - electrogram
   - physics

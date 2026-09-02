@@ -1,7 +1,5 @@
 ---
 date: 2026-08-03
-category: concept
-stage: working
 tags:
   - todo
   - physiology

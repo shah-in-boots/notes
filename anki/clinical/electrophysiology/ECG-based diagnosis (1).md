@@ -14,4 +14,4 @@ ECG-based diagnosis?
 
 __LQT1__, based on normally proportioned T wave that is wide/broad, due to $LOF$ in $I_{Ks}$
 
-Source: [long-qt-syndromes](permanent/long-qt-syndromes.md)
+Source: [long-QT-syndrome](permanent/long-QT-syndrome.md)

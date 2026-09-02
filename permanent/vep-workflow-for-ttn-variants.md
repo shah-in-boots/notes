@@ -1,7 +1,5 @@
 ---
 date: 2024-02-21
-category: reference
-stage: raw
 tags:
   - programming
   - genetics

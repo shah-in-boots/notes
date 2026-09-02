@@ -1,7 +1,5 @@
 ---
 date: 2025-12-09
-category: concept
-stage: raw
 tags:
   - electrocardiography
   - signal_processing

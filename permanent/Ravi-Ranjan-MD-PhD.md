@@ -1,7 +1,5 @@
 ---
 date: 2024-02-12
-category: reference
-stage: working
 tags:
   - mentorship
   - arrhythmia

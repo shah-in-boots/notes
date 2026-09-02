@@ -1,7 +1,5 @@
 ---
 date: 2024-02-25
-category: project
-stage: raw
 tags:
   - programming
   - R

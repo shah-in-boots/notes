@@ -1,7 +1,5 @@
 ---
 date: 2026-08-12
-category: reference
-stage: raw
 tags:
   - todo
   - electrocardiogram

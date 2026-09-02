@@ -1,7 +1,5 @@
 ---
 date: 2024-02-15
-category: reference
-stage: working
 tags:
   - electrophysiology
   - faculty

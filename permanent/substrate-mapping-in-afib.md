@@ -1,7 +1,5 @@
 ---
 date: 2024-03-09
-category: concept
-stage: raw
 tags:
   - todo
   - afib

@@ -14,4 +14,4 @@ In __LQT1__, the $LOF$ in *KCNQ1* leads to the inability of beta-phosphorylation
 
 The QT prolongs because *Cav1.2* becomes more active with beta-phosphorylation, leading to increased $I_{CaL}$ (inward $Ca^{++}$ currents) , which is unopposed.
 
-Source: [long-qt-syndromes](permanent/long-qt-syndromes.md), [inherited-arrhythmia-syndromes](permanent/inherited-arrhythmia-syndromes.md)
+Source: [long-QT-syndrome](permanent/long-QT-syndrome.md)

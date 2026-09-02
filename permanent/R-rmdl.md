@@ -1,7 +1,5 @@
 ---
 date: 2024-01-16
-category: structure
-stage: working
 tags:
   - R 
   - programming 

@@ -18,4 +18,4 @@ What are the high risk factors for sudden cardiac death in LQTS?
 
 *4th quartile with $QTc > 500\ ms$*
 
-Source:  [inherited-arrhythmia-syndromes](permanent/inherited-arrhythmia-syndromes.md)
+Source:  [long-QT-syndrome](permanent/long-QT-syndrome.md)

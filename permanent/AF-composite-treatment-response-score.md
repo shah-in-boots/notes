@@ -1,7 +1,5 @@
 ---
 date: 2024-03-26
-category: project
-stage: working
 tags:
   - afib
   - research

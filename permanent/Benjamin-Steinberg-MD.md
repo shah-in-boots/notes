@@ -1,7 +1,5 @@
 ---
 date: 2025-01-24
-category: reference
-stage: working
 tags:
   - electrophysiology
 ---

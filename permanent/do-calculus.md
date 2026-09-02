@@ -1,7 +1,5 @@
 ---
 date: 2026-07-29
-category: temporary
-stage: raw
 tags:
   - todo
   - causality

@@ -1,7 +1,5 @@
 ---
 date: 2024-04-01
-category: project
-stage: raw
 tags:
   - programming
   - causality

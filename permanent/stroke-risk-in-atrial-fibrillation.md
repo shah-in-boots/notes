@@ -1,7 +1,5 @@
 ---
 date: 2025-02-09
-category: concept
-stage: raw
 tags:
   - afib
   - neurology

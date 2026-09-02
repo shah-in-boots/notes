@@ -1,7 +1,5 @@
 ---
 date: 2024-02-13
-category: reference
-stage: raw
 ---
 
 The `R` system for creating interactive plots and visualizations, called [Shiny](https://shiny.posit.co/), seems to be an appropriate fit for extending a feature in the [R-EGM](R-EGM.md) package. 

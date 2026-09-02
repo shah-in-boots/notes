@@ -14,4 +14,4 @@ ECG-based diagnosis?
 
 __LQT3__, as seen with long iso-electric component of QT due to the $GOF$ in $I_{Na}$
 
-Source: [long-qt-syndromes](permanent/long-qt-syndromes.md)
+Source: [long-QT-syndrome](permanent/long-QT-syndrome.md)

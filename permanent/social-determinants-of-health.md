@@ -1,7 +1,5 @@
 ---
 date: 2024-01-15
-category: structure
-stage: raw
 ---
 
 When evaluating social determinants of health, must consider that it is a multifaceted concept. 

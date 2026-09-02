@@ -1,7 +1,5 @@
 ---
 date: 2024-12-10
-category: reference
-stage: working
 ---
 
 > Investigator, Nora Eccles Harrison CVRTI  

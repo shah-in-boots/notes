@@ -1,7 +1,5 @@
 ---
 date: 2024-05-08
-category: concept
-stage: raw
 tags:
   - R
   - programming

@@ -1,7 +1,5 @@
 ---
 date: 2026-08-21
-category: reference
-stage: working
 tags:
   - todo
   - genetics
@@ -9,6 +7,12 @@ tags:
 ---
 
 Vocabulary to remember in clinical genetics
+
+Monogenic mutations are by definition rare, <0.1% in control population.
+Mutation also will co-segregate in families.
+Are conserved in the genetic sequence between species as well.
+Polymorphisms can either be common (>1%) or rare (<0.1%). 
+SNPs make up roughly 1 million of the 3 billion DNA base pairs.
 
 # Basic vocabulary
 

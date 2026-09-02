@@ -1,7 +1,5 @@
 ---
 date: 2026-07-28
-category: reference
-stage: working
 tags:
   - todo
   - electrophysiology

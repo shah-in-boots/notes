@@ -1,7 +1,5 @@
 ---
 date: 2024-03-28
-category: project
-stage: raw
 tags:
   - electrophysiology
 ---

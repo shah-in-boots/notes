@@ -1,7 +1,5 @@
 ---
 date: 2024-02-01
-category: concept
-stage: raw
 ---
 
 Para-Hisian pacing is described by Sunny Jackman and @Hirao1996. 

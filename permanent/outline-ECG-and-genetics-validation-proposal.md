@@ -1,7 +1,5 @@
 ---
 date: 2024-05-02
-category: reference
-stage: working
 tags:
   - research
   - afib
