@@ -6,6 +6,7 @@ tags:
   - electrophysiology
   - computational
   - machine_learning
+  - person
 ---
 
 Researcher and clinical EP at [University-of-Utah-research](University-of-Utah-research.md). 

@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Santucci2023
-stage: stable
 year: 2023
 ---
 

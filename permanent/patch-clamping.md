@@ -6,7 +6,7 @@ tags:
 ---
 
 Ionic currents are measured in experiments in different ways.
-Can review context in [cellular-electrophysiology](permanent/cellular-electrophysiology.md)
+Can review context in [cellular-electrophysiology-membrane-potentials](permanent/cellular-electrophysiology-membrane-potentials.md)
 
 
 ## Voltage clamps

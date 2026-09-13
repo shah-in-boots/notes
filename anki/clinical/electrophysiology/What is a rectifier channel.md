@@ -11,4 +11,4 @@ What is a rectifier channel?
 
 An ion channel that has a preferential direction of ion transport, mediated by gating or permeability
 
-Source: [cellular-electrophysiology](../../../permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-terminology](permanent/cellular-electrophysiology-terminology.md)

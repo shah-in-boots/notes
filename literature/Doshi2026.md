@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Doshi2026
-stage: working
 year: 2026
 ---
 

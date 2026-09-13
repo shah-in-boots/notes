@@ -3,7 +3,7 @@ date: 2026-08-21
 tags:
   - equation
   - physiology
-  - todo
+  - TODO
 noteId: 1787535224115
 ---
 
@@ -23,4 +23,4 @@ $E_{K^+} = -70 mV$
 
 *...based on the simplified Nernst equation*
 
-Source: [cellular-electrophysiology](permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-membrane-potentials](permanent/cellular-electrophysiology-membrane-potentials.md)

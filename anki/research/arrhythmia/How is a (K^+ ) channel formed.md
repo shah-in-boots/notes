@@ -12,4 +12,4 @@ How is a $K^+$ channel formed?
 
 4 individual $K^+$ proteins tetramerize to form the ion channel itself
 
-Source: [cellular-electrophysiology](../../../permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-channels](permanent/cellular-electrophysiology-channels.md)

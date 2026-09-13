@@ -1,7 +1,8 @@
 ---
 date: 2026-09-01
 tags:
-- electrocardiogram
+  - electrocardiogram
+noteId: 1788460159990
 ---
 
 ![](resources/high-grade-av-block.png)

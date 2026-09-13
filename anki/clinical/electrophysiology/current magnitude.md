@@ -20,4 +20,4 @@ $$
 
 ... where $I$ is the current magnitude, $N$ is the number of channels, $P_{open}$ is probability of opening, and $i$ is the current of a single channel
 
-Source: [cellular-electrophysiology](../../../permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-membrane-potentials](permanent/cellular-electrophysiology-membrane-potentials.md)

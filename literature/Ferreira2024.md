@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Ferreira2024
-stage: working
 year: 2024
 ---
 

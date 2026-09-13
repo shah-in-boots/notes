@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Priori2003
-stage: working
 year: 2003
 ---
 

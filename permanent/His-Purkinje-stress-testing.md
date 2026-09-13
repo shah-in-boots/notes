@@ -4,7 +4,7 @@ tags:
   - pharmacology
   - drugs
   - conduction
-  - todo
+  - TODO
 ---
 
 Methods to test His-Purkinje system

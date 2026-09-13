@@ -1,7 +1,7 @@
 ---
 date: 2024-03-29
 tags:
-  - todo
+  - TODO
 ---
 
 Seung Hoan Choi, PhD is one of the [AFGen-fellowship](../permanent/AFGen-fellowship.md) mentors for the 2023-2024 year, and has published extensively with the AFGen consortium. He co-mentors with [Emelia-J-Benjamin-MD-ScM](../permanent/Emelia-J-Benjamin-MD-ScM.md). 

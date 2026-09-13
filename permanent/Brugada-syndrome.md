@@ -17,6 +17,8 @@ The ECG pattern is sporadic and dynamic, worsens with fever
 
 If imaging is performed, will see LGE in regions associated with ECG changes
 
+# Genetics
+
 Many subtypes of Brugada syndrome are in the literature, however the evidence is predominantly for *SCN5A* mutations leading to dysfunction of the $Na_v1.5$ protein.
 
 | Locus | Protein | Gene | Current | Chromosome |
@@ -31,6 +33,16 @@ Many subtypes of Brugada syndrome are in the literature, however the evidence is
 | BRGDA8 | *HCN4* | *HCN4* | ? | 15q24.1 |
 | BRGDA9 | *Kv4.3* | *KCND3* | $\uparrow$ $I_{to}$ | 1p13.2 |
 
+
+In terms of genetic testing yield...
+- 20% genetic yield if in a patient with induced Brugaga type (regardless of type of Brugada pattern)
+- Increases to 40% in those with type 1 ECG + 1AVB, as $LOF$ in SCN5A also should effect atrial tissue
+- Decreases to 10% with type 1 Brugada pattern and normal PR interval
+- 
+20% in induced Brugada pattern, regardless of ECG type  
+  
+Increases to 40% in those with type 1 ECG and 1AVB, and less than 10% in those with type 1 and normal PR interval
+
 # ECGs
 
 When obtaining an ECG there are three general patterns.
@@ -42,3 +54,4 @@ When obtaining an ECG there are three general patterns.
 ![Brugada type 1 pattern seen in setting of cocaine use](resources/kb-brugada-type-1.png)
 
 ![Shortly thereafter degenerates to VT](resources/kb-wct.png)
+

@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Pachon2023
-stage: working
 year: 2023
 ---
 

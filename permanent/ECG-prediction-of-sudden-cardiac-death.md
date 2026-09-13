@@ -1,7 +1,7 @@
 ---
 date: 2025-12-09
 tags:
-  - electrocardiography
+  - electrocardiogram
   - signal_processing
 ---
 

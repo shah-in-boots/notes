@@ -21,4 +21,4 @@ $R$ = gas constant ~ 8.3 J/K
 $T$ = temperature (Kelvin)  
 $F$ = Faraday's constant = $9.65 \times 10^4 C/mol$
 
-Source: [cellular-electrophysiology](permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-membrane-potentials](permanent/cellular-electrophysiology-membrane-potentials.md)

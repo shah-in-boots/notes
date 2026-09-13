@@ -5,6 +5,7 @@ tags:
   - research
   - autonomic
   - epidemiology
+  - person
 ---
 
 We were introduced in 2016 at Emory while I was an intern due to research interest in heart rate variability. 

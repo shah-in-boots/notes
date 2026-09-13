@@ -12,6 +12,6 @@ Why does the SA node act as the primary pacemaker while the AV node act as the s
 
 SA node has a faster diastolic depolarization during phase IV, while the AV node is slower, thus inherently has a lower automatic firing rate.
 
-![](../../../resources/cellular-electrophysiology-9.png)
+![](resources/cellular-electrophysiology-action-potential-durations-2.png)
 
-Source: [cellular-electrophysiology](../../../permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-action-potential-durations](permanent/cellular-electrophysiology-action-potential-durations.md)

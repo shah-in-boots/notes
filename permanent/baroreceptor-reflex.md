@@ -1,7 +1,7 @@
 ---
 date: 2025-01-23
 tags:
-  - todo
+  - TODO
   - autonomic
   - afib
 ---

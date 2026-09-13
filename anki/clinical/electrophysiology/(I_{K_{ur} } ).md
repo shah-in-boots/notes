@@ -14,4 +14,4 @@ $I_{K_{ur}}$
 
 Ionic current encoded by *KCNA5*
 
-Source: [cellular-electrophysiology](permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-membrane-potentials](permanent/cellular-electrophysiology-membrane-potentials.md)

@@ -14,4 +14,4 @@ How many $\alpha$ subunits are needed to create a $Na^+$ or $Ca^{++}$ channel?
 
 ![](../../../resources/cellular-electrophysiology-10.png)
 
-Source: [cellular-electrophysiology](../../../permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-channels](permanent/cellular-electrophysiology-channels.md)

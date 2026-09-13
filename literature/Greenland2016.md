@@ -1,5 +1,4 @@
 ---
-category: reference
 citekey: @Greenland2016
 status: planning
 year: 2016

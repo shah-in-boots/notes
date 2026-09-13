@@ -21,4 +21,4 @@ Where $z = valence$ of the ion and the constant $\frac{RT}{F} = -61.5$
 
 ---
 
-Source: [cellular-electrophysiology](permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-membrane-potentials](permanent/cellular-electrophysiology-membrane-potentials.md)

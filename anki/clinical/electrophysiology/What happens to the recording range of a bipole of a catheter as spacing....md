@@ -1,7 +1,7 @@
 ---
 date: 2026-07-28
 tags:
-  - todo
+  - TODO
 noteId: 1785274123477
 ---
 

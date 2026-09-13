@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Viskin2021
-stage: working
 year: 2021
 ---
 

@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Moore2013
-stage: working
 year: 2013
 ---
 

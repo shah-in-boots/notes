@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Landmesser2026
-stage: working
 year: 2026
 ---
 

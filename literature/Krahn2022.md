@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Krahn2022
-stage: working
 year: 2022
 ---
 

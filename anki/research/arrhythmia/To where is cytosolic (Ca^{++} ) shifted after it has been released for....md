@@ -2,6 +2,7 @@
 date: 2026-08-28
 tags:
   - chemistry
+  - biology
 noteId: 1787972521824
 ---
 
@@ -14,4 +15,4 @@ Cytosolic $Ca^{++}$ is shunted into...
 - extracellular space through $Na^+/Ca^{++}$ exchangers
 - sarcoplasmic reticulum
 
-Source: [cellular-electrophysiology](permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-currents](permanent/cellular-electrophysiology-currents.md)

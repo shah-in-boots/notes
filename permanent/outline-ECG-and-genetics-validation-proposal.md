@@ -4,7 +4,7 @@ tags:
   - research
   - afib
   - arrhythmia
-  - electrocardiography
+  - electrocardiogram
   - genetics
 ---
 

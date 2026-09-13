@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: @Rajkumar2023
-stage: working
 year: 2023
 ---
 

@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Maruyama2007
-stage: working
 year: 2007
 ---
 

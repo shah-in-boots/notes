@@ -1,7 +1,8 @@
 ---
 date: 2026-09-01
 tags:
-- electrogram
+  - electrogram
+noteId: 1788460159568
 ---
 
 ![](resources/pseudo-av-nodal-wenckebach.png)

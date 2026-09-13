@@ -10,6 +10,6 @@ The SA node has a ~~faster~~ diastolic depolarization than the AV node, which is
 
 ---
 
-![](../../../resources/cellular-electrophysiology-9.png)
+![](resources/cellular-electrophysiology-action-potential-durations-2.png)
 
-Source: [cellular-electrophysiology](../../../permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-action-potential-durations](permanent/cellular-electrophysiology-action-potential-durations.md)

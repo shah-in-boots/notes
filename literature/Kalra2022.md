@@ -1,5 +1,4 @@
 ---
-category: literature
 citekey: @Kalra2022
 status: active
 year: 2022

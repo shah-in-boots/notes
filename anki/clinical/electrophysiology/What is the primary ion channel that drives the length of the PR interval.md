@@ -12,6 +12,6 @@ What is the primary ion channel that drives the length of the PR interval?
 
 PR interval is determined by the slow $I_{Ca++}$-dependent AV nodal cells
 
-![](../../../resources/cellular-electrophysiology.png)
+![](resources/cellular-electrophysiology-action-potential-durations.png)
 
-Source: [cellular-electrophysiology](../../../permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-action-potential-durations](permanent/cellular-electrophysiology-action-potential-durations.md)

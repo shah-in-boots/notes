@@ -1,9 +1,10 @@
 ---
 date: 2026-08-31
 tags:
-- equation
-- definition
-- electrogram
+  - equation
+  - definition
+  - electrogram
+noteId: 1788460159890
 ---
 
 measurement of SACT

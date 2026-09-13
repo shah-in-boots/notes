@@ -1,5 +1,4 @@
 ---
-category: literature
 citekey: @Goldbogen2019
 status: active
 year: 2019

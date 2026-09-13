@@ -1,7 +1,7 @@
 ---
 date: 2026-08-12
 tags:
-  - todo
+  - TODO
   - electrocardiogram
 ---
 

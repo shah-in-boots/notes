@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Veenhuyzen2011
-stage: working
 year: 2011
 ---
 

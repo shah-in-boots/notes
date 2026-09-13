@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Venkatachalam2011a
-stage: working
 year: 2011
 ---
 

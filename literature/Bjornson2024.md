@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: @Bjornson2024
-stage: working
 year: 2024
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2024-04-16
 tags:
-  - electrocardiography
+  - electrocardiogram
   - arrhythmia
   - programming
 ---

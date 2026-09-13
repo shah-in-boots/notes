@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: {{citekey}}
-stage: working
 year: {{date | format('YYYY')}}
 ---
 

@@ -13,4 +13,4 @@ Mechanism of loss of __positive force-frequency relationship__ in cardiac myocyt
 
 Due to preferential efflux of $Ca^{++}$ into extracellular space over that of sarcoplasmic reticulum, leading to decreased saturation of $Ca^{++}$ on contractile filaments (actin, myosin)
 
-Source: [cellular-electrophysiology](permanent/cellular-electrophysiology.md)
+Source: [cellular-electrophysiology-currents](permanent/cellular-electrophysiology-currents.md)

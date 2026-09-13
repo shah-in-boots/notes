@@ -1,7 +1,7 @@
 ---
 date: 2026-08-21
 tags:
-  - todo
+  - TODO
   - genetics
   - arrhythmia
   - syndrome
@@ -31,11 +31,8 @@ More details in [Brugada-syndrome](permanent/Brugada-syndrome.md)
 
 # Catecholaminergic polymorphic VT (CPVT)
 
-Autosomal dominant type associated with mutations in the ryanodine release channel in the sarcoplasmic reticulum, *RYR2*.
-Leads to an exercise-related episodes of bidirectional VT
-Treated with good effect by beta-blockers and flecainide 
+More details described in [catecholaminergic-polymorphic-vt](permanent/catecholaminergic-polymorphic-vt.md)
 
-Autosomal recessie form seen with mutations in calsequestrin
 
 # Early repolarization syndrome (ERS)
 

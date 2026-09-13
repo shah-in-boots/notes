@@ -1,7 +1,7 @@
 ---
 date: 2026-07-29
 tags:
-  - todo
+  - TODO
   - causality
   - epidemiology
 ---

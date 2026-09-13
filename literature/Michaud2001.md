@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: @Michaud2001
-stage: working
 year: 2001
 ---
 

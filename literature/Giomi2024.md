@@ -1,7 +1,5 @@
 ---
-category: reference
 citekey: Giomi2024
-stage: working
 year: 2024
 ---
 
