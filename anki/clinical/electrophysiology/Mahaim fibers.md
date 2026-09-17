@@ -1,8 +1,9 @@
 ---
 date: 2026-09-13
 tags:
-- anatomy
-- definition
+  - anatomy
+  - definition
+noteId: 1789356621304
 ---
 
 __Mahaim fibers__
