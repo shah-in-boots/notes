@@ -6,7 +6,7 @@ tags:
 - genetics
 ---
 
-Parent note to organize this is[inherited-arrhythmia-syndromes](permanent/inherited-arrhythmia-syndromes.md)
+Parent note to organize this is [inherited-arrhythmia-syndromes](permanent/inherited-arrhythmia-syndromes.md)
 
 Overall the top 3 (LQT1 ~ 45%, LQT2 ~ 45%, LQT3 ~5%) make up 95% of the cases.
 Reported rate of about 1:2000
