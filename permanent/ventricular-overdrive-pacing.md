@@ -22,3 +22,9 @@ In situations where retrograde conduction is known to be absent...
 - AT is almost always the answer
 - Cannot rule out nodoventricular (oNVRT) or nodofascicular (oNFRT) reentry
 - AVNRT with lower common pathways block (His absent) or upper common pathway block (His present)
+
+# Pseudo-VAAV response
+
+![Ventricular overdrive pacing with apparent VAAV response shown](resources/ventricular-overdrive-pacing-2.png)
+
+![Pseudo-VAAV response noted when measuring out intervals.](resources/ventricular-overdrive-pacing-1.png)

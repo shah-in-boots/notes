@@ -10,7 +10,7 @@ tags:
 Circuit here that we are assessing is the SA node and there can be different responses. 
 Responses are broken into different zones based on timing.
 Different than in other arrhythmia testing because of unique automatic properties of the SA node.
-These are the potential responses below, as initially described by @Straus1973 and @Dhingra1975
+These are the potential responses below, as initially described by @Strauss1973 and @Dhingra1975
 
 There nomenclature was...
 
@@ -30,7 +30,7 @@ $$
 A1 \textendash A1 \times 2 = A2 \textendash A3
 $$
 
-In this case, $A1 \textendash A2 = 530\ ms$, and the return beat $A2 \textendash A3 = 730\ ms$,  which adds up to 1320 ms (which is exactly double of the BCL, with $A1 \textendash A1 = 660\ ms$), thus the S2 must have collided with the already activated SA node.
+In this case, $A1 \textendash A2 = 590\ ms$, and the return beat $A2 \textendash A3 = 730\ ms$,  which adds up to 1320 ms (which is exactly double of the BCL, with $A1 \textendash A1 = 660\ ms$), thus the S2 must have collided with the already activated SA node.
 
 ## Reset
 

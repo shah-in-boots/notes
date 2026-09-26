@@ -8,7 +8,7 @@ tags:
 Scar-mediated VT was originially researched by [William-G-Stevenson-MD](permanent/William-G-Stevenson-MD.md), and provides the basis for our understanding of loops in reentrant tachycardia. 
 
 The original model of reentrant VT was the concept of a critical isthmus, with an entrance and exit site that occured during diastole. 
-This is the underlying concepts used in [entrainment-maneuvers](permanent/entrainment-maneuvers.md)
+This is the underlying concepts used in [entrainment-maneuvers](permanent/entrainment-maneuvers.md) and the [entrainment-mapping](permanent/entrainment-mapping.md) notes.
 
 Later research generally found that <20% of these scar-mediated VTs had the full-circuit on endocardium, and were more likely to have 3D circuits that included the mid-myocardium and epicardium, as described in [Tung2020](literature/Tung2020.md).
 

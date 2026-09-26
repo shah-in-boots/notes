@@ -7,7 +7,7 @@ tags:
 noteId: 1788460159890
 ---
 
-measurement of SACT
+formula to measure SACT
 
 ---
 
@@ -29,5 +29,6 @@ $$
 A_R = A3 = \text{atrial return beat}
 $$
 
+![](resources/sinoatrial-conduction-time.png)
 
 Source: [sinoatrial-conduction-time](permanent/sinoatrial-conduction-time.md)

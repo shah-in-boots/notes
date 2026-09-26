@@ -11,11 +11,16 @@ __Entrainment__ is helpful to help define the mechanism of tachycardia and choos
 - In macroreentry, can determine or validate distance from circuit, the amount of fusion, and assess diastolic potentials, witsh ablation site being in critical isthmus region with *mid-diastolic timing*
 
 Key literature includes: 
+
 - @Henthorn1988
 - @Waldo1977 
 - @Vollmann2012 
 - @Veenhuyzen2011, described in [Veenhuyzen2011](literature/Veenhuyzen2011.md)
 - @Veenhuyzen2012 
+
+Usually considered in the context of [atrial-overdrive-pacing](permanent/atrial-overdrive-pacing.md) and [ventricular-overdrive-pacing](permanent/ventricular-overdrive-pacing.md) maneuvers and responses.
+
+Similarly, responses to [diastolic-PACs](inbox/diastolic-PACs.md) and [diastolic-PVCs](inbox/diastolic-PVCs.md) have that similar concept to overdrive pacing.
 
 # Definition
 

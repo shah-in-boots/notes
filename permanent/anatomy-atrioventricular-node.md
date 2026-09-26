@@ -10,6 +10,11 @@ The AV node itself is a complex structure that generally sits in the Triangle of
 The compact AV node itself sits above the the Tendon of Todaro with the His bundle continuing in a more superior-anterior position.
 The AV node itself has multiple extensions, including the fast pathway, and the anisotropic tissue tha tmakes up the leftward and rightward inferior extensions (**LIE** & **RIE**), which are putatively the *slow pathway(s)*. 
 
+![Anatomical visualization of extensions, @Nakagawa2007](figures/Nakagawa2007/fig-10-x94-y633.png)
+
+The functional relationship of this to AVNRT, both atypical and typical, is well-explained by [Sonny-Jackman-MD](permanent/Sonny-Jackman-MD.md) in his review article. @Natarajan2007. 
+Details and notes in [Nakagawa2007](literature/Nakagawa2007.md)
+
 # Fast AV nodal pathway
 
 The putative fast AV nodal pathway has specific properties...
@@ -35,3 +40,5 @@ The __left inferolateral extension__ is even less common...
 
 - Extends almost to the mid-LA
 - Composed of similar anisotropic tissue
+
+The associated arrhythmias are in [atrioventricular-nodal-reentrant-tachycardia](inbox/atrioventricular-nodal-reentrant-tachycardia.md)

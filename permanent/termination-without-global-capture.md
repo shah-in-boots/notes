@@ -23,3 +23,8 @@ Similar pattern can occur in atrial arrhythmias as well, although more difficult
 
 ![Schematic showing the paced stimuli failing to capture but then leading to termination without global capture, meaning local capture must have happened to affect the circuit.](resources/termination-without-global-capture-2.png)
 
+Here is another example of atrial tachycardia (presumed to be macroreentrant).
+
+![Pacing train delivered on Halo catheter during tachycardia](resources/termination-without-global-capture-3.png)
+
+![Can see the pattern of termination with local capture but not global capture, meaning that the pacing position is in the diastolic corridor](resources/termination-without-global-capture-4.png)
