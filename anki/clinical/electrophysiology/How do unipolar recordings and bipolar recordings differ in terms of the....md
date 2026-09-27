@@ -9,7 +9,7 @@ How do unipolar recordings and bipolar recordings differ in terms of the approac
 
 ---
 
-Unipolar electrodes use WCT as the reference, and thus have cables that traverse the EP lab in different location and pick-up dissimilar artifact. Notch filtering is an optin, but leads to artifacts on the EGM itself.
+Unipolar electrodes use WCT as the reference, and thus have cables that traverse the EP lab in different location and pick-up dissimilar artifact. Notch filtering is an option, but leads to artifacts on the EGM itself.
 
 Bipolar electrodes carry noise through the same cable, so the similar noise on both electrodes can be removed through *common mode negation*, which allows a cleaner signal. 
 

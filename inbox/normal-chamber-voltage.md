@@ -23,8 +23,7 @@ TODO - cite
 
 # Right ventricle
 
-Normal bipolar voltage is considered $> 1.47\ mV$
-
-Unipolar values for normal are $> 5.5\ mV$
+Normal bipolar voltage is considered $> 1.47\ mV$, which end up be considered averaged to $>1.5\ mV$, similar to LV.
+Unipolar values for normal are $> 5.5\ mV$, as described (as above) in @Hutchinson2011
 
 TODO - cite
