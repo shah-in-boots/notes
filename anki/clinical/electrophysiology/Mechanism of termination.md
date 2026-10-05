@@ -1,7 +1,7 @@
 ---
 date: 2026-09-06
 tags:
-  - maneuver
+  - maneuvers
   - diagnosis
   - electrogram
 noteId: 1789176466043

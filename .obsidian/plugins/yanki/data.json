@@ -27,18 +27,18 @@
   "stats": {
     "sync": {
       "auto": 0,
-      "duration": 2144.1104841708902,
+      "duration": 2184.318913817452,
       "errors": 0,
       "invalid": 0,
-      "latestSyncTime": 1790132588,
-      "manual": 54,
+      "latestSyncTime": 1791138790,
+      "manual": 60,
       "notes": {
         "ankiUnreachable": 17,
-        "created": 72,
+        "created": 78,
         "deleted": 0,
         "matched": 0,
-        "unchanged": 1864,
-        "updated": 132
+        "unchanged": 2300,
+        "updated": 147
       }
     }
   },

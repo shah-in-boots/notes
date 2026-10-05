@@ -16,6 +16,15 @@ The algorithmic approach to localize P waves remains as based on vectorcardiogra
 
 ![Example of P wave morphology in focal ATs from different regions](figures/Kistler2021/fig-6-x119-y77.png)
 
+# Para-Hisian AT
+
+When starting with an RA map, can occasionally get an earliest activation along the septum, an dmore specifically posterior to the His bundle recording. The differential in this case, when the earliest right atrial activation is at the His, can suggest...
+
+- Right superior pulmonary vein, *with His-A after P-wave onset*
+- Left septal source, with *His-A ~10 ms before P-wave onset"
+- Non-septal LA source, such as AMC or non-coronary cusp, with *His-A ~0-10 ms before P-wave onset*
+- Para-Hisian source, with *His-A ~20 ms before P-wave onset*
+
 # Examples
 
 ![Atrial tachycardia from Inferolateral tricuspid annulus](resources/examples-of-focal-atrial-tachycardia.png)

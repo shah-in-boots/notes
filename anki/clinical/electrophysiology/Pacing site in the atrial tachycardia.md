@@ -1,7 +1,8 @@
 ---
 date: 2026-09-22
 tags:
-- electrogram
+  - electrogram
+noteId: 1790562266713
 ---
 
 Pacing site in the atrial tachycardia?

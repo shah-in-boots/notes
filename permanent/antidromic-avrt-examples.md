@@ -9,8 +9,16 @@ tags:
 
 The actual EGM, followed by an explanation of what is happening. 
 
-![](../resources/paste-a579326a00c4b07d0132bf612b4d16555cddb215.png)
+![](resources/antidromic-avrt-examples-1.png)
 
 We can see that we are going down teh pathway, and retrograde is happening through an alternative, which is likely retrograde AV node, but could also be a bystander pathway.
 
-![](../resources/paste-06a4405265eb9e79994021ad38a2c464c7aa35f4.png)
+![](resources/antidromic-avrt-examples-2.png)
+
+---
+
+HRA premature stimulus is given and captures the atria as well as delaying next QRS complex, which means this must be a pre-excited tachycardia - the options being aAVRT, AVNRT, and AT. 
+The septal VA interval however remains constant, ruling out AT, but also means that atrial tissue at the level of the His is likely already refractory, which decreases likelihood of AVNRT.
+Thus, most likely that this is aAVRT.
+
+![Wide complex tachycardia with an A2 stimuli given from HRA, which delays the next V without changing the septal atrial activation](resources/antidromic-avrt-examples-3.png)
